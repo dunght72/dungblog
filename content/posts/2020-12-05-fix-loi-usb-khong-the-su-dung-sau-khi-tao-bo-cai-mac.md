@@ -4,8 +4,8 @@ toc: true
 categories: ["macOS"]
 date: "2020-12-05 06:05:05"
 featured: false
-featuredImage: /assets/images/2020/12/format-usb-Dũng Hoàng.png
-featuredImagePreview: /assets/images/2020/12/format-usb-Dũng Hoàng.png
+featuredImage: /assets/images/2020/12/format-usb-dunghoang.png
+featuredImagePreview: /assets/images/2020/12/format-usb-dunghoang.png
 tags:
 - macos
 - tricks
@@ -21,7 +21,7 @@ Thông thường sau khi sử dụng USB để tạo bộ cài macOS thì sau đ
 * Trong ô Format, chọn exFAT (hoặc FAT32 đều được)
 * Trong ô Scheme, chọn Master Boot Record
   
-![Format usb trên macOS](/assets/images/2020/12/format-usb-Dũng Hoàng.png)
+![Format usb trên macOS](/assets/images/2020/12/format-usb-dunghoang.png)
 
 * Nhấn nút Erase, ngồi chờ cho ổ format xong là usb sẽ hoạt động bình thường trở lại.
 

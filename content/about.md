@@ -9,9 +9,13 @@ comment = false
 
 <h3>About Me</h3>
 
-<p>Hi, Mình là Dũng Hoàng. Đây là Blog cá nhân của mình - là nơi chia sẻ mọi thứ, cũng là nơi lưu trữ những cái cần thiết của mình. Nếu bạn có vấn đề cần liên hệ hoặc báo cáo về bài viết không hợp lệ, các bạn có thể gửi mail đến mình qua địa chỉ email: dung@Dũng Hoàng.co nhé. Chúc các bạn một ngày vui vẻ</p>
+<p>Hi, Mình là Dũng Hoàng. Đây là Blog cá nhân của mình - là nơi để mình có thể viết lách, chia sẻ, cũng như để lưu trữ lại những thứ hay ho mà mình học hỏi được. </p>
 
-<h3>Contact Me</h3>
+<p>Mình có đam mê với CNTT từ khi được biết đến nó, hiện tại công việc của mình cũng có liên quan một chút đến ngành này, vì vậy, blog cũng là nơi để mình có thể chia sẻ những kiến thức về công nghệ mà mình tìm hiểu được.</p>
+
+<p>Nếu bạn có cùng sở thích, hay muốn liên hệ về một vấn đề gì đó, có thể liên hệ mình bằng cách gửi mail đến <a href="mailto:dung@dunghoang.co">dung@dunghoang.co</a>. Rất vui khi được biết và làm quen. Nice day guys!</p>
+
+<!-- <h3>Contact Me</h3>
 
 <div class="contact">
   <form name="contact" class="contact-form" data-netlify="true" method="POST">
@@ -29,7 +33,7 @@ comment = false
     </div>
     <button type="submit" class="contact-form-submit">Send Message</button>
   </form>
-</div>
+</div> -->
 
 <style>
   .contact {

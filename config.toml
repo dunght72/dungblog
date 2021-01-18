@@ -4,7 +4,7 @@ languageCode = "en"
 title = "Dũng Hoàng"
 # Change the default theme to be use when building the site with Hugo
 theme = "uBlogger"
-
+summaryLength = 10
 #whether to use robots.txt
 # 是否使用 robots.txt
 enableRobotsTXT = true
@@ -75,9 +75,9 @@ enableEmoji = true
       avatarURL = ""
       title = "Dũng Hoàng"
       # subtitle shown in home page
-      subtitle = "Welcome to my blog"
+      subtitle = "Hi, mình là Dũng. Đây là blog cá nhân của mình. Các bạn có thể đọc thêm về mình <a href='/about'>tại đây</a>."
       # whether to use typeit animation for subtitle
-      typeit = true
+      typeit = false
       # whether to show social links
       social = true
       disclaimer = ""
@@ -102,7 +102,7 @@ enableEmoji = true
   # uBlogger theme version
   version = "1.3.X"
   # site default theme ("light", "dark", "auto")
-  defaultTheme = "auto"
+  defaultTheme = "dark"
   # public git repo url only then enableGitInfo is true
   # 公共 git 仓库路径，仅在 enableGitInfo 设为 true 时有效
   gitRepo = "https://github.com/upagge/dolboblog-theme"
@@ -143,17 +143,16 @@ enableEmoji = true
       # whether to use typeit animation for title name
       # 是否为标题显示打字机动画
       typeit = true
-
   # Footer config
   # 页面底部信息配置
   [params.footer]
     enable = true
     # Custom content (HTML format is supported)
     # 自定义内容 (支持 HTML 格式)
-    custom = ''
+    custom = 'Copyright Dũng Hoàng Blog'
     # whether to show Hugo and theme info
     # 是否显示 Hugo 和主题信息
-    hugo = true
+    hugo = false
     # whether to show copyright info
     # 是否显示版权信息
     copyright = true
@@ -162,13 +161,13 @@ enableEmoji = true
     author = true
     # site creation time
     # 网站创立年份
-    since = 2019
+    since = 2020
     # ICP info only in China (HTML format is supported)
     # ICP 备案信息，仅在中国使用 (支持 HTML 格式)
     icp = ""
     # license info (HTML format is supported)
     # 许可协议信息 (支持 HTML 格式)
-    license= '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+    # license= '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 
   # Section (all posts) page config
   # Section (所有文章) 页面配置
@@ -201,17 +200,17 @@ enableEmoji = true
   [params.comment]
     enable = true
     [params.comment.remark42]
-      enable = true
+      enable = false
       host = "https://comments.upagge.ru"
       site = "documentation"
       locale = "en"
     # Disqus comment config (https://disqus.com/)
     # Disqus 评论系统设置 (https://disqus.com/)
     [params.comment.disqus]
-      enable = false
+      enable = true
       # Disqus shortname to use Disqus in posts
       # Disqus 的 shortname，用来在文章中启用 Disqus 评论系统
-      shortname = ""
+      shortname = "dunghtblog"
     # Gitalk comment config (https://github.com/gitalk/gitalk)
     # Gitalk 评论系统设置 (https://github.com/gitalk/gitalk)
     [params.comment.gitalk]
@@ -441,7 +440,7 @@ enableEmoji = true
     cursorSpeed = 1000
     # character used for the cursor (HTML format is supported)
     # 光标的字符 (支持 HTML 格式)
-    cursorChar = "|"
+    cursorChar = " _"
     # cursor duration after typing finishing (measured in milliseconds, "-1" means unlimited)
     # 打字结束之后光标的持续时间 (单位是毫秒, "-1" 代表无限大)
     duration = -1
@@ -463,7 +462,7 @@ enableEmoji = true
     image = "/images/Apple-Devices-Preview.png"
     # thumbnail URL
     # 缩略图 URL
-    thumbnailUrl = "/images/screenshot.png"
+    thumbnailUrl = "/assets/images/dh_logo.png"
 
   # Analytics config
   # 网站分析配置
@@ -487,7 +486,7 @@ enableEmoji = true
       # 自行托管追踪器时的主机路径
       server = ""
     [params.analytics.yandex]
-      id = "70532758"
+      id = ""
 
   # Cookie consent config
   # Cookie 许可配置
