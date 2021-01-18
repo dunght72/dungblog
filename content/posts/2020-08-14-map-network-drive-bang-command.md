@@ -3,7 +3,6 @@
 toc: true
 categories:
 - Trick
-- Personal
 date: "2020-08-14T07:50:00Z"
 featuredImage: /assets/images/map-network-drive.jpg
 featuredImagePreview: /assets/images/map-network-drive.jpg
@@ -19,19 +18,19 @@ Mapping a drive to a network share assigns that share a drive letter so that it�
 
 To map a network drive, type the following command and then hit Enter:
 
-```javascript
+```bash
 net use DRIVE: PATH
 ```
 
 DRIVE is the drive letter you want to use and PATH is the full UNC path to the share. So, for example, if we wanted to map drive letter S to the share \\tower\movies, we’d use the following command:
 
-```javascript
+```bash
 net use s: \\tower\movies
 ```
 
 If the share to which you’re connecting is protected with some sort of authentication, and you’d rather not type in the credentials every time you open the network drive, you can add the user name and password to the command with the /user: switch. For example, if we wanted to connect the same share from above, but with the username HTG and the password CrazyFourHorseMen, we’d use the command:
 
-```javascript
+```bash
 net use s: \\tower\movies /user:HTG CrazyFourHorseMen
 ```
 
@@ -42,7 +41,7 @@ By default, mapped drives are not persistent. If we map drives using the command
 
 So, essentially, you could type something like the following command:
 
-```javascript
+```bash
 net use s: \\tower\movies /user:HTG CrazyFourHorseMen /persistent:Yes
 ```
 And the drive map would be persistent. All future mapping you create (even if you don’t use the /persistent:Yes switch) will also be persistent until you turn it off using the /persistent:No switch.
@@ -51,7 +50,7 @@ If you ever need to delete a mapped network drive, all you have to do is specify
 
 You can also use the asterisk as a wildcard should you ever want to delete all your mapped drives in one go:
 
-```javascript
+```bash
 net use * /delete
 ```
 

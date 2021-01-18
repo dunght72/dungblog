@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Alfred - Sự thay thế hoàn hảo cho Spotlight của macOS | </title><meta name="Description" content=""><meta property="og:title" content="Alfred - Sự thay thế hoàn hảo cho Spotlight của macOS" />
+<meta property="og:description" content="Nếu bạn thường xuyên sử dụng Spotlight (phím tắt ⌘ &#43; Space) cho những tác vụ của macOS như: Tìm kiếm file, dịch thuật, thực hiện phép tính,&hellip; thì bạn có thể thấy được sự tiện dụng của Spotlight là lớn đến như thế nào." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://dunghoang.net/2020-10-13-alfred-su-thay-the-hoan-hao-cho-spotlight-cua-macos/" />
+<meta property="og:image" content="https://dunghoang.net/assets/images/dh_logo.png"/>
+<meta property="article:published_time" content="2020-10-13T06:06:15+00:00" />
+<meta property="article:modified_time" content="2021-01-18T14:38:31+07:00" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://dunghoang.net/assets/images/dh_logo.png"/>
+
+<meta name="twitter:title" content="Alfred - Sự thay thế hoàn hảo cho Spotlight của macOS"/>
+<meta name="twitter:description" content="Nếu bạn thường xuyên sử dụng Spotlight (phím tắt ⌘ &#43; Space) cho những tác vụ của macOS như: Tìm kiếm file, dịch thuật, thực hiện phép tính,&hellip; thì bạn có thể thấy được sự tiện dụng của Spotlight là lớn đến như thế nào."/>
+<meta name="application-name" content="Dũng Hoàng&#39;s Blog">
+<meta name="apple-mobile-web-app-title" content="Dũng Hoàng&#39;s Blog"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://dunghoang.net/2020-10-13-alfred-su-thay-the-hoan-hao-cho-spotlight-cua-macos/" /><link rel="prev" href="https://dunghoang.net/2020-10-03-fix-loi-high-cpu-usage-tren-macos-catalina/" /><link rel="next" href="https://dunghoang.net/2020-10-28-mot-so-thu-thuat-thu-vi-tren-terminal/" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Alfred - Sự thay thế hoàn hảo cho Spotlight của macOS",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/dunghoang.net\/2020-10-13-alfred-su-thay-the-hoan-hao-cho-spotlight-cua-macos\/"
+        },"image": ["https:\/\/dunghoang.net\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "ung-dung","wordCount":  617 ,
+        "url": "https:\/\/dunghoang.net\/2020-10-13-alfred-su-thay-the-hoan-hao-cho-spotlight-cua-macos\/","datePublished": "2020-10-13T06:06:15+00:00","dateModified": "2021-01-18T14:38:31+07:00","publisher": {
+            "@type": "Organization",
+            "name": "xxxx","logo": "https:\/\/dunghoang.net\/images\/avatar.png"},"author": {
+                "@type": "Person",
+                "name": "Dũng Hoàng"
+            },"description": ""
+    }
+    </script><script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [{
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Trang chủ",
+            "item": "https:\/\/dunghoang.net\/"
+        },{
+            "@type": "ListItem",
+            "position": 2,
+            "name": "macOS",
+            "item": "https://dunghoang.net/categories/macos/"
+        },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Alfred - Sự thay thế hoàn hảo cho Spotlight của macOS"
+            }]
+    }
+</script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script>(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('dark' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'dark' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Dũng Hoàng&#39;s Blog" class="header-logo"><span id="id-1" class="typeit"></span></a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/"> Home </a><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/about/"> About Me </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Tìm Kiếm" id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Tìm kiếm">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Xoá">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Đổi chủ đề">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Dũng Hoàng&#39;s Blog" class="header-logo"><span id="id-2" class="typeit"></span></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Tìm Kiếm" id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Tìm kiếm">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Xoá">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Huỷ
+                    </a>
+                </div><a class="menu-item" href="/" title="">Home</a><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/about/" title="">About Me</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Đổi chủ đề">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div><main class="main"><div class="container content-article page-toc theme-classic"><div class="toc" id="toc-auto">
+            <div class="toc-title">Nội dung</div>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><div class="header-post">
+        <div class="post-title">
+
+            <div class="post-all-meta">
+            <div class="breadcrumbs">
+    <a href="/">Trang chủ </a>/ <a href="/categories/macos/">macOS </a>/ <a href="/"> Alfred - Sự thay thế hoàn hảo cho Spotlight của macOS </a>
+</div>
+            <h1 class="single-title animated flipInX">Alfred - Sự thay thế hoàn hảo cho Spotlight của macOS</h1><div class="post-meta">
+                <div class="post-meta-line"><span class="post-category">
+                                <a href="/categories/macos/"><i class="far fa-folder fa-fw"></i>&nbsp;macOS</a>
+                            </span>&nbsp;&nbsp;&nbsp;&nbsp;<i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time class="timeago" datetime="2020-10-13">2020-10-13</time>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;617 từ
+                    &nbsp;&nbsp;&nbsp;&nbsp;<i class="far fa-clock fa-fw"></i>&nbsp;3 phút</div>
+            </div>
+        </div>
+
+
+    </div>
+
+    </div>
+
+        <article class="single toc-start">
+
+        <div class="content-block content-block-first content-block-position">
+
+        <div class="post"><div class="image-theme-classic">
+                <img src="/assets/images/2020/10/image-1.png" style="width: 100%">
+            </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Nội dung</span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#alfred-là-gì">Alfred là gì?</a></li>
+    <li><a href="#một-số-tính-năng-nổi-bật-của-alfred">Một số tính năng nổi bật của Alfred</a></li>
+    <li><a href="#tính-năng-workflow-trên-alfred">Tính năng Workflow trên Alfred</a></li>
+    <li><a href="#tóm-lại">Tóm lại</a></li>
+  </ul>
+</nav></div>
+            </div><span class="post-update">
+                    <b>Cập nhật ngày 2021-01-18</b>
+                </span><p>Nếu bạn thường xuyên sử dụng Spotlight (phím tắt ⌘ + Space) cho những tác vụ của macOS như: Tìm kiếm file, dịch thuật, thực hiện phép tính,&hellip; thì bạn có thể thấy được sự tiện dụng của Spotlight là lớn đến như thế nào. Tuy nhiên, Spotlight có một ứng viên có thể thay thế, thậm chí còn mạnh mẽ hơn, đa năng hơn hàng chính chủ. Alfred là một ứng dụng không thể thiếu hàng ngày cua minh.</p>
+<p>Bài viết dưới đây sẽ giới thiệu để các bạn có một cái nhìn tổng quan về ứng dụng Alfred nhé.</p>
+<figure class="kg-card kg-image-card kg-card-hascaption"><img src="/assets/images/2020/10/image-1.png" class="kg-image" alt="Ứng dụng Alfred 4 cho Mac" srcset="/assets/images/size/w600/2020/10/image-1.png 600w, /assets/images/size/w1000/2020/10/image-1.png 1000w, /assets/images/2020/10/image-1.png 1011w" sizes="(min-width: 720px) 720px"><figcaption class="text-center">Ứng dụng Alfred 4 cho Mac</figcaption></figure>
+<h2 id="alfred-là-gì">Alfred là gì?</h2>
+<p>Alfred là một ứng dụng giúp tăng hiệu quả làm việc của bạn bằng cách tận dụng các phím tắt, từ khóa và  các hành động tùy chỉnh để điều khiển máy Mac của bạn. Đây là một ứng dụng miễn phí, nhưng nếu bạn muốn sử dụng thêm nhiều tính năng hơn thì có thể mua gói Powerpack. Phiê bản hỗ trợ upgrade trọn đời có giá 45$ và Single License là khoảng 25$.</p>
+<p>Bạn có thể tìm hiểu thông tin về Alfred qua website chính thức của nó tại: <a href="https://www.alfredapp.com/">https://www.alfredapp.com/</a></p>
+<h2 id="một-số-tính-năng-nổi-bật-của-alfred">Một số tính năng nổi bật của Alfred</h2>
+<p>Alfred hỗ trợ rất nhiều tính năng, tiện ích, có thể ví dụ một số tính năng như:</p>
+<ul>
+<li><strong>Tìm kiếm:</strong> Muốn tìm kiếm 1 tập tin, thư mục hoặc 1 contact trong danh bạ, đơn giản chỉ cần mở Alfred bằng phím tắt, gõ &ldquo;Find + từ khoá&rdquo;, boom, vị trí của file sẽ được hiển thị cho bạn, tương tự có thể tìm kiếm trên Google, Amazon, Wikipedia bằng cách gõ trực tiếp từ khoá liên quan.</li>
+</ul>
+<figure class="kg-card kg-image-card kg-card-hascaption"><img src="/assets/images/2020/10/image-2.png" class="kg-image" alt><figcaption class="text-center">Tìm kiếm bằng Alfred</figcaption></figure><figure class="kg-card kg-image-card kg-card-hascaption"><img src="/assets/images/2020/10/image-7.png" class="kg-image" alt="Tìm kiếm trên Web bằng Alfred"><figcaption class="text-center">Tìm kiếm trên Web bằng Alfred</figcaption></figure>
+<ul>
+<li><strong>Điều khiển máy Mac:</strong> Mở alfred, gõ lệnh tương ứng được định nghĩa trước =&gt; xong.</li>
+</ul>
+<figure class="kg-card kg-image-card kg-card-hascaption"><img src="/assets/images/2020/10/image-5.png" class="kg-image" alt="Khởi động lại Mac bằng lệnh restart"><figcaption class="text-center">Khởi động lại Mac bằng lệnh restart</figcaption></figure>
+- **Tra từ điển:** Gõ "define + từ cần tra", sẽ hiển thị kết quả trong ứng dụng từ điển của macOS
+<figure class="kg-card kg-image-card kg-card-hascaption"><img src="/assets/images/2020/10/image-6.png" class="kg-image" alt="Tra từ điển bằng Alfred"><figcaption class="text-center">Tra từ điển bằng Alfred</figcaption></figure>
+<p>Và còn rất, rất nhiều tính năng hay ho khác mà Alfred có thể hỗ trợ bạn: Điều khiển nhạc, thực hiện lệnh trong terminal, chuyển đổi đơn vị, tính toán,.. Và nếu bạn có sử dụng gói Powerpack, bạn còn có thể sử dụng các tính năng nâng cao như quản lý bộ nhớ Clipboard, sử dụng Workflow để thực hiện một loạt quy trình tuỳ chỉnh. Trong đó, Workflow được xem như là tính năng ăn tiền nhất của Alfred.</p>
+<h2 id="tính-năng-workflow-trên-alfred">Tính năng Workflow trên Alfred</h2>
+<figure class="kg-card kg-image-card kg-card-hascaption"><img src="/assets/images/2020/10/image-8.png" class="kg-image" alt="Tính năng Workflow trên Alfred" srcset="/assets/images/size/w600/2020/10/image-8.png 600w, /assets/images/size/w1000/2020/10/image-8.png 1000w, /assets/images/2020/10/image-8.png 1187w" sizes="(min-width: 720px) 720px"><figcaption class="text-center">Tính năng Workflow trên Alfred</figcaption></figure>
+<p>Với Workflow, bạn có thể tạo ra các quy trình để:</p>
+<ul>
+<li>Điều khiển nhạc từ Spotify (<a href="http://alfred-spotify-mini-player.com/" target="_blank" rel="noopener noreffer">Spotify Mini Player</a>)</li>
+<li>Bookmark 1 trang web vào Chrome (<a href="http://www.packal.org/workflow/chrome-bookmarks-0" target="_blank" rel="noopener noreffer">Chrome Bookmarks</a>)</li>
+<li>Chụp ảnh màn hình sau đó đồng bộ lên Dropbox và trả về link ảnh (<a href="http://www.packal.org/workflow/screenshots" target="_blank" rel="noopener noreffer">Dropbox</a>)</li>
+<li>Khởi tạo mật khẩu ngẫu nhiên (<a href="http://www.packal.org/workflow/strongpassword" target="_blank" rel="noopener noreffer">Strong Password Generator</a>)</li>
+<li>Điều khiển bóng đèn Philip Hues (<a href="http://www.packal.org/workflow/philips-hue-controller" target="_blank" rel="noopener noreffer">Philips Hue Controller</a>)</li>
+<li>&hellip;</li>
+</ul>
+<p>Alfred có một trang web để chia sẻ những workflow tuỳ chỉnh này, các bạn có thể tham khảo ở: <a href="https://www.alfredapp.com/workflows/" target="_blank" rel="noopener noreffer">https://www.alfredapp.com/workflows/</a></p>
+<p>Cách cài đặt workflow cũng rất đơn giản, chỉ cần tải về và mở file đó bằng Alfred, vậy là xong.</p>
+<h2 id="tóm-lại">Tóm lại</h2>
+<p>Alfred là một ứng dụng rất hay và đáng để cài trên máy Mac của bạn, nếu bạn yêu thích nó, hãy mua gói Powerpack để tận dụng hết tính năng và cũng là để ủng hộ tác giả nhé.</p>
+<p>Sẽ có 1 bài tổng hợp chia sẻ những workflow hay dành cho Alfred để tối ưu hoá việc sử dụng máy Mac, các bạn cùng chờ đón nhe. Nice day, guys!</p>
+</div>
+
+            <div class="post"><div class="post-info-share">
+    <span><a class="share-icon share-twitter" href="javascript:void(0);" title="Chia sẻ trên Twitter" data-sharer="twitter" data-url="https://dunghoang.net/2020-10-13-alfred-su-thay-the-hoan-hao-cho-spotlight-cua-macos/" data-title="Alfred - Sự thay thế hoàn hảo cho Spotlight của macOS" data-via="https://twitter.com/dunght72" data-hashtags="ung-dung"><i class="fab fa-twitter fa-fw"></i></a><a class="share-icon share-facebook" href="javascript:void(0);" title="Chia sẻ trên Facebook" data-sharer="facebook" data-url="https://dunghoang.net/2020-10-13-alfred-su-thay-the-hoan-hao-cho-spotlight-cua-macos/" data-hashtag="ung-dung"><i class="fab fa-facebook-square fa-fw"></i></a><a class="share-icon share-line" href="javascript:void(0);" title="Chia sẻ trên Line" data-sharer="line" data-url="https://dunghoang.net/2020-10-13-alfred-su-thay-the-hoan-hao-cho-spotlight-cua-macos/" data-title="Alfred - Sự thay thế hoàn hảo cho Spotlight của macOS"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@2.14.0/icons/line.svg"></i></a><a class="share-icon share-weibo" href="javascript:void(0);" title="Chia sẻ trên 微博" data-sharer="weibo" data-url="https://dunghoang.net/2020-10-13-alfred-su-thay-the-hoan-hao-cho-spotlight-cua-macos/" data-title="Alfred - Sự thay thế hoàn hảo cho Spotlight của macOS" data-image="/assets/images/2020/10/image-1.png"><i class="fab fa-weibo fa-fw"></i></a></span>
+</div>
+<div class="footer-post-author"style="border-radius: 10px;border-bottom: solid 2px #ececec">
+    <div class="author-avatar"><a href="" target="_blank"><img alt="" src="" border="0"></a></div>
+    <div class="author-info">
+        <div class="name"><a href="" target="_blank"></a></div>
+        <div class="number-posts"></span></div>
+    </div>
+</div><div class="post-footer" id="post-footer"><div class="post-navigation"><div class="post-nav-box nav-box-prev">
+            <a class="nav-box" href="/2020-10-03-fix-loi-high-cpu-usage-tren-macos-catalina/"><span class="nav-icon"><svg aria-hidden="true" data-prefix="fas" data-icon="chevron-circle-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M256 504C119 504 8 393 8 256S119 8 256 8s248 111 248 248-111 248-248 248zM142.1 273l135.5 135.5c9.4 9.4 24.6 9.4 33.9 0l17-17c9.4-9.4 9.4-24.6 0-33.9L226.9 256l101.6-101.6c9.4-9.4 9.4-24.6 0-33.9l-17-17c-9.4-9.4-24.6-9.4-33.9 0L142.1 239c-9.4 9.4-9.4 24.6 0 34z"></path></svg></span><div style="text-align: right;padding-left: 10px"><div class="nav-text-h">Bài tiếp theo</div><span class="nav-text">Fix lỗi High CPU Usage gây ra bởi tiến trình accountsd trên macOS Catalina</span></div></a>
+        </div>
+        <div class="post-nav-box nav-box-next">
+            <a class="nav-box" href="/2020-10-28-mot-so-thu-thuat-thu-vi-tren-terminal/"><div style="padding-right: 10px"><div class="nav-text-h">Bài tiếp theo</div><span class="nav-text">Một số lệnh tuỳ biến, vui vẻ trên Terminal của macOS</span></div><span class="nav-icon"><svg aria-hidden="true" data-prefix="fas" data-icon="chevron-circle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm113.9 231L234.4 103.5c-9.4-9.4-24.6-9.4-33.9 0l-17 17c-9.4 9.4-9.4 24.6 0 33.9L285.1 256 183.5 357.6c-9.4 9.4-9.4 24.6 0 33.9l17 17c9.4 9.4 24.6 9.4 33.9 0L369.9 273c9.4-9.4 9.4-24.6 0-34z"></path></svg></span></a>
+        </div></div></div>
+</div>
+        </div>
+    <div id="toc-final"></div>
+    </article><div class=" post-tags post-tags-toc "><a href="/tags/ung-dung/" class="tag">ung-dung</a></div><div class="page single comments content-block-position"><div id="comments"><div id="disqus_thread" class="comment"></div><noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://disqus.com/?ref_noscript">Disqus</a>.
+            </noscript></div></div></div></main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Copyright <a href="https://dunghoang.net/">Dũng Hoàng Blog</a></div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span>2020 - 2021</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank"></a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Lên trên">
+                <i class="fas fa-arrow-up fa-fw"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="Xem bình luận">
+                <i class="fas fa-comment fa-fw"></i>
+            </a>
+        </div><script src="https://dunghtblog.disqus.com/embed.js" defer></script><script src="https://cdn.jsdelivr.net/npm/smooth-scroll@16.1.3/dist/smooth-scroll.min.js"></script><script src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.37.1/dist/autocomplete.min.js"></script><script src="https://cdn.jsdelivr.net/npm/lunr@2.3.8/lunr.min.js"></script><script src="/lib/lunr/lunr.stemmer.support.min.js"></script><script src="/lib/lunr/lunr.vi.min.js"></script><script src="https://cdn.jsdelivr.net/npm/lazysizes@5.2.2/lazysizes.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script><script src="https://cdn.jsdelivr.net/npm/sharer.js@0.4.0/sharer.min.js"></script><script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script><script>window.config={"code":{"copyTitle":"Sao chép vào bộ nhớ tạm","maxShownLines":10},"comment":{},"data":{"id-1":"Dũng Hoàng","id-2":"Dũng Hoàng"},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","lunrLanguageCode":"vi","maxResultLength":10,"noResultsFound":"Không tìm thấy","snippetLength":30,"type":"lunr"},"typeit":{"cursorChar":" _","cursorSpeed":1000,"data":{"id-1":["id-1"],"id-2":["id-2"]},"duration":-1,"speed":100}};</script><script src="/js/theme.min.js"></script><script src="/js/jquery-3.5.1.min.js"></script></body>
+</html>

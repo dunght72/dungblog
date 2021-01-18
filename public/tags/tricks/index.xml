@@ -1,0 +1,34 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>tricks - Nhãn - Dũng Hoàng&#39;s Blog</title>
+        <link>https://dunghoang.net/tags/tricks/</link>
+        <description>tricks - Nhãn - Dũng Hoàng&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 31 Dec 2020 01:05:05 &#43;0000</lastBuildDate><atom:link href="https://dunghoang.net/tags/tricks/" rel="self" type="application/rss+xml" /><item>
+    <title>Đăng ký tài khoản Pluralsight miễn phí 1 năm</title>
+    <link>https://dunghoang.net/2020-12-31-dang-ky-pluralsight-mot-nam-mien-phi/</link>
+    <pubDate>Thu, 31 Dec 2020 01:05:05 &#43;0000</pubDate>
+    <author>Dũng Hoàng</author>
+    <guid>https://dunghoang.net/2020-12-31-dang-ky-pluralsight-mot-nam-mien-phi/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/assets/images/2020/12/pluralsight-one.png" referrerpolicy="no-referrer">
+            </div>Pluralsight One là gì? Pluralsight One là nền tảng cung cấp các khoá học trực tuyến tương tự như Udemy.]]></description>
+</item><item>
+    <title>Hướng dẫn thay đổi Terminal mặc định sang Hyper trong Alfred</title>
+    <link>https://dunghoang.net/2020-12-29-doi-terminal-mac-dinh-trong-alfred-4/</link>
+    <pubDate>Mon, 28 Dec 2020 07:05:05 &#43;0000</pubDate>
+    <author>Dũng Hoàng</author>
+    <guid>https://dunghoang.net/2020-12-29-doi-terminal-mac-dinh-trong-alfred-4/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/assets/images/2020/12/alfred_terminal_2.png" referrerpolicy="no-referrer">
+            </div>Alfred là ứng dụng cực hay ho thay thế Spotlight trên macOS với rất nhiều tính năng hữu ích, trong đó có tính năng chạy các command trực tiếp.]]></description>
+</item><item>
+    <title>Hướng dẫn fix lỗi USB không thể sử dụng sau khi tạo bộ cài macOS</title>
+    <link>https://dunghoang.net/2020-12-05-fix-loi-usb-khong-the-su-dung-sau-khi-tao-bo-cai-mac/</link>
+    <pubDate>Sat, 05 Dec 2020 06:05:05 &#43;0000</pubDate>
+    <author>Dũng Hoàng</author>
+    <guid>https://dunghoang.net/2020-12-05-fix-loi-usb-khong-the-su-dung-sau-khi-tao-bo-cai-mac/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/assets/images/2020/12/format-usb-dunghoang.png" referrerpolicy="no-referrer">
+            </div>Thông thường sau khi sử dụng USB để tạo bộ cài macOS thì sau đó USB không thể hoạt động ổn định được, không thể copy file trên các máy Windows và bị chia thành 2 phân vùng, trong đó có 1 phân vùng 200MB là sử dụng được gây ra sự khó chịu cho người dùng nếu không biết cách xử lý.]]></description>
+</item></channel>
+</rss>

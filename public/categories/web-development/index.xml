@@ -1,0 +1,34 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Web Development - Danh mục - Dũng Hoàng&#39;s Blog</title>
+        <link>https://dunghoang.net/categories/web-development/</link>
+        <description>Web Development - Danh mục - Dũng Hoàng&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 23 Jul 2020 15:40:00 &#43;0000</lastBuildDate><atom:link href="https://dunghoang.net/categories/web-development/" rel="self" type="application/rss+xml" /><item>
+    <title>Tạo mới và chỉnh sửa file Word trong .NET Core</title>
+    <link>https://dunghoang.net/2020-07-23-tao-moi-va-chinh-sua-file-word-trong-net-core/</link>
+    <pubDate>Thu, 23 Jul 2020 15:40:00 &#43;0000</pubDate>
+    <author>Dũng Hoàng</author>
+    <guid>https://dunghoang.net/2020-07-23-tao-moi-va-chinh-sua-file-word-trong-net-core/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/assets/images/asp_word.jpg" referrerpolicy="no-referrer">
+            </div>Bài viết dưới đây hướng dẫn tạo và chỉnh sửa file Word trong ứng dụng .]]></description>
+</item><item>
+    <title>Một số Regex thường sử dụng</title>
+    <link>https://dunghoang.net/2020-07-23-mot-so-regex-thuong-su-dung/</link>
+    <pubDate>Thu, 23 Jul 2020 14:00:00 &#43;0000</pubDate>
+    <author>Dũng Hoàng</author>
+    <guid>https://dunghoang.net/2020-07-23-mot-so-regex-thuong-su-dung/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/assets/images/regex_hay_dung.jpg" referrerpolicy="no-referrer">
+            </div>Một số đoạn Regex thường hay được sử dụng, copy ở đây để tái sử dụng khi cần.]]></description>
+</item><item>
+    <title>Hướng dẫn kích hoạt tính năng CSS Overview mới trên Google Chrome</title>
+    <link>https://dunghoang.net/2020-07-02-huong-dan-kich-hoat-tinh-nang-css-overview-tren-google-chrome/</link>
+    <pubDate>Thu, 02 Jul 2020 00:00:00 &#43;0000</pubDate>
+    <author>Dũng Hoàng</author>
+    <guid>https://dunghoang.net/2020-07-02-huong-dan-kich-hoat-tinh-nang-css-overview-tren-google-chrome/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/assets/images/devtools-new.png" referrerpolicy="no-referrer">
+            </div>CSS Overview CSS Overview là một tính năng thử nghiệm mới trên Google Chrome, giúp chúng ta có một cái nhìn tổng quan về trang web mà bạn đang xem: Sử dụng những màu sắc nào?]]></description>
+</item></channel>
+</rss>

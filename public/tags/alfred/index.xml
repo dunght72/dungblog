@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>alfred - Nhãn - Dũng Hoàng&#39;s Blog</title>
+        <link>https://dunghoang.net/tags/alfred/</link>
+        <description>alfred - Nhãn - Dũng Hoàng&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 28 Dec 2020 07:05:05 &#43;0000</lastBuildDate><atom:link href="https://dunghoang.net/tags/alfred/" rel="self" type="application/rss+xml" /><item>
+    <title>Hướng dẫn thay đổi Terminal mặc định sang Hyper trong Alfred</title>
+    <link>https://dunghoang.net/2020-12-29-doi-terminal-mac-dinh-trong-alfred-4/</link>
+    <pubDate>Mon, 28 Dec 2020 07:05:05 &#43;0000</pubDate>
+    <author>Dũng Hoàng</author>
+    <guid>https://dunghoang.net/2020-12-29-doi-terminal-mac-dinh-trong-alfred-4/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/assets/images/2020/12/alfred_terminal_2.png" referrerpolicy="no-referrer">
+            </div>Alfred là ứng dụng cực hay ho thay thế Spotlight trên macOS với rất nhiều tính năng hữu ích, trong đó có tính năng chạy các command trực tiếp.]]></description>
+</item></channel>
+</rss>

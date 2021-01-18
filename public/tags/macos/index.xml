@@ -1,0 +1,52 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>macos - Nhãn - Dũng Hoàng&#39;s Blog</title>
+        <link>https://dunghoang.net/tags/macos/</link>
+        <description>macos - Nhãn - Dũng Hoàng&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 28 Dec 2020 07:05:05 &#43;0000</lastBuildDate><atom:link href="https://dunghoang.net/tags/macos/" rel="self" type="application/rss+xml" /><item>
+    <title>Hướng dẫn thay đổi Terminal mặc định sang Hyper trong Alfred</title>
+    <link>https://dunghoang.net/2020-12-29-doi-terminal-mac-dinh-trong-alfred-4/</link>
+    <pubDate>Mon, 28 Dec 2020 07:05:05 &#43;0000</pubDate>
+    <author>Dũng Hoàng</author>
+    <guid>https://dunghoang.net/2020-12-29-doi-terminal-mac-dinh-trong-alfred-4/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/assets/images/2020/12/alfred_terminal_2.png" referrerpolicy="no-referrer">
+            </div>Alfred là ứng dụng cực hay ho thay thế Spotlight trên macOS với rất nhiều tính năng hữu ích, trong đó có tính năng chạy các command trực tiếp.]]></description>
+</item><item>
+    <title>Hướng dẫn fix lỗi USB không thể sử dụng sau khi tạo bộ cài macOS</title>
+    <link>https://dunghoang.net/2020-12-05-fix-loi-usb-khong-the-su-dung-sau-khi-tao-bo-cai-mac/</link>
+    <pubDate>Sat, 05 Dec 2020 06:05:05 &#43;0000</pubDate>
+    <author>Dũng Hoàng</author>
+    <guid>https://dunghoang.net/2020-12-05-fix-loi-usb-khong-the-su-dung-sau-khi-tao-bo-cai-mac/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/assets/images/2020/12/format-usb-dunghoang.png" referrerpolicy="no-referrer">
+            </div>Thông thường sau khi sử dụng USB để tạo bộ cài macOS thì sau đó USB không thể hoạt động ổn định được, không thể copy file trên các máy Windows và bị chia thành 2 phân vùng, trong đó có 1 phân vùng 200MB là sử dụng được gây ra sự khó chịu cho người dùng nếu không biết cách xử lý.]]></description>
+</item><item>
+    <title>macOS Big Sur có gì mới?</title>
+    <link>https://dunghoang.net/2020-09-15-macos-big-sur-co-gi-moi/</link>
+    <pubDate>Tue, 15 Sep 2020 06:24:00 &#43;0000</pubDate>
+    <author>Dũng Hoàng</author>
+    <guid>https://dunghoang.net/2020-09-15-macos-big-sur-co-gi-moi/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/assets/images/2020/09/image.png" referrerpolicy="no-referrer">
+            </div>Trong Hè vừa rồi, Apple đã tung ra phiên bản beta của hệ điều hành macOS 11 với tên mã Big Sur.]]></description>
+</item><item>
+    <title>Hướng dẫn bật/tắt chế độ Dark Mode macOS bằng phím tắt</title>
+    <link>https://dunghoang.net/2020-09-11-huong-dan-bat-tat-che-do-dark-mode-macos-bang-phim-tat/</link>
+    <pubDate>Fri, 11 Sep 2020 07:59:05 &#43;0000</pubDate>
+    <author>Dũng Hoàng</author>
+    <guid>https://dunghoang.net/2020-09-11-huong-dan-bat-tat-che-do-dark-mode-macos-bang-phim-tat/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/static/assets/images/2020/09/image-2.png" referrerpolicy="no-referrer">
+            </div>Bắt đầu từ macOS Mojave, Apple đã trình làng chế độ Dark Mode (Chế độ tối) trên hệ điều hành của mình và giờ đây nó trở thành 1 phần không thể thiếu, đặc biệt đối với những người dùng hay sử dụng máy tính vào ban đêm.]]></description>
+</item><item>
+    <title>Sơ lược về hệ điều hành macOS</title>
+    <link>https://dunghoang.net/2020-09-07-so-luoc-ve-he-dieu-hanh-mac-os/</link>
+    <pubDate>Mon, 07 Sep 2020 05:35:00 &#43;0000</pubDate>
+    <author>Dũng Hoàng</author>
+    <guid>https://dunghoang.net/2020-09-07-so-luoc-ve-he-dieu-hanh-mac-os/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/assets/images/2020/09/macos-catalina-upgrade-hero-1160x675.jpg" referrerpolicy="no-referrer">
+            </div>Lịch sử ra đời của macOS macOS (trước đây là Mac OS X, sau là OS X) là một dòng hệ điều hành độc quyền, được phát triển và phân phối bởi Apple, được cài đặt sẵn trên các máy tính Macintosh.]]></description>
+</item></channel>
+</rss>

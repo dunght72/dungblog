@@ -1,7 +1,7 @@
 baseURL = "https://dunghoang.net/"
 defaultContentLanguage = "vi"
 languageCode = "en"
-title = "Dũng Hoàng"
+title = "Dũng Hoàng's Blog"
 # Change the default theme to be use when building the site with Hugo
 theme = "uBlogger"
 summaryLength = 10
@@ -149,7 +149,7 @@ enableEmoji = true
     enable = true
     # Custom content (HTML format is supported)
     # 自定义内容 (支持 HTML 格式)
-    custom = 'Copyright Dũng Hoàng Blog'
+    custom = 'Copyright <a href="https://dunghoang.net/">Dũng Hoàng Blog</a>'
     # whether to show Hugo and theme info
     # 是否显示 Hugo 和主题信息
     hugo = false
@@ -610,7 +610,7 @@ enableEmoji = true
 [params.search]
   enable = true
   # type of search engine ("lunr", "algolia")
-  type = "algolia"
+  type = "lunr"
   # max index length of the chunked content
   contentLength = 4000
   # placeholder of the search bar

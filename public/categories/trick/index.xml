@@ -1,0 +1,70 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Trick - Danh mục - Dũng Hoàng&#39;s Blog</title>
+        <link>https://dunghoang.net/categories/trick/</link>
+        <description>Trick - Danh mục - Dũng Hoàng&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 31 Dec 2020 01:05:05 &#43;0000</lastBuildDate><atom:link href="https://dunghoang.net/categories/trick/" rel="self" type="application/rss+xml" /><item>
+    <title>Đăng ký tài khoản Pluralsight miễn phí 1 năm</title>
+    <link>https://dunghoang.net/2020-12-31-dang-ky-pluralsight-mot-nam-mien-phi/</link>
+    <pubDate>Thu, 31 Dec 2020 01:05:05 &#43;0000</pubDate>
+    <author>Dũng Hoàng</author>
+    <guid>https://dunghoang.net/2020-12-31-dang-ky-pluralsight-mot-nam-mien-phi/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/assets/images/2020/12/pluralsight-one.png" referrerpolicy="no-referrer">
+            </div>Pluralsight One là gì? Pluralsight One là nền tảng cung cấp các khoá học trực tuyến tương tự như Udemy.]]></description>
+</item><item>
+    <title>Hướng dẫn đăng ký VPS sử dụng 1 năm chỉ với 10 AUD.</title>
+    <link>https://dunghoang.net/2020-12-29-dang-ky-vps-1-nam-chi-voi-10-aud/</link>
+    <pubDate>Tue, 29 Dec 2020 14:05:05 &#43;0000</pubDate>
+    <author>Dũng Hoàng</author>
+    <guid>https://dunghoang.net/2020-12-29-dang-ky-vps-1-nam-chi-voi-10-aud/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/assets/images/2020/12/vps-quantum-core.png" referrerpolicy="no-referrer">
+            </div>QuantumCore là nhà cung cấp hosting, server đến từ Australia, server ở đây sử dụng ổ cứng NVME cho tốc độ rất nhanh.]]></description>
+</item><item>
+    <title>Hướng dẫn map Network Drive bằng Command Line</title>
+    <link>https://dunghoang.net/2020-08-14-map-network-drive-bang-command/</link>
+    <pubDate>Fri, 14 Aug 2020 07:50:00 &#43;0000</pubDate>
+    <author>Dũng Hoàng</author>
+    <guid>https://dunghoang.net/2020-08-14-map-network-drive-bang-command/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/assets/images/map-network-drive.jpg" referrerpolicy="no-referrer">
+            </div>Các lệnh dưới đây dùng để map Network Drive, sử dụng cho mục đích ghi nhớ cá nhân.]]></description>
+</item><item>
+    <title>Hướng dẫn tạo tài khoản Google Drive Unlimited miễn phí</title>
+    <link>https://dunghoang.net/2020-07-16-huong-dan-tao-tai-khoan-google-drive-unlimited-mien-phi/</link>
+    <pubDate>Thu, 16 Jul 2020 15:40:00 &#43;0000</pubDate>
+    <author>Dũng Hoàng</author>
+    <guid>https://dunghoang.net/2020-07-16-huong-dan-tao-tai-khoan-google-drive-unlimited-mien-phi/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/assets/images/ggdrive_unlimited.jpg" referrerpolicy="no-referrer">
+            </div>Google Drive Unlimited là gì? Bạn đã từng nghe đến khái niệm Google Drive Unlimited?]]></description>
+</item><item>
+    <title>Một số lệnh Terminal hay sử dụng</title>
+    <link>https://dunghoang.net/2020-07-15-lenh-terminal-hay-su-dung/</link>
+    <pubDate>Wed, 15 Jul 2020 10:49:00 &#43;0000</pubDate>
+    <author>Dũng Hoàng</author>
+    <guid>https://dunghoang.net/2020-07-15-lenh-terminal-hay-su-dung/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/assets/images/hyper-feature.png" referrerpolicy="no-referrer">
+            </div>Một số Code Snippet hay sử dụng trong terminal, dùng để ghi nhớ cá nhân]]></description>
+</item><item>
+    <title>Hướng dẫn kích hoạt tính năng CSS Overview mới trên Google Chrome</title>
+    <link>https://dunghoang.net/2020-07-02-huong-dan-kich-hoat-tinh-nang-css-overview-tren-google-chrome/</link>
+    <pubDate>Thu, 02 Jul 2020 00:00:00 &#43;0000</pubDate>
+    <author>Dũng Hoàng</author>
+    <guid>https://dunghoang.net/2020-07-02-huong-dan-kich-hoat-tinh-nang-css-overview-tren-google-chrome/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/assets/images/devtools-new.png" referrerpolicy="no-referrer">
+            </div>CSS Overview CSS Overview là một tính năng thử nghiệm mới trên Google Chrome, giúp chúng ta có một cái nhìn tổng quan về trang web mà bạn đang xem: Sử dụng những màu sắc nào?]]></description>
+</item><item>
+    <title>Hướng dẫn chat Telegram bằng Terminal</title>
+    <link>https://dunghoang.net/2020-06-18-huong-dan-chat-telegram-bang-terminal/</link>
+    <pubDate>Thu, 18 Jun 2020 19:03:36 &#43;0000</pubDate>
+    <author>Dũng Hoàng</author>
+    <guid>https://dunghoang.net/2020-06-18-huong-dan-chat-telegram-bang-terminal/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/assets/images/map-network-drive.jpg" referrerpolicy="no-referrer">
+            </div>Telegram đang ngày càng trở nên phô biến do tính bảo mật tốt, tốc độ nhanh và thân thiện.]]></description>
+</item></channel>
+</rss>

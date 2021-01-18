@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Một số lệnh tuỳ biến, vui vẻ trên Terminal của macOS | </title><meta name="Description" content=""><meta property="og:title" content="Một số lệnh tuỳ biến, vui vẻ trên Terminal của macOS" />
+<meta property="og:description" content="Với Terminal, bạn có thể thực hiện một số lệnh can thiệp sâu vào hệ thống để tuỳ biến theo ý thích." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://dunghoang.net/2020-10-28-mot-so-thu-thuat-thu-vi-tren-terminal/" />
+<meta property="og:image" content="https://dunghoang.net/assets/images/dh_logo.png"/>
+<meta property="article:published_time" content="2020-10-28T06:05:05+00:00" />
+<meta property="article:modified_time" content="2021-01-18T14:38:31+07:00" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://dunghoang.net/assets/images/dh_logo.png"/>
+
+<meta name="twitter:title" content="Một số lệnh tuỳ biến, vui vẻ trên Terminal của macOS"/>
+<meta name="twitter:description" content="Với Terminal, bạn có thể thực hiện một số lệnh can thiệp sâu vào hệ thống để tuỳ biến theo ý thích."/>
+<meta name="application-name" content="Dũng Hoàng&#39;s Blog">
+<meta name="apple-mobile-web-app-title" content="Dũng Hoàng&#39;s Blog"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://dunghoang.net/2020-10-28-mot-so-thu-thuat-thu-vi-tren-terminal/" /><link rel="prev" href="https://dunghoang.net/2020-10-13-alfred-su-thay-the-hoan-hao-cho-spotlight-cua-macos/" /><link rel="next" href="https://dunghoang.net/2020-11-29-black-friday-mua-phan-mem-mac-ban-quyen-gia-khong-tuong/" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Một số lệnh tuỳ biến, vui vẻ trên Terminal của macOS",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/dunghoang.net\/2020-10-28-mot-so-thu-thuat-thu-vi-tren-terminal\/"
+        },"image": ["https:\/\/dunghoang.net\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "thu-thuat","wordCount":  980 ,
+        "url": "https:\/\/dunghoang.net\/2020-10-28-mot-so-thu-thuat-thu-vi-tren-terminal\/","datePublished": "2020-10-28T06:05:05+00:00","dateModified": "2021-01-18T14:38:31+07:00","publisher": {
+            "@type": "Organization",
+            "name": "xxxx","logo": "https:\/\/dunghoang.net\/images\/avatar.png"},"author": {
+                "@type": "Person",
+                "name": "Dũng Hoàng"
+            },"description": ""
+    }
+    </script><script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [{
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Trang chủ",
+            "item": "https:\/\/dunghoang.net\/"
+        },{
+            "@type": "ListItem",
+            "position": 2,
+            "name": "macOS",
+            "item": "https://dunghoang.net/categories/macos/"
+        },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Một số lệnh tuỳ biến, vui vẻ trên Terminal của macOS"
+            }]
+    }
+</script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script>(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('dark' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'dark' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Dũng Hoàng&#39;s Blog" class="header-logo"><span id="id-1" class="typeit"></span></a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/"> Home </a><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/about/"> About Me </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Tìm Kiếm" id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Tìm kiếm">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Xoá">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Đổi chủ đề">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Dũng Hoàng&#39;s Blog" class="header-logo"><span id="id-2" class="typeit"></span></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Tìm Kiếm" id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Tìm kiếm">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Xoá">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Huỷ
+                    </a>
+                </div><a class="menu-item" href="/" title="">Home</a><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/about/" title="">About Me</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Đổi chủ đề">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div><main class="main"><div class="container content-article page-toc theme-classic"><div class="toc" id="toc-auto">
+            <div class="toc-title">Nội dung</div>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><div class="header-post">
+        <div class="post-title">
+
+            <div class="post-all-meta">
+            <div class="breadcrumbs">
+    <a href="/">Trang chủ </a>/ <a href="/categories/macos/">macOS </a>/ <a href="/"> Một số lệnh tuỳ biến, vui vẻ trên Terminal của macOS </a>
+</div>
+            <h1 class="single-title animated flipInX">Một số lệnh tuỳ biến, vui vẻ trên Terminal của macOS</h1><div class="post-meta">
+                <div class="post-meta-line"><span class="post-category">
+                                <a href="/categories/macos/"><i class="far fa-folder fa-fw"></i>&nbsp;macOS</a>
+                            </span>&nbsp;&nbsp;&nbsp;&nbsp;<i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time class="timeago" datetime="2020-10-28">2020-10-28</time>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;980 từ
+                    &nbsp;&nbsp;&nbsp;&nbsp;<i class="far fa-clock fa-fw"></i>&nbsp;5 phút</div>
+            </div>
+        </div>
+
+
+    </div>
+
+    </div>
+
+        <article class="single toc-start">
+
+        <div class="content-block content-block-first content-block-position">
+
+        <div class="post"><div class="image-theme-classic">
+                <img src="/assets/images/2020/10/image-11.png" style="width: 100%">
+            </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Nội dung</span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#hiện-tập-tin-và-thư-mục-ẩn">Hiện tập tin và thư mục ẩn</a></li>
+        <li><a href="#sao-chép-tập-tin-giữa-các-thư-mục">Sao chép tập tin giữa các thư mục</a></li>
+        <li><a href="#download-tập-tin-từ-internet">Download tập tin từ Internet</a></li>
+        <li><a href="#tắt-đổ-bóng-khi-chụp-màn-hình">Tắt đổ bóng khi chụp màn hình</a></li>
+        <li><a href="#giữ-máy-mac-luôn-mở">Giữ máy Mac luôn mở</a></li>
+        <li><a href="#tự-khởi-động-lại-mac-nếu-gặp-lỗi-hoặc-bị-treo">Tự khởi động lại Mac nếu gặp lỗi hoặc bị treo</a></li>
+        <li><a href="#chơi-xếp-hình-tetris-rắn-săn-mồi-pong-trực-tiếp-từ-terminal">Chơi xếp hình (Tetris), Rắn săn mồi, Pong trực tiếp từ Terminal</a></li>
+        <li><a href="#tạo-biểu-ngữ-bằng-các-ký-tự-ascii">Tạo biểu ngữ bằng các ký tự ASCII</a></li>
+        <li><a href="#thay-đổi-âm-thanh-khi-kết-nối-mac-với-nguồn-điện-giống-iphone-power-chime">Thay đổi âm thanh khi kết nối Mac với nguồn điện giống iPhone (Power Chime)</a></li>
+        <li><a href="#thay-đổi-thư-mục-lưu-trữ-mặc-định-khi-chụp-màn-hình">Thay đổi thư mục lưu trữ mặc định khi chụp màn hình</a></li>
+        <li><a href="#tắt-tính-năng-tự-lưu-về-icloud-của-một-số-ứng-dụng">Tắt tính năng tự lưu về iCloud của một số ứng dụng</a></li>
+        <li><a href="#xem-phiên-bản-hoạt-hình-ascii-của-star-war">Xem phiên bản hoạt hình ASCII của Star War</a></li>
+        <li><a href="#tăng-tốc-độ-hiển-thị-thanh-dock">Tăng tốc độ hiển thị thanh Dock</a></li>
+        <li><a href="#hiển-thị-dòng-chữ-tuỳ-chỉnh-trên-màn-hình-đăng-nhập">Hiển thị dòng chữ tuỳ chỉnh trên màn hình đăng nhập</a></li>
+        <li><a href="#tóm-lại">Tóm Lại</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><span class="post-update">
+                    <b>Cập nhật ngày 2021-01-18</b>
+                </span><p>Với Terminal, bạn có thể thực hiện một số lệnh can thiệp sâu vào hệ thống để tuỳ biến theo ý thích. Dưới đây là một số thủ thuật trên Terminal mà bạn có thể áp dụng.</p>
+<p>Terminal có thể mở từ màn hình Launchpad hoặc truy cập nhanh bằng (⌘ + Space, sau đó gõ Terminal)</p>
+<figure class="kg-card kg-image-card"><img src="/assets/images/2020/10/image-11.png" class="kg-image" alt srcset="/assets/images/size/w600/2020/10/image-11.png 600w, /assets/images/size/w1000/2020/10/image-11.png 1000w, /assets/images/2020/10/image-11.png 1088w" sizes="(min-width: 720px) 720px"></figure>
+<h3 id="hiện-tập-tin-và-thư-mục-ẩn">Hiện tập tin và thư mục ẩn</h3>
+<p>Để hiện tập tin, thư mục ẩn trên Mac, bạn có thể thực hiện copy, paste dòng lệnh sau vào Terminal để thực thi.</p>
+<pre><code>defaults write com.apple.finder AppleShowAllFiles -bool TRUE
+
+killall Finder
+</code></pre>
+<p>Thay &ldquo;TRUE&rdquo; thành &ldquo;FALSE&rdquo; nếu bạn muốn ẩn tập tin, thư mục ẩn.</p>
+<h3 id="sao-chép-tập-tin-giữa-các-thư-mục">Sao chép tập tin giữa các thư mục</h3>
+<p>Sao chép tập tin có thể thực hiện từ ngay Finder bằng menu Copy hoặc bằng cách kéo thả, tuy nhiên nếu muốn trải nghiệm một cách mới, bạn có thể sử dụng lệnh Ditty với cú pháp:</p>
+<pre><code>Ditto [original folder] [new folder]
+</code></pre>
+<p>Trong đó: <em>Original Folder</em> là thư mục nguồn, <em>New Folder</em> là thư mục gốc muốn sao chép đến.</p>
+<h3 id="download-tập-tin-từ-internet">Download tập tin từ Internet</h3>
+<p>Dùng lệnh Curl bạn có thể download tập tin trực tiếp từ ngay trong Terminal. Cú pháp của lệnh này là:</p>
+<pre><code>curl -O [the URL of the file]
+</code></pre>
+<p>URL of the file là direct link cần download</p>
+<h3 id="tắt-đổ-bóng-khi-chụp-màn-hình">Tắt đổ bóng khi chụp màn hình</h3>
+<p>Khi bạn chụp màn hình bằng công cụ có sẵn của macOS (⌘ + ⇧ + 4), thường sẽ có hiệu ứng đổ bóng được thêm vào, bạn có thể tắt hiệu ứng đổ bóng này bằng lệnh sau:</p>
+<pre><code>defaults write com.apple.screencapture disable-shadow -bool TRUE
+
+killall SystemUIServer
+</code></pre>
+<h3 id="giữ-máy-mac-luôn-mở">Giữ máy Mac luôn mở</h3>
+<p>Bằng cách sử dụng lệnh caffeinate bạn có thể ghi đè cấu hình về thời gian sleep máy được quy định trong Energy preferences.</p>
+<pre><code>caffeinate
+</code></pre>
+<p>hoặc giới hạn theo thời gian</p>
+<pre><code>caffeinate -u -t [number of seconds]
+</code></pre>
+<h3 id="tự-khởi-động-lại-mac-nếu-gặp-lỗi-hoặc-bị-treo">Tự khởi động lại Mac nếu gặp lỗi hoặc bị treo</h3>
+<p>Khi máy Mac của bạn bị treo, thường thì cách giải quyết duy nhất là nhấn giữ nút nguồn và đợi nó khởi động lại. Sử dụng lệnh này để làm cho nó tự động khởi động lại khi có sự cố.</p>
+<pre><code>sudo systemsetup -setrestartfreeze on
+</code></pre>
+<h3 id="chơi-xếp-hình-tetris-rắn-săn-mồi-pong-trực-tiếp-từ-terminal">Chơi xếp hình (Tetris), Rắn săn mồi, Pong trực tiếp từ Terminal</h3>
+<p>Emacs là trình soạn thảo văn bản được cài sẵn macOS và có thể chạy từ Terminal, có một số Easter Egg dưới dạng trò chơi ở trong Emacs này. Để hiển thị chúng, gõ <strong>Emacs</strong> rồi nhấn enter, sau đó tiếp tục bấm <strong>Fn + F10</strong> rồi <strong>t</strong> rồi đến <strong>g</strong> Bạn sẽ thấy các trò chơi có sẵn được liệt kê và bây giờ có thể sử dụng các phím con trỏ để chọn chúng.</p>
+<h3 id="tạo-biểu-ngữ-bằng-các-ký-tự-ascii">Tạo biểu ngữ bằng các ký tự ASCII</h3>
+<p>Sử dụng lệnh sau để tạo một biểu ngữ dưới dạng mã ASCII, khá là thú vị.</p>
+<pre><code>banner -w [the width of the banner in pixels] [your message]
+</code></pre>
+<p>Ví dụ: Tạo biểu ngữ với dòng chữ Pickamac, kết quả:</p>
+<figure class="kg-card kg-image-card"><img src="/assets/images/2020/10/image-9.png" class="kg-image" alt srcset="/assets/images/size/w600/2020/10/image-9.png 600w, /assets/images/size/w1000/2020/10/image-9.png 1000w, /assets/images/2020/10/image-9.png 1100w" sizes="(min-width: 720px) 720px"></figure>
+<h3 id="thay-đổi-âm-thanh-khi-kết-nối-mac-với-nguồn-điện-giống-iphone-power-chime">Thay đổi âm thanh khi kết nối Mac với nguồn điện giống iPhone (Power Chime)</h3>
+<p>Khi bạn cắm sạc iPhone, bạn thường nghe 1 âm thanh thông báo đã kết nối đến nguồn điện, nếu bạn muốn làm điều tương tự với Mac, có thể sử dụng lệnh sau</p>
+<pre><code>defaults write com.apple.PowerChime ChimeOnAllHardware -bool true; open /System/Library/CoreServices/PowerChime.app
+</code></pre>
+<h3 id="thay-đổi-thư-mục-lưu-trữ-mặc-định-khi-chụp-màn-hình">Thay đổi thư mục lưu trữ mặc định khi chụp màn hình</h3>
+<p>Để thay đổi thư mục mặc định khi chụp màn hình trên macOS (thường là lưu trực tiếp trên Desktop), bạn có thể dùng lệnh sau:</p>
+<pre><code>defaults write com.apple.screencapture location [place where you want screen grabs saved]
+</code></pre>
+<p>Sau đó chạy tiếp lệnh sau và Enter</p>
+<pre><code>killall SystemUIServer
+</code></pre>
+<p>Ví dụ: Thay đổi thư mục lưu mặc định về foler Screenshot trên Desktop</p>
+<figure class="kg-card kg-image-card"><img src="/assets/images/2020/10/image-10.png" class="kg-image" alt srcset="/assets/images/size/w600/2020/10/image-10.png 600w, /assets/images/size/w1000/2020/10/image-10.png 1000w, /assets/images/2020/10/image-10.png 1176w" sizes="(min-width: 720px) 720px"></figure>
+<h3 id="tắt-tính-năng-tự-lưu-về-icloud-của-một-số-ứng-dụng">Tắt tính năng tự lưu về iCloud của một số ứng dụng</h3>
+<p>Mặc định, một số ứng dụng macOS như TextEdit và iWork lưu tài liệu vào iCloud. Bạn có thể thay đổi điều đó bằng cách sử dụng:</p>
+<pre><code>defaults write NSGlobalDomain NSDocumentSaveNewDocumentsToCloud -bool false
+</code></pre>
+<p>Để khôi phục lại, chỉ cần chạy lệnh trên nhưng thay <strong>false</strong> bằng <strong>true</strong> ở cuối dòng lệnh.</p>
+<h3 id="xem-phiên-bản-hoạt-hình-ascii-của-star-war">Xem phiên bản hoạt hình ASCII của Star War</h3>
+<p>Nếu bạn là fan của Star War thì bạn không thể bỏ lỡ điều này. Sử dụng lênh sau để xem phiên bản ASCII của bộ phim nổi tiếng này.</p>
+<pre><code>telnet towel.blinkenlights.nl
+</code></pre>
+<p>Để thoát, dùng tổ hợp phím <strong>Ctrl + ]</strong>, sau đó gõ lệnh <strong>quit</strong></p>
+<figure class="kg-card kg-image-card kg-card-hascaption"><img src="/assets/images/2020/10/starwar-ascii.gif" class="kg-image" alt><figcaption class="text-center">Phiên bản ASCII củ bộ phim Star War</figcaption></figure>
+<h3 id="tăng-tốc-độ-hiển-thị-thanh-dock">Tăng tốc độ hiển thị thanh Dock</h3>
+<p>Nếu bạn sử dụng chế độ &ldquo;Show and Hide Dock&rdquo;, bạn sẽ nhận thấy rằng khi bạn di con trỏ chuột vào cuối màn hình hoặc bất kỳ cạnh nào bạn giữ Dock, sẽ có độ trễ trước khi Dock trượt vào chế độ xem. Bạn có thể loại bỏ độ trễ đó bằng các lệnh sau:</p>
+<pre><code>defaults write com.apple.dock autohide-delay -float 0
+
+killall Dock
+</code></pre>
+<p>Số <strong>0</strong> đại diện cho độ trễ trước khi Dock hiển thị, vì vậy nếu bạn muốn giảm đột trễ này hãy thay thế <strong>0</strong> bằng một giá trị khác, tính bằng giây.</p>
+<p>Để quay  về mặc định, sử dụng lệnh:</p>
+<pre><code>defaults delete com.apple.dock autohide-delay
+
+killall Dock
+</code></pre>
+<h3 id="hiển-thị-dòng-chữ-tuỳ-chỉnh-trên-màn-hình-đăng-nhập">Hiển thị dòng chữ tuỳ chỉnh trên màn hình đăng nhập</h3>
+<p>Để hiển thị một dòng chữ tuỳ chỉnh trên màn hình đăng nhập (VD: Họ tên của bạn, một câu danh ngôn yêu thích&hellip;), hãy sử dụng lệnh sau:</p>
+<pre><code>sudo defaults write /Library/Preferences/com.apple.loginwindow LoginwindowText &quot;Your message here&quot;
+</code></pre>
+<p>Để xoá dòng chữ này:</p>
+<pre><code>sudo defaults delete /Library/Preferences/com.apple.loginwindow
+</code></pre>
+<h3 id="tóm-lại">Tóm Lại</h3>
+<p>Trên đây là một số câu lệnh tuỳ chỉnh, vui vẻ dành cho Terminal, nếu bạn có biết thêm những câu lệnh hữu ích khác, hãy chia sẻ nhé. Nice day guys! See ya!</p>
+<p>Tham Khảo: <a href="https://www.macworld.co.uk/how-to/mac-terminal-projects-tutorial-3613813/" target="_blank" rel="noopener noreffer">MacWorld</a></p>
+</div>
+
+            <div class="post"><div class="post-info-share">
+    <span><a class="share-icon share-twitter" href="javascript:void(0);" title="Chia sẻ trên Twitter" data-sharer="twitter" data-url="https://dunghoang.net/2020-10-28-mot-so-thu-thuat-thu-vi-tren-terminal/" data-title="Một số lệnh tuỳ biến, vui vẻ trên Terminal của macOS" data-via="https://twitter.com/dunght72" data-hashtags="thu-thuat"><i class="fab fa-twitter fa-fw"></i></a><a class="share-icon share-facebook" href="javascript:void(0);" title="Chia sẻ trên Facebook" data-sharer="facebook" data-url="https://dunghoang.net/2020-10-28-mot-so-thu-thuat-thu-vi-tren-terminal/" data-hashtag="thu-thuat"><i class="fab fa-facebook-square fa-fw"></i></a><a class="share-icon share-line" href="javascript:void(0);" title="Chia sẻ trên Line" data-sharer="line" data-url="https://dunghoang.net/2020-10-28-mot-so-thu-thuat-thu-vi-tren-terminal/" data-title="Một số lệnh tuỳ biến, vui vẻ trên Terminal của macOS"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@2.14.0/icons/line.svg"></i></a><a class="share-icon share-weibo" href="javascript:void(0);" title="Chia sẻ trên 微博" data-sharer="weibo" data-url="https://dunghoang.net/2020-10-28-mot-so-thu-thuat-thu-vi-tren-terminal/" data-title="Một số lệnh tuỳ biến, vui vẻ trên Terminal của macOS" data-image="/assets/images/2020/10/image-11.png"><i class="fab fa-weibo fa-fw"></i></a></span>
+</div>
+<div class="footer-post-author"style="border-radius: 10px;border-bottom: solid 2px #ececec">
+    <div class="author-avatar"><a href="" target="_blank"><img alt="" src="" border="0"></a></div>
+    <div class="author-info">
+        <div class="name"><a href="" target="_blank"></a></div>
+        <div class="number-posts"></span></div>
+    </div>
+</div><div class="post-footer" id="post-footer"><div class="post-navigation"><div class="post-nav-box nav-box-prev">
+            <a class="nav-box" href="/2020-10-13-alfred-su-thay-the-hoan-hao-cho-spotlight-cua-macos/"><span class="nav-icon"><svg aria-hidden="true" data-prefix="fas" data-icon="chevron-circle-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M256 504C119 504 8 393 8 256S119 8 256 8s248 111 248 248-111 248-248 248zM142.1 273l135.5 135.5c9.4 9.4 24.6 9.4 33.9 0l17-17c9.4-9.4 9.4-24.6 0-33.9L226.9 256l101.6-101.6c9.4-9.4 9.4-24.6 0-33.9l-17-17c-9.4-9.4-24.6-9.4-33.9 0L142.1 239c-9.4 9.4-9.4 24.6 0 34z"></path></svg></span><div style="text-align: right;padding-left: 10px"><div class="nav-text-h">Bài tiếp theo</div><span class="nav-text">Alfred - Sự thay thế hoàn hảo cho Spotlight của macOS</span></div></a>
+        </div>
+        <div class="post-nav-box nav-box-next">
+            <a class="nav-box" href="/2020-11-29-black-friday-mua-phan-mem-mac-ban-quyen-gia-khong-tuong/"><div style="padding-right: 10px"><div class="nav-text-h">Bài tiếp theo</div><span class="nav-text">Black Friday, mua phần mềm cho Mac với giá không tưởng</span></div><span class="nav-icon"><svg aria-hidden="true" data-prefix="fas" data-icon="chevron-circle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm113.9 231L234.4 103.5c-9.4-9.4-24.6-9.4-33.9 0l-17 17c-9.4 9.4-9.4 24.6 0 33.9L285.1 256 183.5 357.6c-9.4 9.4-9.4 24.6 0 33.9l17 17c9.4 9.4 24.6 9.4 33.9 0L369.9 273c9.4-9.4 9.4-24.6 0-34z"></path></svg></span></a>
+        </div></div></div>
+</div>
+        </div>
+    <div id="toc-final"></div>
+    </article><div class=" post-tags post-tags-toc "><a href="/tags/thu-thuat/" class="tag">thu-thuat</a></div><div class="page single comments content-block-position"><div id="comments"><div id="disqus_thread" class="comment"></div><noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://disqus.com/?ref_noscript">Disqus</a>.
+            </noscript></div></div></div></main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Copyright <a href="https://dunghoang.net/">Dũng Hoàng Blog</a></div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span>2020 - 2021</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank"></a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Lên trên">
+                <i class="fas fa-arrow-up fa-fw"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="Xem bình luận">
+                <i class="fas fa-comment fa-fw"></i>
+            </a>
+        </div><script src="https://dunghtblog.disqus.com/embed.js" defer></script><script src="https://cdn.jsdelivr.net/npm/smooth-scroll@16.1.3/dist/smooth-scroll.min.js"></script><script src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.37.1/dist/autocomplete.min.js"></script><script src="https://cdn.jsdelivr.net/npm/lunr@2.3.8/lunr.min.js"></script><script src="/lib/lunr/lunr.stemmer.support.min.js"></script><script src="/lib/lunr/lunr.vi.min.js"></script><script src="https://cdn.jsdelivr.net/npm/lazysizes@5.2.2/lazysizes.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script><script src="https://cdn.jsdelivr.net/npm/sharer.js@0.4.0/sharer.min.js"></script><script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script><script>window.config={"code":{"copyTitle":"Sao chép vào bộ nhớ tạm","maxShownLines":10},"comment":{},"data":{"id-1":"Dũng Hoàng","id-2":"Dũng Hoàng"},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","lunrLanguageCode":"vi","maxResultLength":10,"noResultsFound":"Không tìm thấy","snippetLength":30,"type":"lunr"},"typeit":{"cursorChar":" _","cursorSpeed":1000,"data":{"id-1":["id-1"],"id-2":["id-2"]},"duration":-1,"speed":100}};</script><script src="/js/theme.min.js"></script><script src="/js/jquery-3.5.1.min.js"></script></body>
+</html>

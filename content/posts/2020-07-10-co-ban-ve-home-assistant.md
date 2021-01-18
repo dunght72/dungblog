@@ -1,7 +1,7 @@
 ---
 author: Dũng Hoàng
 toc: true
-categories: ["SmartHome"]
+categories: ["Smart Home"]
 date: "2020-07-10T14:46:00Z"
 featured: true
 featuredImage: /assets/images/hass.png

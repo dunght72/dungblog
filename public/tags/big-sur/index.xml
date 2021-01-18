@@ -1,0 +1,25 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>big-sur - Nhãn - Dũng Hoàng&#39;s Blog</title>
+        <link>https://dunghoang.net/tags/big-sur/</link>
+        <description>big-sur - Nhãn - Dũng Hoàng&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 22 Sep 2020 02:27:49 &#43;0000</lastBuildDate><atom:link href="https://dunghoang.net/tags/big-sur/" rel="self" type="application/rss+xml" /><item>
+    <title>Chi tiết những thay đổi trong Safari 14</title>
+    <link>https://dunghoang.net/2020-09-22-apple-phat-hanh-safari-14-cho-macos-catalina-va-mojave/</link>
+    <pubDate>Tue, 22 Sep 2020 02:27:49 &#43;0000</pubDate>
+    <author>Dũng Hoàng</author>
+    <guid>https://dunghoang.net/2020-09-22-apple-phat-hanh-safari-14-cho-macos-catalina-va-mojave/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/assets/images/2020/09/image-17.png" referrerpolicy="no-referrer">
+            </div>macOS Big Sur chưa kịp ra mắt trong sự kiện WWWDC 20 của Apple, thế nhưng Safari 14 đã chính thức được phát hành dành cho macOS Catalina và Mojave.]]></description>
+</item><item>
+    <title>macOS Big Sur có gì mới?</title>
+    <link>https://dunghoang.net/2020-09-15-macos-big-sur-co-gi-moi/</link>
+    <pubDate>Tue, 15 Sep 2020 06:24:00 &#43;0000</pubDate>
+    <author>Dũng Hoàng</author>
+    <guid>https://dunghoang.net/2020-09-15-macos-big-sur-co-gi-moi/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/assets/images/2020/09/image.png" referrerpolicy="no-referrer">
+            </div>Trong Hè vừa rồi, Apple đã tung ra phiên bản beta của hệ điều hành macOS 11 với tên mã Big Sur.]]></description>
+</item></channel>
+</rss>
