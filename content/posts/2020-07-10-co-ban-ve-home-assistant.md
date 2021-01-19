@@ -1,5 +1,5 @@
 ---
-author: Dũng Hoàng
+
 toc: true
 categories: ["Smart Home"]
 date: "2020-07-10T14:46:00Z"

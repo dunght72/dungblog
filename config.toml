@@ -28,6 +28,14 @@ enableEmoji = true
     title = ""
     weight = 1
   [[menu.main]]
+    identifier = "categories"
+    pre = ""
+    post = ""
+    name = "Categories"
+    url = "/categories/"
+    title = ""
+    weight = 2
+  [[menu.main]]
     identifier = "posts"
     # you can add extra information before the name (HTML format is supported), such as icons
     pre = ""
@@ -37,7 +45,7 @@ enableEmoji = true
     url = "/posts/"
     # title will be shown when you hover on this menu link
     title = ""
-    weight = 2
+    weight = 3
   [[menu.main]]
     identifier = "about"
     pre = ""
@@ -45,23 +53,8 @@ enableEmoji = true
     name = "About Me"
     url = "/about/"
     title = ""
-    weight = 3 
-  [[menu.main]]
-    identifier = "tags"
-    pre = ""
-    post = ""
-    name = "Tags"
-    url = "/tags/"
-    title = ""
     weight = 4
-  [[menu.main]]
-    identifier = "categories"
-    pre = ""
-    post = ""
-    name = "Categories"
-    url = "/categories/"
-    title = ""
-    weight = 5
+
 
 [params.home]
     # uBlogger NEW | 0.2.0 amount of RSS pages
@@ -380,7 +373,7 @@ enableEmoji = true
       Facebook = true
       Linkedin = false
       Whatsapp = false
-      Pinterest = false
+      Pinterest = true
       Tumblr = false
       HackerNews = true
       Reddit = false
@@ -472,7 +465,7 @@ enableEmoji = true
     [params.analytics.google]
       # [UA-XXXXXXXX-X] google analytics code
       # [UA-XXXXXXXX-X] 谷歌分析代号
-      id = ""
+      id = "G-S3RGX9Z6GY"
       # whether to use gtag linked
       # 是否使用gtag链接
       gtag = false
@@ -559,7 +552,7 @@ enableEmoji = true
 # Author config
 # 作者配置
 [author]
-  name = "Dũng Hoàng"
+  name = "dunghoang"
 
 # Sitemap config
 # 网站地图配置

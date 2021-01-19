@@ -1,5 +1,5 @@
 ---
-author: Dũng Hoàng
+
 toc: true
 categories: ["Funny"]
 date: "2020-08-03T12:10:00Z"

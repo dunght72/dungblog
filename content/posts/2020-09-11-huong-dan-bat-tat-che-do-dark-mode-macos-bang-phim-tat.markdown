@@ -3,7 +3,8 @@
 toc: true
 categories: ["macOS"]
 date: "2020-09-11T07:59:05Z"
-featuredImage: /./static/assets/images/2020/09/image-2.png
+featuredImage: /assets/images/2020/09/image-2.png
+featuredImagePreview: /assets/images/2020/09/image-2.png
 tags:
 - thu-thuat
 - macos

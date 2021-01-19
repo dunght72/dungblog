@@ -1,5 +1,4 @@
 ---
-author: Dũng Hoàng
 toc: true
 categories: ["Trick"]
 date: "2020-12-31 01:05:05"

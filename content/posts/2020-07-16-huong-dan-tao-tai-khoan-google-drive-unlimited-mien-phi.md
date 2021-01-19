@@ -1,5 +1,5 @@
 ---
-author: Dũng Hoàng
+
 toc: true
 categories: ["Trick"]
 date: "2020-07-16T15:40:00Z"

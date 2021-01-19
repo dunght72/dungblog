@@ -1,5 +1,5 @@
 ---
-author: Dũng Hoàng
+
 toc: true
 categories: ["macOS"]
 date: "2020-12-28 07:05:05"
