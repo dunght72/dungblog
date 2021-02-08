@@ -16,7 +16,7 @@ Sau khi Apple ra mắt bản cập nhập macOS Catalina 10.15.7, một số ng�
 
 Một người dùng trong Cộng đồng hỗ trợ của Apple đã chia sẻ ảnh chụp màn hình "accountsd" với mức sử dụng CPU trên 400%, khiến MacBook Pro 2018 của họ trở nên vô cùng chậm chạp.
 
-<figure class="kg-card kg-image-card kg-card-hascaption"><img src="/assets/images/2020/10/ezgif-7-380d370680bd.jpg" class="kg-image" alt="Lỗi accountsd chiếm dụng CPU gây chậm máy" srcset="/assets/images/size/w600/2020/10/ezgif-7-380d370680bd.jpg 600w, /assets/images/2020/10/ezgif-7-380d370680bd.jpg 800w" sizes="(min-width: 720px) 720px"><figcaption class="text-center">Lỗi accountsd chiếm dụng CPU gây chậm máy</figcaption></figure>
+<figure class="kg-card kg-image-card kg-card-hascaption"><img src="/assets/images/2020/10/ezgif-7-380d370680bd.jpg" class="kg-image" alt="Lỗi accountsd chiếm dụng CPU gây chậm máy"  sizes="(min-width: 720px) 720px"><figcaption class="text-center">Lỗi accountsd chiếm dụng CPU gây chậm máy</figcaption></figure>
 
 Hiện tại, Apple chưa lên tiếng về sự cố này, và vẫn chưa có cách sửa chữa chính thức, người dùng vẫn đang phải tự tìm cách xoay xở, dưới đây là một số cách các bạn có thể "thử" để xem có cải thiện được tình hình trên Mac của bạn không nhé.
 

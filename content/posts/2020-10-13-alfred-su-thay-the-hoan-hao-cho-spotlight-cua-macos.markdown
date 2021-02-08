@@ -15,7 +15,7 @@ Nếu bạn thường xuyên sử dụng Spotlight (phím tắt ⌘ + Space) cho
 
 Bài viết dưới đây sẽ giới thiệu để các bạn có một cái nhìn tổng quan về ứng dụng Alfred nhé.
 
-<figure class="kg-card kg-image-card kg-card-hascaption"><img src="/assets/images/2020/10/image-1.png" class="kg-image" alt="Ứng dụng Alfred 4 cho Mac" srcset="/assets/images/size/w600/2020/10/image-1.png 600w, /assets/images/size/w1000/2020/10/image-1.png 1000w, /assets/images/2020/10/image-1.png 1011w" sizes="(min-width: 720px) 720px"><figcaption class="text-center">Ứng dụng Alfred 4 cho Mac</figcaption></figure>
+<figure class="kg-card kg-image-card kg-card-hascaption"><img src="/assets/images/2020/10/image-1.png" class="kg-image" alt="Ứng dụng Alfred 4 cho Mac" sizes="(min-width: 720px) 720px"><figcaption class="text-center">Ứng dụng Alfred 4 cho Mac</figcaption></figure>
 
 ## Alfred là gì?
 
@@ -40,7 +40,7 @@ Và còn rất, rất nhiều tính năng hay ho khác mà Alfred có thể hỗ
 
 ## Tính năng Workflow trên Alfred
 
-<figure class="kg-card kg-image-card kg-card-hascaption"><img src="/assets/images/2020/10/image-8.png" class="kg-image" alt="Tính năng Workflow trên Alfred" srcset="/assets/images/size/w600/2020/10/image-8.png 600w, /assets/images/size/w1000/2020/10/image-8.png 1000w, /assets/images/2020/10/image-8.png 1187w" sizes="(min-width: 720px) 720px"><figcaption class="text-center">Tính năng Workflow trên Alfred</figcaption></figure>
+<figure class="kg-card kg-image-card kg-card-hascaption"><img src="/assets/images/2020/10/image-8.png" class="kg-image" alt="Tính năng Workflow trên Alfred"  sizes="(min-width: 720px) 720px"><figcaption class="text-center">Tính năng Workflow trên Alfred</figcaption></figure>
 
 Với Workflow, bạn có thể tạo ra các quy trình để:
 

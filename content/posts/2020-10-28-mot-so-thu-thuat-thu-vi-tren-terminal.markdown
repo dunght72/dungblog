@@ -15,7 +15,7 @@ Với Terminal, bạn có thể thực hiện một số lệnh can thiệp sâu
 
 Terminal có thể mở từ màn hình Launchpad hoặc truy cập nhanh bằng (⌘ + Space, sau đó gõ Terminal)
 
-<figure class="kg-card kg-image-card"><img src="/assets/images/2020/10/image-11.png" class="kg-image" alt srcset="/assets/images/size/w600/2020/10/image-11.png 600w, /assets/images/size/w1000/2020/10/image-11.png 1000w, /assets/images/2020/10/image-11.png 1088w" sizes="(min-width: 720px) 720px"></figure>
+<figure class="kg-card kg-image-card"><img src="/assets/images/2020/10/image-11.png" class="kg-image"  sizes="(min-width: 720px) 720px"></figure>
 
 ### Hiện tập tin và thư mục ẩn
 
@@ -80,7 +80,7 @@ Sử dụng lệnh sau để tạo một biểu ngữ dưới dạng mã ASCII, 
 
 Ví dụ: Tạo biểu ngữ với dòng chữ Pickamac, kết quả:
 
-<figure class="kg-card kg-image-card"><img src="/assets/images/2020/10/image-9.png" class="kg-image" alt srcset="/assets/images/size/w600/2020/10/image-9.png 600w, /assets/images/size/w1000/2020/10/image-9.png 1000w, /assets/images/2020/10/image-9.png 1100w" sizes="(min-width: 720px) 720px"></figure>
+<figure class="kg-card kg-image-card"><img src="/assets/images/2020/10/image-9.png" class="kg-image"  sizes="(min-width: 720px) 720px"></figure>
 
 ### Thay đổi âm thanh khi kết nối Mac với nguồn điện giống iPhone (Power Chime)
 
@@ -100,7 +100,7 @@ Sau đó chạy tiếp lệnh sau và Enter
 
 Ví dụ: Thay đổi thư mục lưu mặc định về foler Screenshot trên Desktop
 
-<figure class="kg-card kg-image-card"><img src="/assets/images/2020/10/image-10.png" class="kg-image" alt srcset="/assets/images/size/w600/2020/10/image-10.png 600w, /assets/images/size/w1000/2020/10/image-10.png 1000w, /assets/images/2020/10/image-10.png 1176w" sizes="(min-width: 720px) 720px"></figure>
+<figure class="kg-card kg-image-card"><img src="/assets/images/2020/10/image-10.png" class="kg-image"  sizes="(min-width: 720px) 720px"></figure>
 
 ### Tắt tính năng tự lưu về iCloud của một số ứng dụng
 

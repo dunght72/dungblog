@@ -15,7 +15,7 @@ title: Homebrew là gì? Cách sử dụng Homebrew trên macOS
 Nếu bạn là người dùng macOS, chắc hẳn bạn đã từng nghe đến Homebrew, brew... Vậy đó là cái gì? Nó có gì hay ho? Và sử dụng Homebrew như thế nào? Bài viết này sẽ chia sẻ đến bạn kiến thức về Homebrew nhé.
 
 ## Homebrew là gì?
-<figure class="kg-card kg-image-card kg-card-hascaption"><img src="/assets/images/2020/09/homebrew-social-card.png" class="kg-image" alt="Homebrew - Trình quản lý gói phần mềm mã nguồn mở cho macOS" srcset="/assets/images/size/w600/2020/09/homebrew-social-card.png 600w, /assets/images/size/w1000/2020/09/homebrew-social-card.png 1000w, /assets/images/2020/09/homebrew-social-card.png 1200w" sizes="(min-width: 720px) 720px"><figcaption class="text-center">Homebrew - Trình quản lý gói phần mềm mã nguồn mở cho macOS</figcaption></figure>
+<figure class="kg-card kg-image-card kg-card-hascaption"><img src="/assets/images/2020/09/homebrew-social-card.png" class="kg-image" alt="Homebrew - Trình quản lý gói phần mềm mã nguồn mở cho macOS" sizes="(min-width: 720px) 720px"><figcaption class="text-center">Homebrew - Trình quản lý gói phần mềm mã nguồn mở cho macOS</figcaption></figure>
 
 Về cơ bản, Homebrew là trình quản lý gói phần mềm mã nguồn mở giúp việc cài đặt phần mềm trên macOS &nbsp;và Linux nói chung dễ dàng hơn.
 
@@ -49,7 +49,7 @@ Giờ đây, Homebrew sẽ nhanh chóng tìm ra Google Chrome cần những gói
 
 Bạn có thể tham khảo Cheatsheet sau để biết thêm về các command của Homebrew:
 
-<figure class="kg-card kg-image-card kg-card-hascaption"><img src="/assets/images/2020/09/cheatsheet-homebrew.png" class="kg-image" alt="Homebrew Cheatsheet (Nguồn: Code2bits)" srcset="/assets/images/size/w600/2020/09/cheatsheet-homebrew.png 600w, /assets/images/2020/09/cheatsheet-homebrew.png 880w" sizes="(min-width: 720px) 720px"><figcaption class="text-center">Homebrew Cheatsheet (Nguồn: Code2bits)</figcaption></figure>
+<figure class="kg-card kg-image-card kg-card-hascaption"><img src="/assets/images/2020/09/cheatsheet-homebrew.png" class="kg-image" alt="Homebrew Cheatsheet (Nguồn: Code2bits)" sizes="(min-width: 720px) 720px"><figcaption class="text-center">Homebrew Cheatsheet (Nguồn: Code2bits)</figcaption></figure>
 
 ## Tóm lại
 
