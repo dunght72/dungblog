@@ -4,8 +4,8 @@ toc: true
 date: 2021-03-18T09:08:55+07:00
 categories: ["macOS"]
 featured: true
-featuredImage: /assets/images/2021/03/preview_on_macos.png
-featuredImagePreview: /assets/images/2021/03/preview_on_macos.png
+featuredImage: /assets/images/2021/03/preview_on_macos.jpg
+featuredImagePreview: /assets/images/2021/03/preview_on_macos.jpg
 tags:
 - macos
 - tricks
