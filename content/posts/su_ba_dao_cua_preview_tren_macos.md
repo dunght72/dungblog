@@ -68,7 +68,7 @@ Cũng giống như PDF, GIF cho phép bạn mở một danh sách các ảnh t�
 
 ![Xuất trang từ PDF](https://c8n8e4j6.rocketcdn.me/wp-content/uploads/2017/03/preview-mac-guide-7.png)
 
-### 9. Xóa hoặc chèn thêm trang trong file PDF**
+### 9. Xóa hoặc chèn thêm trang trong file PDF
 
 Để xóa một trang, bạn chọn hình ảnh thu nhỏ của trang cần xóa, sau đó nhấn **Delete**. Để có xem tất các trang một cách dễ dàng, bạn click vào **View> Contract Sheet**.
 
