@@ -1,6 +1,6 @@
 baseURL = "https://dunghoang.net/"
 defaultContentLanguage = "vi"
-languageCode = "en"
+languageCode = "vi"
 title = "Dũng Hoàng's Blog"
 # Change the default theme to be use when building the site with Hugo
 theme = "uBlogger"
@@ -66,7 +66,7 @@ enableEmoji = true
       gravatarEmail = "katsuvn@gmail.com"
       # URL of avatar shown in home page
       avatarURL = ""
-      title = "Dũng Hoàng"
+      title = "DungHoang.Net"
       # subtitle shown in home page
       subtitle = "Hi, mình là Dũng. Đây là blog cá nhân của mình. Các bạn có thể đọc thêm về mình <a href='/about'>tại đây</a>."
       # whether to use typeit animation for subtitle
@@ -375,18 +375,18 @@ enableEmoji = true
       Whatsapp = false
       Pinterest = true
       Tumblr = false
-      HackerNews = true
+      HackerNews = false
       Reddit = false
       VK = false
       Buffer = false
       Xing = false
-      Line = true
+      Line = false
       Instapaper = false
       Pocket = false
       Digg = false
       Stumbleupon = false
       Flipboard = false
-      Weibo = true
+      Weibo = false
       Renren = false
       Myspace = false
       Blogger = false
