@@ -1,19 +1,18 @@
 +++
 title = "About"
-description = "Blog ca nhan cua Dung Hoang"
 date = "2019-02-28"
-aliases = ["about-us", "contact"]
+aliases = ["about-us","contact"]
 author = "Dũng Hoàng"
-comment = false
+
 +++
 
-<h3>About Me</h3>
+### About Me
 
-<p>Hi, Mình là Dũng Hoàng. Đây là Blog cá nhân của mình - là nơi để mình có thể viết lách, chia sẻ, cũng như để lưu trữ lại những thứ hay ho mà mình học hỏi được. </p>
+Hi, Mình là Dũng Hoàng. Đây là Blog cá nhân của mình - là nơi để mình có thể viết lách, chia sẻ, cũng như để lưu trữ lại những thứ hay ho mà mình học hỏi được. 
 
-<p>Mình có đam mê với CNTT từ khi được biết đến nó, hiện tại công việc của mình cũng có liên quan một chút đến ngành này, vì vậy, blog cũng là nơi để mình có thể chia sẻ những kiến thức về công nghệ mà mình tìm hiểu được.</p>
+Mình có đam mê với CNTT từ khi được biết đến nó, hiện tại công việc của mình cũng có liên quan một chút đến ngành này, vì vậy, blog cũng là nơi để mình có thể chia sẻ những kiến thức về công nghệ mà mình tìm hiểu được.
 
-<p>Nếu bạn có cùng sở thích, hay muốn liên hệ về một vấn đề gì đó, có thể liên hệ mình bằng cách gửi mail đến <a href="mailto:dung@dunghoang.co">dung@dunghoang.co</a>. Rất vui khi được biết và làm quen. Nice day guys!</p>
+Nếu bạn có cùng sở thích, hay muốn liên hệ về một vấn đề gì đó, có thể liên hệ mình bằng cách gửi mail đến <a href="mailto:dung@dunghoang.net">dung@dunghoang.net</a>. Rất vui khi được biết và làm quen. Nice day guys!
 
 <!-- <h3>Contact Me</h3>
 
@@ -35,7 +34,7 @@ comment = false
   </form>
 </div> -->
 
-<style>
+<!-- <style>
   .contact {
    max-width: 45rem;
 }
@@ -120,4 +119,4 @@ comment = false
    border-radius: 3rem;
    background-color: #7b78f8;
 }
-</style>
+</style> -->
