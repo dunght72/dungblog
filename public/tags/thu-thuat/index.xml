@@ -1,52 +1,62 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>thu-thuat - Nhãn - Dũng Hoàng&#39;s Blog</title>
-        <link>https://dunghoang.net/tags/thu-thuat/</link>
-        <description>thu-thuat - Nhãn - Dũng Hoàng&#39;s Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 28 Oct 2020 06:05:05 &#43;0000</lastBuildDate><atom:link href="https://dunghoang.net/tags/thu-thuat/" rel="self" type="application/rss+xml" /><item>
-    <title>Một số lệnh tuỳ biến, vui vẻ trên Terminal của macOS</title>
-    <link>https://dunghoang.net/2020-10-28-mot-so-thu-thuat-thu-vi-tren-terminal/</link>
-    <pubDate>Wed, 28 Oct 2020 06:05:05 &#43;0000</pubDate>
-    <author>dunghoang</author>
-    <guid>https://dunghoang.net/2020-10-28-mot-so-thu-thuat-thu-vi-tren-terminal/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/assets/images/2020/10/image-11.png" referrerpolicy="no-referrer">
-            </div>Với Terminal, bạn có thể thực hiện một số lệnh can thiệp sâu vào hệ thống để tuỳ biến theo ý thích.]]></description>
-</item><item>
-    <title>Fix lỗi High CPU Usage gây ra bởi tiến trình accountsd trên macOS Catalina</title>
-    <link>https://dunghoang.net/2020-10-03-fix-loi-high-cpu-usage-tren-macos-catalina/</link>
-    <pubDate>Sat, 03 Oct 2020 08:41:11 &#43;0000</pubDate>
-    <author>dunghoang</author>
-    <guid>https://dunghoang.net/2020-10-03-fix-loi-high-cpu-usage-tren-macos-catalina/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/assets/images/2020/10/ezgif-7-380d370680bd.jpg" referrerpolicy="no-referrer">
-            </div>Lỗi &ldquo;accountsd&rdquo; là gì? Sau khi Apple ra mắt bản cập nhập macOS Catalina 10.]]></description>
-</item><item>
-    <title>Homebrew là gì? Cách sử dụng Homebrew trên macOS</title>
-    <link>https://dunghoang.net/2020-09-28-homebrew-la-gi-cach-su-dung-homebrew-tren-macos/</link>
-    <pubDate>Mon, 28 Sep 2020 08:22:02 &#43;0000</pubDate>
-    <author>dunghoang</author>
-    <guid>https://dunghoang.net/2020-09-28-homebrew-la-gi-cach-su-dung-homebrew-tren-macos/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/assets/images/2020/09/homebrew-social-card.png" referrerpolicy="no-referrer">
-            </div>Nếu bạn là người dùng macOS, chắc hẳn bạn đã từng nghe đến Homebrew, brew&hellip; Vậy đó là cái gì?]]></description>
-</item><item>
-    <title>Hướng dẫn bật/tắt chế độ Dark Mode macOS bằng phím tắt</title>
-    <link>https://dunghoang.net/2020-09-11-huong-dan-bat-tat-che-do-dark-mode-macos-bang-phim-tat/</link>
-    <pubDate>Fri, 11 Sep 2020 07:59:05 &#43;0000</pubDate>
-    <author>dunghoang</author>
-    <guid>https://dunghoang.net/2020-09-11-huong-dan-bat-tat-che-do-dark-mode-macos-bang-phim-tat/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/assets/images/2020/09/image-2.png" referrerpolicy="no-referrer">
-            </div>Bắt đầu từ macOS Mojave, Apple đã trình làng chế độ Dark Mode (Chế độ tối) trên hệ điều hành của mình và giờ đây nó trở thành 1 phần không thể thiếu, đặc biệt đối với những người dùng hay sử dụng máy tính vào ban đêm.]]></description>
-</item><item>
-    <title>Những phím tắt thông dụng khi dùng macOS</title>
-    <link>https://dunghoang.net/2020-09-11-nhung-phim-tat-thong-dung-khi-dung-macos/</link>
-    <pubDate>Fri, 11 Sep 2020 06:32:16 &#43;0000</pubDate>
-    <author>dunghoang</author>
-    <guid>https://dunghoang.net/2020-09-11-nhung-phim-tat-thong-dung-khi-dung-macos/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/assets/images/2020/09/macbook-keyboard-diagram-map_1024x1024.png" referrerpolicy="no-referrer">
-            </div>Khi sử dụng một hệ điều hành thì việc thao tác nhanh bằng các phím tắt là điều không thể thiếu.]]></description>
-</item></channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>thu-thuat on DungHoang.Net</title>
+    <link>https://dunghoang.net/tags/thu-thuat/</link>
+    <description>Recent content in thu-thuat on DungHoang.Net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 28 Oct 2020 06:05:05 +0000</lastBuildDate><atom:link href="https://dunghoang.net/tags/thu-thuat/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Một số lệnh tuỳ biến, vui vẻ trên Terminal của macOS</title>
+      <link>https://dunghoang.net/2020/10/2020-10-28-mot-so-thu-thuat-thu-vi-tren-terminal/</link>
+      <pubDate>Wed, 28 Oct 2020 06:05:05 +0000</pubDate>
+      
+      <guid>https://dunghoang.net/2020/10/2020-10-28-mot-so-thu-thuat-thu-vi-tren-terminal/</guid>
+      <description>Với Terminal, bạn có thể thực hiện một số lệnh can thiệp sâu vào hệ thống để tuỳ biến theo ý thích. Dưới đây là một số thủ thuật trên Terminal mà bạn có thể áp dụng.
+Terminal có thể mở từ màn hình Launchpad hoặc truy cập nhanh bằng (⌘ + Space, sau đó gõ Terminal)
+Hiện tập tin và thư mục ẩn Để hiện tập tin, thư mục ẩn trên Mac, bạn có thể thực hiện copy, paste dòng lệnh sau vào Terminal để thực thi.</description>
+    </item>
+    
+    <item>
+      <title>Fix lỗi High CPU Usage gây ra bởi tiến trình accountsd trên macOS Catalina</title>
+      <link>https://dunghoang.net/2020/10/2020-10-03-fix-loi-high-cpu-usage-tren-macos-catalina/</link>
+      <pubDate>Sat, 03 Oct 2020 08:41:11 +0000</pubDate>
+      
+      <guid>https://dunghoang.net/2020/10/2020-10-03-fix-loi-high-cpu-usage-tren-macos-catalina/</guid>
+      <description>Lỗi &amp;ldquo;accountsd&amp;rdquo; là gì? Sau khi Apple ra mắt bản cập nhập macOS Catalina 10.15.7, một số người dùng phản ánh Mac của họ bỗng nhiên trở nên chậm chạp hơn so với bình thường, mà nguyên nhân chính được phát hiện là do một process có tên &amp;ldquo;accountsd&amp;rdquo; gây ra lỗi chiếm dụng CPU.
+Một người dùng trong Cộng đồng hỗ trợ của Apple đã chia sẻ ảnh chụp màn hình &amp;ldquo;accountsd&amp;rdquo; với mức sử dụng CPU trên 400%, khiến MacBook Pro 2018 của họ trở nên vô cùng chậm chạp.</description>
+    </item>
+    
+    <item>
+      <title>Homebrew là gì? Cách sử dụng Homebrew trên macOS</title>
+      <link>https://dunghoang.net/2020/09/2020-09-28-homebrew-la-gi-cach-su-dung-homebrew-tren-macos/</link>
+      <pubDate>Mon, 28 Sep 2020 08:22:02 +0000</pubDate>
+      
+      <guid>https://dunghoang.net/2020/09/2020-09-28-homebrew-la-gi-cach-su-dung-homebrew-tren-macos/</guid>
+      <description>Nếu bạn là người dùng macOS, chắc hẳn bạn đã từng nghe đến Homebrew, brew&amp;hellip; Vậy đó là cái gì? Nó có gì hay ho? Và sử dụng Homebrew như thế nào? Bài viết này sẽ chia sẻ đến bạn kiến thức về Homebrew nhé.
+Homebrew là gì? Về cơ bản, Homebrew là trình quản lý gói phần mềm mã nguồn mở giúp việc cài đặt phần mềm trên macOS và Linux nói chung dễ dàng hơn.</description>
+    </item>
+    
+    <item>
+      <title>Hướng dẫn bật/tắt chế độ Dark Mode macOS bằng phím tắt</title>
+      <link>https://dunghoang.net/2020/09/2020-09-11-huong-dan-bat-tat-che-do-dark-mode-macos-bang-phim-tat/</link>
+      <pubDate>Fri, 11 Sep 2020 07:59:05 +0000</pubDate>
+      
+      <guid>https://dunghoang.net/2020/09/2020-09-11-huong-dan-bat-tat-che-do-dark-mode-macos-bang-phim-tat/</guid>
+      <description>Bắt đầu từ macOS Mojave, Apple đã trình làng chế độ Dark Mode (Chế độ tối) trên hệ điều hành của mình và giờ đây nó trở thành 1 phần không thể thiếu, đặc biệt đối với những người dùng hay sử dụng máy tính vào ban đêm.
+Thông thường, để bật/tắt chế độ Dark Mode, người dùng cần vào System Preferences / General và chọn Dark
+Tuy nhiên, có một cách nhanh hơn bằng cách sử dụng Automator để tạo phím tắt, giờ đây, chúng ta có thể bật/tắt chế độ Dark Mode mà không cần phải vào System Preferences.</description>
+    </item>
+    
+    <item>
+      <title>Những phím tắt thông dụng khi dùng macOS</title>
+      <link>https://dunghoang.net/2020/09/2020-09-11-nhung-phim-tat-thong-dung-khi-dung-macos/</link>
+      <pubDate>Fri, 11 Sep 2020 06:32:16 +0000</pubDate>
+      
+      <guid>https://dunghoang.net/2020/09/2020-09-11-nhung-phim-tat-thong-dung-khi-dung-macos/</guid>
+      <description>Khi sử dụng một hệ điều hành thì việc thao tác nhanh bằng các phím tắt là điều không thể thiếu. Dưới đây là những phím tắt macOS thường hay sử dụng nhất, mình dịch ra tiếng Việt cho những ai không rành, tuy nhiên sau khi dịch ra thì lại thấy nó còn khó hiểu hơn, nên phía dưới sẽ đính kèm 1 Cheatsheet bằng tiếng Anh luôn để các bạn tiện theo dõi.</description>
+    </item>
+    
+  </channel>
 </rss>

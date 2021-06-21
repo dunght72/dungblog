@@ -1,16 +1,24 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Funny - Danh mục - Dũng Hoàng&#39;s Blog</title>
-        <link>https://dunghoang.net/categories/funny/</link>
-        <description>Funny - Danh mục - Dũng Hoàng&#39;s Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 03 Aug 2020 12:10:00 &#43;0000</lastBuildDate><atom:link href="https://dunghoang.net/categories/funny/" rel="self" type="application/rss+xml" /><item>
-    <title>[Quora] Nhân vật phản diện nào thật ra đã làm đúng</title>
-    <link>https://dunghoang.net/2020-08-03-nhan-vat-phan-dien-nao-that-ra-da-lam-dung/</link>
-    <pubDate>Mon, 03 Aug 2020 12:10:00 &#43;0000</pubDate>
-    <author>dunghoang</author>
-    <guid>https://dunghoang.net/2020-08-03-nhan-vat-phan-dien-nao-that-ra-da-lam-dung/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/assets/images/shere_khan.jpg" referrerpolicy="no-referrer">
-            </div>Trong bộ phim nào kẻ phản diện thật ra lại đúng?]]></description>
-</item></channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Funny on DungHoang.Net</title>
+    <link>https://dunghoang.net/categories/funny/</link>
+    <description>Recent content in Funny on DungHoang.Net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 03 Aug 2020 12:10:00 +0000</lastBuildDate><atom:link href="https://dunghoang.net/categories/funny/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[Quora] Nhân vật phản diện nào thật ra đã làm đúng</title>
+      <link>https://dunghoang.net/2020/08/2020-08-03-nhan-vat-phan-dien-nao-that-ra-da-lam-dung/</link>
+      <pubDate>Mon, 03 Aug 2020 12:10:00 +0000</pubDate>
+      
+      <guid>https://dunghoang.net/2020/08/2020-08-03-nhan-vat-phan-dien-nao-that-ra-da-lam-dung/</guid>
+      <description>Trong bộ phim nào kẻ phản diện thật ra lại đúng? Trả lời bởi Roberto Etcheverry
+Nguồn: https://qr.ae/pNsD3O
+ Anh chàng bên dưới chứ ai.
+Shere Khan trong bản live-action của The Jungle Book.
+Khi anh ta lần đầu tiên nhìn thấy Mowgli, anh đã dự định g.i.ế.t cậu, anh ta nhắc nhở mọi người rằng trong Luật của rừng xanh (Luật Rừng), con người bị cấm bước chân vào rừng, và bầy sói là những kẻ đã phá vỡ luật lệ bằng việc đem Mowgli vào rừng.</description>
+    </item>
+    
+  </channel>
 </rss>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on DungHoang.Net</title>
+    <link>https://dunghoang.net/categories/</link>
+    <description>Recent content in Categories on DungHoang.Net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 22 Mar 2021 13:12:03 +0700</lastBuildDate><atom:link href="https://dunghoang.net/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>macOS</title>
+      <link>https://dunghoang.net/categories/macos/</link>
+      <pubDate>Mon, 22 Mar 2021 13:12:03 +0700</pubDate>
+      
+      <guid>https://dunghoang.net/categories/macos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Trick</title>
+      <link>https://dunghoang.net/categories/trick/</link>
+      <pubDate>Thu, 31 Dec 2020 01:05:05 +0000</pubDate>
+      
+      <guid>https://dunghoang.net/categories/trick/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Funny</title>
+      <link>https://dunghoang.net/categories/funny/</link>
+      <pubDate>Mon, 03 Aug 2020 12:10:00 +0000</pubDate>
+      
+      <guid>https://dunghoang.net/categories/funny/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web Development</title>
+      <link>https://dunghoang.net/categories/web-development/</link>
+      <pubDate>Thu, 23 Jul 2020 15:40:00 +0000</pubDate>
+      
+      <guid>https://dunghoang.net/categories/web-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Smart Home</title>
+      <link>https://dunghoang.net/categories/smart-home/</link>
+      <pubDate>Fri, 10 Jul 2020 14:46:00 +0000</pubDate>
+      
+      <guid>https://dunghoang.net/categories/smart-home/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

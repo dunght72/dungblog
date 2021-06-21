@@ -1,16 +1,21 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>safari - Nhãn - Dũng Hoàng&#39;s Blog</title>
-        <link>https://dunghoang.net/tags/safari/</link>
-        <description>safari - Nhãn - Dũng Hoàng&#39;s Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 22 Sep 2020 02:27:49 &#43;0000</lastBuildDate><atom:link href="https://dunghoang.net/tags/safari/" rel="self" type="application/rss+xml" /><item>
-    <title>Chi tiết những thay đổi trong Safari 14</title>
-    <link>https://dunghoang.net/2020-09-22-apple-phat-hanh-safari-14-cho-macos-catalina-va-mojave/</link>
-    <pubDate>Tue, 22 Sep 2020 02:27:49 &#43;0000</pubDate>
-    <author>dunghoang</author>
-    <guid>https://dunghoang.net/2020-09-22-apple-phat-hanh-safari-14-cho-macos-catalina-va-mojave/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/assets/images/2020/09/image-17.png" referrerpolicy="no-referrer">
-            </div>macOS Big Sur chưa kịp ra mắt trong sự kiện WWWDC 20 của Apple, thế nhưng Safari 14 đã chính thức được phát hành dành cho macOS Catalina và Mojave.]]></description>
-</item></channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>safari on DungHoang.Net</title>
+    <link>https://dunghoang.net/tags/safari/</link>
+    <description>Recent content in safari on DungHoang.Net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 22 Sep 2020 02:27:49 +0000</lastBuildDate><atom:link href="https://dunghoang.net/tags/safari/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chi tiết những thay đổi trong Safari 14</title>
+      <link>https://dunghoang.net/2020/09/2020-09-22-apple-phat-hanh-safari-14-cho-macos-catalina-va-mojave/</link>
+      <pubDate>Tue, 22 Sep 2020 02:27:49 +0000</pubDate>
+      
+      <guid>https://dunghoang.net/2020/09/2020-09-22-apple-phat-hanh-safari-14-cho-macos-catalina-va-mojave/</guid>
+      <description>macOS Big Sur chưa kịp ra mắt trong sự kiện WWWDC 20 của Apple, thế nhưng Safari 14 đã chính thức được phát hành dành cho macOS Catalina và Mojave. Vậy Safari 14 có những điểm gì mới và cải tiến, hãy cùng tìm hiểu nhé.
+Những tính năng mới Giao diện  Trang mở đầu (Start Page): Được thiết kế lại để hiển thị nhiều thông tin và chuyên nghiệp hơn, không những thế, bạn còn có thể tuỳ chọn hình nền cho trang Start Page của mình.</description>
+    </item>
+    
+  </channel>
 </rss>

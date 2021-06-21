@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>preview on DungHoang.Net</title>
+    <link>https://dunghoang.net/tags/preview/</link>
+    <description>Recent content in preview on DungHoang.Net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 18 Mar 2021 09:08:55 +0700</lastBuildDate><atom:link href="https://dunghoang.net/tags/preview/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sự bá đạo của Preview trên macOS</title>
+      <link>https://dunghoang.net/2021/03/su_ba_dao_cua_preview_tren_macos/</link>
+      <pubDate>Thu, 18 Mar 2021 09:08:55 +0700</pubDate>
+      
+      <guid>https://dunghoang.net/2021/03/su_ba_dao_cua_preview_tren_macos/</guid>
+      <description>Trên macOS có một công cụ mặc định rất bá đạo, đó chính là Preview. Preview có rất nhiều chức năng khác nhau, giúp bạn không cần cài quá nhiều ứng dụng cho những thao tác cơ bản.
+Dưới đây là những ứng dụng thực tiễn mà Preview có thể làm được. Bài viết tham khảo từ CongNgheViet.
+1. Mở tài liệu, PDF, hình ảnh, Photoshop, ảnh RAW, và nhiều hơn thế.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,99 +1,40 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Dũng Hoàng&#39;s Blog</title>
-        <link>https://dunghoang.net/</link>
-        <description>Dũng Hoàng&#39;s Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 31 Dec 2020 01:05:05 &#43;0000</lastBuildDate>
-            <atom:link href="https://dunghoang.net/index.xml" rel="self" type="application/rss+xml" />
-        <item>
-    <title>Đăng ký tài khoản Pluralsight miễn phí 1 năm</title>
-    <link>https://dunghoang.net/2020-12-31-dang-ky-pluralsight-mot-nam-mien-phi/</link>
-    <pubDate>Thu, 31 Dec 2020 01:05:05 &#43;0000</pubDate>
-    <author>dunghoang</author>
-    <guid>https://dunghoang.net/2020-12-31-dang-ky-pluralsight-mot-nam-mien-phi/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/assets/images/2020/12/pluralsight-one.png" referrerpolicy="no-referrer">
-            </div>Pluralsight One là gì? Pluralsight One là nền tảng cung cấp các khoá học trực tuyến tương tự như Udemy.]]></description>
-</item><item>
-    <title>Hướng dẫn đăng ký VPS sử dụng 1 năm chỉ với 10 AUD.</title>
-    <link>https://dunghoang.net/2020-12-29-dang-ky-vps-1-nam-chi-voi-10-aud/</link>
-    <pubDate>Tue, 29 Dec 2020 14:05:05 &#43;0000</pubDate>
-    <author>dunghoang</author>
-    <guid>https://dunghoang.net/2020-12-29-dang-ky-vps-1-nam-chi-voi-10-aud/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/assets/images/2020/12/vps-quantum-core.png" referrerpolicy="no-referrer">
-            </div>QuantumCore là nhà cung cấp hosting, server đến từ Australia, server ở đây sử dụng ổ cứng NVME cho tốc độ rất nhanh.]]></description>
-</item><item>
-    <title>Hướng dẫn thay đổi Terminal mặc định sang Hyper trong Alfred</title>
-    <link>https://dunghoang.net/2020-12-29-doi-terminal-mac-dinh-trong-alfred-4/</link>
-    <pubDate>Mon, 28 Dec 2020 07:05:05 &#43;0000</pubDate>
-    <author>dunghoang</author>
-    <guid>https://dunghoang.net/2020-12-29-doi-terminal-mac-dinh-trong-alfred-4/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/assets/images/2020/12/alfred_terminal_2.png" referrerpolicy="no-referrer">
-            </div>Alfred là ứng dụng cực hay ho thay thế Spotlight trên macOS với rất nhiều tính năng hữu ích, trong đó có tính năng chạy các command trực tiếp.]]></description>
-</item><item>
-    <title>Hướng dẫn fix lỗi USB không thể sử dụng sau khi tạo bộ cài macOS</title>
-    <link>https://dunghoang.net/2020-12-05-fix-loi-usb-khong-the-su-dung-sau-khi-tao-bo-cai-mac/</link>
-    <pubDate>Sat, 05 Dec 2020 06:05:05 &#43;0000</pubDate>
-    <author>dunghoang</author>
-    <guid>https://dunghoang.net/2020-12-05-fix-loi-usb-khong-the-su-dung-sau-khi-tao-bo-cai-mac/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/assets/images/2020/12/format-usb-dunghoang.png" referrerpolicy="no-referrer">
-            </div>Thông thường sau khi sử dụng USB để tạo bộ cài macOS thì sau đó USB không thể hoạt động ổn định được, không thể copy file trên các máy Windows và bị chia thành 2 phân vùng, trong đó có 1 phân vùng 200MB là sử dụng được gây ra sự khó chịu cho người dùng nếu không biết cách xử lý.]]></description>
-</item><item>
-    <title>Black Friday, mua phần mềm cho Mac với giá không tưởng</title>
-    <link>https://dunghoang.net/2020-11-29-black-friday-mua-phan-mem-mac-ban-quyen-gia-khong-tuong/</link>
-    <pubDate>Sun, 29 Nov 2020 13:05:05 &#43;0000</pubDate>
-    <author>dunghoang</author>
-    <guid>https://dunghoang.net/2020-11-29-black-friday-mua-phan-mem-mac-ban-quyen-gia-khong-tuong/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/assets/images/2020/11/bundle_hunt.png" referrerpolicy="no-referrer">
-            </div>Mùa Black Friday năm nay, bạn có cơ hội mua được những ứng dụng macOS với giá không tưởng, giảm đến 90%, quá rẻ cho những tính năng mà nó mang lại.]]></description>
-</item><item>
-    <title>Một số lệnh tuỳ biến, vui vẻ trên Terminal của macOS</title>
-    <link>https://dunghoang.net/2020-10-28-mot-so-thu-thuat-thu-vi-tren-terminal/</link>
-    <pubDate>Wed, 28 Oct 2020 06:05:05 &#43;0000</pubDate>
-    <author>dunghoang</author>
-    <guid>https://dunghoang.net/2020-10-28-mot-so-thu-thuat-thu-vi-tren-terminal/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/assets/images/2020/10/image-11.png" referrerpolicy="no-referrer">
-            </div>Với Terminal, bạn có thể thực hiện một số lệnh can thiệp sâu vào hệ thống để tuỳ biến theo ý thích.]]></description>
-</item><item>
-    <title>Alfred - Sự thay thế hoàn hảo cho Spotlight của macOS</title>
-    <link>https://dunghoang.net/2020-10-13-alfred-su-thay-the-hoan-hao-cho-spotlight-cua-macos/</link>
-    <pubDate>Tue, 13 Oct 2020 06:06:15 &#43;0000</pubDate>
-    <author>dunghoang</author>
-    <guid>https://dunghoang.net/2020-10-13-alfred-su-thay-the-hoan-hao-cho-spotlight-cua-macos/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/assets/images/2020/10/image-1.png" referrerpolicy="no-referrer">
-            </div>Nếu bạn thường xuyên sử dụng Spotlight (phím tắt ⌘ + Space) cho những tác vụ của macOS như: Tìm kiếm file, dịch thuật, thực hiện phép tính,&hellip; thì bạn có thể thấy được sự tiện dụng của Spotlight là lớn đến như thế nào.]]></description>
-</item><item>
-    <title>Fix lỗi High CPU Usage gây ra bởi tiến trình accountsd trên macOS Catalina</title>
-    <link>https://dunghoang.net/2020-10-03-fix-loi-high-cpu-usage-tren-macos-catalina/</link>
-    <pubDate>Sat, 03 Oct 2020 08:41:11 &#43;0000</pubDate>
-    <author>dunghoang</author>
-    <guid>https://dunghoang.net/2020-10-03-fix-loi-high-cpu-usage-tren-macos-catalina/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/assets/images/2020/10/ezgif-7-380d370680bd.jpg" referrerpolicy="no-referrer">
-            </div>Lỗi &ldquo;accountsd&rdquo; là gì? Sau khi Apple ra mắt bản cập nhập macOS Catalina 10.]]></description>
-</item><item>
-    <title>Homebrew là gì? Cách sử dụng Homebrew trên macOS</title>
-    <link>https://dunghoang.net/2020-09-28-homebrew-la-gi-cach-su-dung-homebrew-tren-macos/</link>
-    <pubDate>Mon, 28 Sep 2020 08:22:02 &#43;0000</pubDate>
-    <author>dunghoang</author>
-    <guid>https://dunghoang.net/2020-09-28-homebrew-la-gi-cach-su-dung-homebrew-tren-macos/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/assets/images/2020/09/homebrew-social-card.png" referrerpolicy="no-referrer">
-            </div>Nếu bạn là người dùng macOS, chắc hẳn bạn đã từng nghe đến Homebrew, brew&hellip; Vậy đó là cái gì?]]></description>
-</item><item>
-    <title>Một số ứng dụng miễn phí hay dành cho macOS</title>
-    <link>https://dunghoang.net/2020-09-28-mot-so-ung-dung-mien-phi-hay-danh-cho-macos/</link>
-    <pubDate>Mon, 28 Sep 2020 04:51:35 &#43;0000</pubDate>
-    <author>dunghoang</author>
-    <guid>https://dunghoang.net/2020-09-28-mot-so-ung-dung-mien-phi-hay-danh-cho-macos/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/assets/images/2020/09/Onyx-screen.png" referrerpolicy="no-referrer">
-            </div>Mặc dù ứng dụng dành cho macOS là tương đối nhiều và đa dạng, thế như hầu hết chúng đều là ứng dụng trả phí, hoặc nếu là ứng dụng miễn phí thì lại bị khoá một số chức năng hoặc đi kèm quảng cáo.]]></description>
-</item></channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DungHoang.Net on DungHoang.Net</title>
+    <link>https://dunghoang.net/</link>
+    <description>Recent content in DungHoang.Net on DungHoang.Net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 22 Mar 2021 13:12:03 +0700</lastBuildDate>
+    <atom:link href="https://dunghoang.net/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Posts</title>
+      <link>https://dunghoang.net/posts/</link>
+      <pubDate>Mon, 22 Mar 2021 13:12:03 +0700</pubDate>
+      
+      <guid>https://dunghoang.net/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://dunghoang.net/about/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dunghoang.net/about/</guid>
+      <description>&lt;h3 id=&#34;about-me&#34;&gt;About Me&lt;/h3&gt;
+&lt;p&gt;Hi, Mình là Dũng Hoàng. Đây là Blog cá nhân của mình - là nơi để mình có thể viết lách, chia sẻ, cũng như để lưu trữ lại những thứ hay ho mà mình học hỏi được.&lt;/p&gt;
+&lt;p&gt;Mình có đam mê với CNTT từ khi được biết đến nó, hiện tại công việc của mình cũng có liên quan một chút đến ngành này, vì vậy, blog cũng là nơi để mình có thể chia sẻ những kiến thức về công nghệ mà mình tìm hiểu được.&lt;/p&gt;
+&lt;p&gt;Nếu bạn có cùng sở thích, hay muốn liên hệ về một vấn đề gì đó, có thể liên hệ mình bằng cách gửi mail đến &lt;!-- raw HTML omitted --&gt;&lt;a href=&#34;mailto:dung@dunghoang.net&#34;&gt;dung@dunghoang.net&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;. Rất vui khi được biết và làm quen. Nice day guys!&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;blockquote&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+  </channel>
 </rss>

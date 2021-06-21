@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noodp"/>
+  
+  
+  
+  
+  
+  <link rel="prev" href="https://dunghoang.net/2020/07/2020-07-16-huong-dan-tao-tai-khoan-google-drive-unlimited-mien-phi/" />
+  <link rel="next" href="https://dunghoang.net/2020/07/2020-07-23-tao-moi-va-chinh-sua-file-word-trong-net-core/" />
+  <link rel="canonical" href="https://dunghoang.net/2020/07/2020-07-23-mot-so-regex-thuong-su-dung/" />
+  <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>
+       
+       
+           Một số Regex thường sử dụng | DungHoang.Net
+       
+  </title>
+  <meta name="title" content="Một số Regex thường sử dụng | DungHoang.Net">
+    
+  
+  <link rel="stylesheet" href="/font/iconfont.css">
+  <link rel="stylesheet" href="/css/main.min.css">
+
+
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Một số Regex thường sử dụng"/>
+<meta name="twitter:description" content="Một số đoạn Regex thường hay được sử dụng, copy ở đây để tái sử dụng khi cần. Kiểm tra số // Số nguyên /^\d&#43;$/ // Số thập phân /^\d*\.\d&#43;$/ // Số nguyên và số thập phân /^\d*(\.\d&#43;)?$/ // Số âm, số nguyên dương và số thập phân /^-?\d*(\.\d&#43;)?$/ // Số nguyên, số thập phân và phân số /[-]?[0-9]&#43;[,.]?[0-9]*([\/][0-9]&#43;[,.]?[0-9]*)*/ Kiểm tra ký tự // Chữ cái và số không bao gồm khoảng trắng /^[a-zA-Z0-9]*$/ // Chữ cái và số có bao gồm khoảng trắng /^[a-zA-Z0-9 ]*$/ Kiểm tra địa chỉ Email /^([a-zA-Z0-9."/>
+
+  <script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Một số Regex thường sử dụng",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https:\/\/dunghoang.net\/2020\/07\/2020-07-23-mot-so-regex-thuong-su-dung\/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https:\/\/dunghoang.net\/cover.png",
+    "width":  800 ,
+    "height":  600 
+  },
+  "genre": "posts",
+  
+  "wordcount":  305 ,
+  "url": "https:\/\/dunghoang.net\/2020\/07\/2020-07-23-mot-so-regex-thuong-su-dung\/",
+  "datePublished": "2020-07-23T14:00:00\u002b00:00",
+  "dateModified": "2020-07-23T14:00:00\u002b00:00",
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Fastbyte01",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https:\/\/dunghoang.net\/logo.png",
+      "width":  127 ,
+      "height":  40 
+    }
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Fastbyte01"
+  },
+  "description": ""
+}
+</script>
+</head>
+
+  
+
+
+
+  <body class="">
+    <div class="wrapper">
+        <nav class="navbar">
+    <div class="container">
+        <div class="navbar-header header-logo">
+        	<a href="https://dunghoang.net">DungHoang.Net</a>
+        </div>
+        <div class="menu navbar-right">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/about" title="">About</a>
+                
+                <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-sun"></i></a>&nbsp;
+        </div>
+    </div>
+</nav>
+<nav class="navbar-mobile" id="nav-mobile" style="display: none">
+     <div class="container">
+        <div class="navbar-header">
+            <div>  <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-sun"></i></a>&nbsp;<a href="https://dunghoang.net">DungHoang.Net</a></div>
+            <div class="menu-toggle">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+     
+          <div class="menu" id="mobile-menu">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/about" title="">About</a>
+                
+        </div>
+    </div>
+</nav>
+
+    	 <main class="main">
+          <div class="container">
+      		
+<article class="post-warp">
+    <header class="post-header">
+        <h1 class="post-title">Một số Regex thường sử dụng</h1>
+        <div class="post-meta">
+            Written by <a href="https://dunghoang.net" rel="author">Dũng Hoàng</a> with ♥ 
+                <span class="post-time">
+                    on <time datetime=2020-07-23 >23 July 2020</time>
+                </span>
+                in
+                <i class="iconfont icon-folder"></i>
+                <span class="post-category">
+                        <a href="https://dunghoang.net/categories/web-development/"> Web Development </a>
+                        
+                </span>
+                <i class="iconfont icon-timer"></i>
+                2 min
+        </div>
+    </header>
+    <div class="post-content">
+        
+
+        
+            
+        
+
+        
+        
+     
+          
+          
+          
+
+          
+          
+          
+
+          <p>Một số đoạn Regex thường hay được sử dụng, copy ở đây để tái sử dụng khi cần.
+<figure><img src="/images/ring.svg" data-sizes="auto" data-src="https://cdn-images-1.medium.com/max/1000/0*qASU92GfMj2HCTMg.jpg" alt="Một số Regex hay dùng" class="lazyload"><figcaption class="image-caption">Một số Regex hay dùng</figcaption></figure></p>
+<h3 id="kiểm-tra-số">Kiểm tra số</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">// Số nguyên
+</span><span style="color:#75715e"></span><span style="color:#e6db74">/^\d+$/</span>
+
+<span style="color:#75715e">// Số thập phân
+</span><span style="color:#75715e"></span><span style="color:#e6db74">/^\d*\.\d+$/</span>
+
+<span style="color:#75715e">// Số nguyên và số thập phân
+</span><span style="color:#75715e"></span><span style="color:#e6db74">/^\d*(\.\d+)?$/</span>
+
+<span style="color:#75715e">// Số âm, số nguyên dương và số thập phân
+</span><span style="color:#75715e"></span><span style="color:#e6db74">/^-?\d*(\.\d+)?$/</span>
+
+<span style="color:#75715e">// Số nguyên, số thập phân và phân số
+</span><span style="color:#75715e"></span><span style="color:#e6db74">/[-]?[0-9]+[,.]?[0-9]*([\/][0-9]+[,.]?[0-9]*)*/</span>
+</code></pre></div><h3 id="kiểm-tra-ký-tự">Kiểm tra ký tự</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">// Chữ cái và số không bao gồm khoảng trắng
+</span><span style="color:#75715e"></span><span style="color:#e6db74">/^[a-zA-Z0-9]*$/</span>
+
+<span style="color:#75715e">// Chữ cái và số có bao gồm khoảng trắng
+</span><span style="color:#75715e"></span><span style="color:#e6db74">/^[a-zA-Z0-9 ]*$/</span>
+</code></pre></div><h3 id="kiểm-tra-địa-chỉ-email">Kiểm tra địa chỉ Email</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#e6db74">/^([a-zA-Z0-9._%-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6})*$/</span>
+</code></pre></div><h3 id="kiểm-tra-độ-mạnh-của-mật-khẩu">Kiểm tra độ mạnh của mật khẩu</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">// Bao gồm cả chữ hoa, chữ thường, số, ký tự đặc biệt và ít nhất 8 kỹ tự
+</span><span style="color:#75715e"></span><span style="color:#e6db74">/(?=(.*[0-9]))(?=.*[\!@#$%^&amp;*()\\[\]{}\-_+=~`|:;&#34;&#39;&lt;&gt;,./?])(?=.*[a-z])(?=(.*[A-Z]))(?=(.*)).{8,}/</span> 
+</code></pre></div><h4 id="kiểm-tra-username">Kiểm tra Username</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">// Gồm chuỗi và số từ 3 đến 16 ký tự
+</span><span style="color:#75715e"></span><span style="color:#e6db74">/^[a-z0-9_-]{3,16}$/</span>
+</code></pre></div><h3 id="kiểm-tra-url">Kiểm tra Url</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">// Bao gồm Http(s) Protocol
+</span><span style="color:#75715e"></span><span style="color:#e6db74">/https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#()?&amp;//=]*)/</span>
+
+<span style="color:#75715e">// có hoặc không có Http(s) Protocol đều được
+</span><span style="color:#75715e"></span><span style="color:#e6db74">/(https?:\/\/)?(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&amp;//=]*)/</span>
+</code></pre></div><h3 id="kiểm-tra-ngày">Kiểm tra ngày</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">/* Format YYYY-MM-dd */</span>
+<span style="color:#e6db74">/([12]\d{3}-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01]))/</span>
+
+<span style="color:#75715e">/* Format dd-MM-YYYY hoặc
+</span><span style="color:#75715e">               dd.MM.YYYY hoặc
+</span><span style="color:#75715e">               dd/MM/YYYY
+</span><span style="color:#75715e">   và kiểm tra năm nhuận */</span>
+<span style="color:#e6db74">/^(?:(?:31(\/|-|\.)(?:0?[13578]|1[02]))\1|(?:(?:29|30)(\/|-|\.)(?:0?[1,3-9]|1[0-2])\2))(?:(?:1[6-9]|[2-9]\d)?\d{2})$|^(?:29(\/|-|\.)0?2\3(?:(?:(?:1[6-9]|[2-9]\d)?(?:0[48]|[2468][048]|[13579][26])|(?:(?:16|[2468][048]|[3579][26])00))))$|^(?:0?[1-9]|1\d|2[0-8])(\/|-|\.)(?:(?:0?[1-9])|(?:1[0-2]))\4(?:(?:1[6-9]|[2-9]\d)?\d{2})$/</span>
+
+<span style="color:#75715e">/* Format dd-mmm-YYYY hoặc
+</span><span style="color:#75715e">               dd/mmm/YYYY hoặc
+</span><span style="color:#75715e">               dd.mmm.YYYY */</span>
+<span style="color:#e6db74">/^(?:(?:31(\/|-|\.)(?:0?[13578]|1[02]|(?:Jan|Mar|May|Jul|Aug|Oct|Dec)))\1|(?:(?:29|30)(\/|-|\.)(?:0?[1,3-9]|1[0-2]|(?:Jan|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec))\2))(?:(?:1[6-9]|[2-9]\d)?\d{2})$|^(?:29(\/|-|\.)(?:0?2|(?:Feb))\3(?:(?:(?:1[6-9]|[2-9]\d)?(?:0[48]|[2468][048]|[13579][26])|(?:(?:16|[2468][048]|[3579][26])00))))$|^(?:0?[1-9]|1\d|2[0-8])(\/|-|\.)(?:(?:0?[1-9]|(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep))|(?:1[0-2]|(?:Oct|Nov|Dec)))\4(?:(?:1[6-9]|[2-9]\d)?\d{2})$/</span>
+</code></pre></div><h3 id="kiểm-tra-html-tag">Kiểm tra HTML Tag</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#e6db74">/&lt;\/?[\w\s]*&gt;|&lt;.+[\W]&gt;/</span>
+</code></pre></div><h3 id="kiểm-tra-javascript-handler">Kiểm tra Javascript Handler</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">// Inline JS handler
+</span><span style="color:#75715e"></span><span style="color:#e6db74">/\bon\w+=\S+(?=.*&gt;)/</span>
+<span style="color:#75715e">/*
+</span><span style="color:#75715e">VD:
+</span><span style="color:#75715e">&lt;img src=&#34;foo.jpg&#34; onload=function_xyz /&gt;
+</span><span style="color:#75715e">&lt;img onmessage=&#34;javascript:execute()&#34;&gt;
+</span><span style="color:#75715e">&lt;a notonmessage=&#34;nomatch-here&#34; onfocus=&#34;alert(&#39;hey&#39;)&#34; onclick=foo() disabled&gt;
+</span><span style="color:#75715e">&lt;p&gt;
+</span><span style="color:#75715e">  some content
+</span><span style="color:#75715e">&lt;/p&gt;
+</span><span style="color:#75715e">*/</span>
+
+<span style="color:#75715e">// Inline JS handler with element
+</span><span style="color:#75715e"></span><span style="color:#e6db74">/(?:&lt;[^&gt;]+\s)(on\S+)=[&#34;&#39;]?((?:.(?![&#34;&#39;]?\s+(?:\S+)=|[&gt;&#34;&#39;]))+.)[&#34;&#39;]?/</span>
+<span style="color:#75715e">/*
+</span><span style="color:#75715e">VD:
+</span><span style="color:#75715e">&lt;img src=&#34;foo.jpg&#34; onload=&#34;something&#34; /&gt;
+</span><span style="color:#75715e">&lt;img onmessage=&#34;javascript:foo()&#34;&gt;
+</span><span style="color:#75715e">&lt;a notonmessage=&#34;nomatch-here&#34;&gt;
+</span><span style="color:#75715e">&lt;p&gt;
+</span><span style="color:#75715e">    some string 2
+</span><span style="color:#75715e">&lt;/p&gt;
+</span><span style="color:#75715e">*/</span>
+</code></pre></div><h3 id="kiểm-tra-slug">Kiểm tra Slug</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#e6db74">/^[a-z0-9]+(?:-[a-z0-9]+)*$/</span>
+</code></pre></div><h3 id="kiểm-tra-string-bị-trùng-lặp">Kiểm tra string bị trùng lặp</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#e6db74">/(\b\w+\b)(?=.*\b\1\b)/</span>
+</code></pre></div><h3 id="kiểm-tra-phone-number">Kiểm tra Phone Number</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">// Số quốc tế
+</span><span style="color:#75715e"></span><span style="color:#e6db74">/^(?:(?:\(?(?:00|\+)([1-4]\d\d|[1-9]\d?)\)?)?[\-\.\ \\\/]?)?((?:\(?\d{1,}\)?[\-\.\ \\\/]?){0,})(?:[\-\.\ \\\/]?(?:#|ext\.?|extension|x)[\-\.\ \\\/]?(\d+))?$/</span>
+</code></pre></div><h3 id="kiểm-tra-đường-dẫn">Kiểm tra đường dẫn</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">// Số quốc tế
+</span><span style="color:#75715e"></span><span style="color:#e6db74">/^(?:(?:\(?(?:00|\+)([1-4]\d\d|[1-9]\d?)\)?)?[\-\.\ \\\/]?)?((?:\(?\d{1,}\)?[\-\.\ \\\/]?){0,})(?:[\-\.\ \\\/]?(?:#|ext\.?|extension|x)[\-\.\ \\\/]?(\d+))?$/</span>
+</code></pre></div><h3 id="kiểm-tra-url-trang-cá-nhân-facebook">Kiểm tra URL trang cá nhân Facebook</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#e6db74">/(?:http:\/\/)?(?:www\.)?facebook\.com\/(?:(?:\w)*#!\/)?(?:pages\/)?(?:[\w\-]*\/)*([\w\-]*)/</span>
+</code></pre></div><h3 id="thêm-relnofollow-vào-các-liên-kết">Thêm rel=&ldquo;nofollow&rdquo; vào các liên kết</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript">(<span style="color:#f92672">&lt;</span><span style="color:#a6e22e">a</span><span style="color:#960050;background-color:#1e0010">\</span><span style="color:#a6e22e">s</span><span style="color:#f92672">*</span>(<span style="color:#f92672">?!</span>.<span style="color:#f92672">*</span><span style="color:#960050;background-color:#1e0010">\</span><span style="color:#a6e22e">brel</span><span style="color:#f92672">=</span>)[<span style="color:#f92672">^&gt;</span>]<span style="color:#f92672">*</span>)(<span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https?://)((?!(?:(?:www\.)?&#39;.implode(&#39;|(?:www\.)?&#39;, $follow_list).&#39;))[^&#34;</span>]<span style="color:#f92672">+</span>)<span style="color:#960050;background-color:#1e0010">&#34;</span>((<span style="color:#f92672">?!</span>.<span style="color:#f92672">*</span><span style="color:#960050;background-color:#1e0010">\</span><span style="color:#a6e22e">brel</span><span style="color:#f92672">=</span>)[<span style="color:#f92672">^&gt;</span>]<span style="color:#f92672">*</span>)(<span style="color:#f92672">?:</span>[<span style="color:#f92672">^&gt;</span>]<span style="color:#f92672">*</span>)<span style="color:#f92672">&gt;</span>
+</code></pre></div><h3 id="cú-pháp-tìm-kiếm-google">Cú pháp tìm kiếm Google</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#e6db74">/([+-]?(?:&#39;.+?&#39;|&#34;.+?&#34;|[^+\- ]{1}[^ ]*))/g</span>
+</code></pre></div><p>Nguồn tham khảo: <a href="https://viblo.asia/p/mot-so-doan-regex-thuong-dung-1VgZvewmKAw">Nguồn Viblo</a></p>
+
+    </div>
+
+    <div class="post-copyright">
+             
+            <p class="copyright-item">
+                <span>Author:</span>
+                <span>Dũng Hoàng </span>
+                </p>
+            
+           
+            <p class="copyright-item">
+                    <span>Words:</span>
+                   <span>305</span>
+            </p>
+            
+            <p class="copyright-item">
+                
+                <span>Share:</span>
+                <span>
+
+      
+        <a href="//twitter.com/share?url=https%3a%2f%2fdunghoang.net%2f2020%2f07%2f2020-07-23-mot-so-regex-thuong-su-dung%2f&amp;text=M%e1%bb%99t%20s%e1%bb%91%20Regex%20th%c6%b0%e1%bb%9dng%20s%e1%bb%ad%20d%e1%bb%a5ng&amp;via=dunght72" target="_blank" title="Share on Twitter">
+          <i class="iconfont icon-twitter"></i>
+        </a>
+        
+      
+      
+        <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fdunghoang.net%2f2020%2f07%2f2020-07-23-mot-so-regex-thuong-su-dung%2f" target="_blank" title="Share on Facebook">
+          <i class="iconfont icon-facebook"></i>
+        </a>
+        
+      
+      
+      
+      
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fdunghoang.net%2f2020%2f07%2f2020-07-23-mot-so-regex-thuong-su-dung%2f&amp;title=M%e1%bb%99t%20s%e1%bb%91%20Regex%20th%c6%b0%e1%bb%9dng%20s%e1%bb%ad%20d%e1%bb%a5ng" target="_blank" title="Share on LinkedIn">
+          <i class="iconfont icon-linkedin"></i>
+        </a>
+        
+      
+      
+        
+      
+        
+      
+
+          
+
+          
+
+          
+
+          
+</span>
+                
+            </p>
+
+            
+    </div>
+
+  
+    <div class="post-tags">
+        
+        <section>
+                <a href="javascript:window.history.back();">Back</a></span> · 
+                <span><a href="https://dunghoang.net">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav">
+        
+        <a href="https://dunghoang.net/2020/07/2020-07-16-huong-dan-tao-tai-khoan-google-drive-unlimited-mien-phi/" class="prev" rel="prev" title="Hướng dẫn tạo tài khoản Google Drive Unlimited miễn phí"><i class="iconfont icon-dajiantou"></i>&nbsp;Hướng dẫn tạo tài khoản Google Drive Unlimited miễn phí</a>
+         
+        
+        <a href="https://dunghoang.net/2020/07/2020-07-23-tao-moi-va-chinh-sua-file-word-trong-net-core/" class="next" rel="next" title="Tạo mới và chỉnh sửa file Word trong .NET Core">Tạo mới và chỉnh sửa file Word trong .NET Core&nbsp;<i class="iconfont icon-xiaojiantou"></i></a>
+        
+    </div>
+
+    
+</article>
+          </div>
+		   </main>
+      <footer class="footer">
+    <div class="copyright">
+        &copy;
+        
+        <span itemprop="copyrightYear">2020 - 2021</span>
+        
+         
+            <span class="author" itemprop="copyrightHolder"><a href="https://dunghoang.net">Dũng Hoàng</a> | </span>
+         
+
+		  <span>From Ho Chi Minh City with ❤️   </span>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <link crossorigin="anonymous" integrity="sha384-yziQACfvCVwLqVFLqkWBYRO3XeA4EqzfXKGwaWnenYn5XzqfJFlFdKEmvutIQdKb" href="https://lib.baomitu.com/lightgallery/1.10.0/css/lightgallery.min.css" rel="stylesheet">
+      
+     <script src="/js/vendor_gallery.min.js" async="" ></script>
+    
+  
+
+
+
+
+
+
+
+     </div>
+  </body>
+</html>

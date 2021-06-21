@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noodp"/>
+  
+  
+  
+  
+  
+  <link rel="prev" href="https://dunghoang.net/2020/10/2020-10-13-alfred-su-thay-the-hoan-hao-cho-spotlight-cua-macos/" />
+  <link rel="next" href="https://dunghoang.net/2020/11/2020-11-29-black-friday-mua-phan-mem-mac-ban-quyen-gia-khong-tuong/" />
+  <link rel="canonical" href="https://dunghoang.net/2020/10/2020-10-28-mot-so-thu-thuat-thu-vi-tren-terminal/" />
+  <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>
+       
+       
+           Một số lệnh tuỳ biến, vui vẻ trên Terminal của macOS | DungHoang.Net
+       
+  </title>
+  <meta name="title" content="Một số lệnh tuỳ biến, vui vẻ trên Terminal của macOS | DungHoang.Net">
+    
+  
+  <link rel="stylesheet" href="/font/iconfont.css">
+  <link rel="stylesheet" href="/css/main.min.css">
+
+
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Một số lệnh tuỳ biến, vui vẻ trên Terminal của macOS"/>
+<meta name="twitter:description" content="Với Terminal, bạn có thể thực hiện một số lệnh can thiệp sâu vào hệ thống để tuỳ biến theo ý thích. Dưới đây là một số thủ thuật trên Terminal mà bạn có thể áp dụng.
+Terminal có thể mở từ màn hình Launchpad hoặc truy cập nhanh bằng (⌘ &#43; Space, sau đó gõ Terminal)
+Hiện tập tin và thư mục ẩn Để hiện tập tin, thư mục ẩn trên Mac, bạn có thể thực hiện copy, paste dòng lệnh sau vào Terminal để thực thi."/>
+
+  <script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Một số lệnh tuỳ biến, vui vẻ trên Terminal của macOS",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https:\/\/dunghoang.net\/2020\/10\/2020-10-28-mot-so-thu-thuat-thu-vi-tren-terminal\/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https:\/\/dunghoang.net\/cover.png",
+    "width":  800 ,
+    "height":  600 
+  },
+  "genre": "posts",
+  "keywords": "thu-thuat",
+  "wordcount":  972 ,
+  "url": "https:\/\/dunghoang.net\/2020\/10\/2020-10-28-mot-so-thu-thuat-thu-vi-tren-terminal\/",
+  "datePublished": "2020-10-28T06:05:05\u002b00:00",
+  "dateModified": "2020-10-28T06:05:05\u002b00:00",
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Fastbyte01",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https:\/\/dunghoang.net\/logo.png",
+      "width":  127 ,
+      "height":  40 
+    }
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Fastbyte01"
+  },
+  "description": ""
+}
+</script>
+</head>
+
+  
+
+
+
+  <body class="">
+    <div class="wrapper">
+        <nav class="navbar">
+    <div class="container">
+        <div class="navbar-header header-logo">
+        	<a href="https://dunghoang.net">DungHoang.Net</a>
+        </div>
+        <div class="menu navbar-right">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/about" title="">About</a>
+                
+                <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-sun"></i></a>&nbsp;
+        </div>
+    </div>
+</nav>
+<nav class="navbar-mobile" id="nav-mobile" style="display: none">
+     <div class="container">
+        <div class="navbar-header">
+            <div>  <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-sun"></i></a>&nbsp;<a href="https://dunghoang.net">DungHoang.Net</a></div>
+            <div class="menu-toggle">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+     
+          <div class="menu" id="mobile-menu">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/about" title="">About</a>
+                
+        </div>
+    </div>
+</nav>
+
+    	 <main class="main">
+          <div class="container">
+      		
+<article class="post-warp">
+    <header class="post-header">
+        <h1 class="post-title">Một số lệnh tuỳ biến, vui vẻ trên Terminal của macOS</h1>
+        <div class="post-meta">
+            Written by <a href="https://dunghoang.net" rel="author">Dũng Hoàng</a> with ♥ 
+                <span class="post-time">
+                    on <time datetime=2020-10-28 >28 October 2020</time>
+                </span>
+                in
+                <i class="iconfont icon-folder"></i>
+                <span class="post-category">
+                        <a href="https://dunghoang.net/categories/macos/"> macOS </a>
+                        
+                </span>
+                <i class="iconfont icon-timer"></i>
+                5 min
+        </div>
+    </header>
+    <div class="post-content">
+        
+
+        
+
+        
+        
+     
+          
+          
+          
+
+          
+          
+          
+
+          <p>Với Terminal, bạn có thể thực hiện một số lệnh can thiệp sâu vào hệ thống để tuỳ biến theo ý thích. Dưới đây là một số thủ thuật trên Terminal mà bạn có thể áp dụng.</p>
+<p>Terminal có thể mở từ màn hình Launchpad hoặc truy cập nhanh bằng (⌘ + Space, sau đó gõ Terminal)</p>
+<!-- raw HTML omitted -->
+<h3 id="hiện-tập-tin-và-thư-mục-ẩn">Hiện tập tin và thư mục ẩn</h3>
+<p>Để hiện tập tin, thư mục ẩn trên Mac, bạn có thể thực hiện copy, paste dòng lệnh sau vào Terminal để thực thi.</p>
+<pre><code>defaults write com.apple.finder AppleShowAllFiles -bool TRUE
+
+killall Finder
+</code></pre>
+<p>Thay &ldquo;TRUE&rdquo; thành &ldquo;FALSE&rdquo; nếu bạn muốn ẩn tập tin, thư mục ẩn.</p>
+<h3 id="sao-chép-tập-tin-giữa-các-thư-mục">Sao chép tập tin giữa các thư mục</h3>
+<p>Sao chép tập tin có thể thực hiện từ ngay Finder bằng menu Copy hoặc bằng cách kéo thả, tuy nhiên nếu muốn trải nghiệm một cách mới, bạn có thể sử dụng lệnh Ditty với cú pháp:</p>
+<pre><code>Ditto [original folder] [new folder]
+</code></pre>
+<p>Trong đó: <em>Original Folder</em> là thư mục nguồn, <em>New Folder</em> là thư mục gốc muốn sao chép đến.</p>
+<h3 id="download-tập-tin-từ-internet">Download tập tin từ Internet</h3>
+<p>Dùng lệnh Curl bạn có thể download tập tin trực tiếp từ ngay trong Terminal. Cú pháp của lệnh này là:</p>
+<pre><code>curl -O [the URL of the file]
+</code></pre>
+<p>URL of the file là direct link cần download</p>
+<h3 id="tắt-đổ-bóng-khi-chụp-màn-hình">Tắt đổ bóng khi chụp màn hình</h3>
+<p>Khi bạn chụp màn hình bằng công cụ có sẵn của macOS (⌘ + ⇧ + 4), thường sẽ có hiệu ứng đổ bóng được thêm vào, bạn có thể tắt hiệu ứng đổ bóng này bằng lệnh sau:</p>
+<pre><code>defaults write com.apple.screencapture disable-shadow -bool TRUE
+
+killall SystemUIServer
+</code></pre>
+<h3 id="giữ-máy-mac-luôn-mở">Giữ máy Mac luôn mở</h3>
+<p>Bằng cách sử dụng lệnh caffeinate bạn có thể ghi đè cấu hình về thời gian sleep máy được quy định trong Energy preferences.</p>
+<pre><code>caffeinate
+</code></pre>
+<p>hoặc giới hạn theo thời gian</p>
+<pre><code>caffeinate -u -t [number of seconds]
+</code></pre>
+<h3 id="tự-khởi-động-lại-mac-nếu-gặp-lỗi-hoặc-bị-treo">Tự khởi động lại Mac nếu gặp lỗi hoặc bị treo</h3>
+<p>Khi máy Mac của bạn bị treo, thường thì cách giải quyết duy nhất là nhấn giữ nút nguồn và đợi nó khởi động lại. Sử dụng lệnh này để làm cho nó tự động khởi động lại khi có sự cố.</p>
+<pre><code>sudo systemsetup -setrestartfreeze on
+</code></pre>
+<h3 id="chơi-xếp-hình-tetris-rắn-săn-mồi-pong-trực-tiếp-từ-terminal">Chơi xếp hình (Tetris), Rắn săn mồi, Pong trực tiếp từ Terminal</h3>
+<p>Emacs là trình soạn thảo văn bản được cài sẵn macOS và có thể chạy từ Terminal, có một số Easter Egg dưới dạng trò chơi ở trong Emacs này. Để hiển thị chúng, gõ <strong>Emacs</strong> rồi nhấn enter, sau đó tiếp tục bấm <strong>Fn + F10</strong> rồi <strong>t</strong> rồi đến <strong>g</strong> Bạn sẽ thấy các trò chơi có sẵn được liệt kê và bây giờ có thể sử dụng các phím con trỏ để chọn chúng.</p>
+<h3 id="tạo-biểu-ngữ-bằng-các-ký-tự-ascii">Tạo biểu ngữ bằng các ký tự ASCII</h3>
+<p>Sử dụng lệnh sau để tạo một biểu ngữ dưới dạng mã ASCII, khá là thú vị.</p>
+<pre><code>banner -w [the width of the banner in pixels] [your message]
+</code></pre>
+<p>Ví dụ: Tạo biểu ngữ với dòng chữ Pickamac, kết quả:</p>
+<!-- raw HTML omitted -->
+<h3 id="thay-đổi-âm-thanh-khi-kết-nối-mac-với-nguồn-điện-giống-iphone-power-chime">Thay đổi âm thanh khi kết nối Mac với nguồn điện giống iPhone (Power Chime)</h3>
+<p>Khi bạn cắm sạc iPhone, bạn thường nghe 1 âm thanh thông báo đã kết nối đến nguồn điện, nếu bạn muốn làm điều tương tự với Mac, có thể sử dụng lệnh sau</p>
+<pre><code>defaults write com.apple.PowerChime ChimeOnAllHardware -bool true; open /System/Library/CoreServices/PowerChime.app
+</code></pre>
+<h3 id="thay-đổi-thư-mục-lưu-trữ-mặc-định-khi-chụp-màn-hình">Thay đổi thư mục lưu trữ mặc định khi chụp màn hình</h3>
+<p>Để thay đổi thư mục mặc định khi chụp màn hình trên macOS (thường là lưu trực tiếp trên Desktop), bạn có thể dùng lệnh sau:</p>
+<pre><code>defaults write com.apple.screencapture location [place where you want screen grabs saved]
+</code></pre>
+<p>Sau đó chạy tiếp lệnh sau và Enter</p>
+<pre><code>killall SystemUIServer
+</code></pre>
+<p>Ví dụ: Thay đổi thư mục lưu mặc định về foler Screenshot trên Desktop</p>
+<!-- raw HTML omitted -->
+<h3 id="tắt-tính-năng-tự-lưu-về-icloud-của-một-số-ứng-dụng">Tắt tính năng tự lưu về iCloud của một số ứng dụng</h3>
+<p>Mặc định, một số ứng dụng macOS như TextEdit và iWork lưu tài liệu vào iCloud. Bạn có thể thay đổi điều đó bằng cách sử dụng:</p>
+<pre><code>defaults write NSGlobalDomain NSDocumentSaveNewDocumentsToCloud -bool false
+</code></pre>
+<p>Để khôi phục lại, chỉ cần chạy lệnh trên nhưng thay <strong>false</strong> bằng <strong>true</strong> ở cuối dòng lệnh.</p>
+<h3 id="xem-phiên-bản-hoạt-hình-ascii-của-star-war">Xem phiên bản hoạt hình ASCII của Star War</h3>
+<p>Nếu bạn là fan của Star War thì bạn không thể bỏ lỡ điều này. Sử dụng lênh sau để xem phiên bản ASCII của bộ phim nổi tiếng này.</p>
+<pre><code>telnet towel.blinkenlights.nl
+</code></pre>
+<p>Để thoát, dùng tổ hợp phím <strong>Ctrl + ]</strong>, sau đó gõ lệnh <strong>quit</strong></p>
+<!-- raw HTML omitted -->
+<h3 id="tăng-tốc-độ-hiển-thị-thanh-dock">Tăng tốc độ hiển thị thanh Dock</h3>
+<p>Nếu bạn sử dụng chế độ &ldquo;Show and Hide Dock&rdquo;, bạn sẽ nhận thấy rằng khi bạn di con trỏ chuột vào cuối màn hình hoặc bất kỳ cạnh nào bạn giữ Dock, sẽ có độ trễ trước khi Dock trượt vào chế độ xem. Bạn có thể loại bỏ độ trễ đó bằng các lệnh sau:</p>
+<pre><code>defaults write com.apple.dock autohide-delay -float 0
+
+killall Dock
+</code></pre>
+<p>Số <strong>0</strong> đại diện cho độ trễ trước khi Dock hiển thị, vì vậy nếu bạn muốn giảm đột trễ này hãy thay thế <strong>0</strong> bằng một giá trị khác, tính bằng giây.</p>
+<p>Để quay  về mặc định, sử dụng lệnh:</p>
+<pre><code>defaults delete com.apple.dock autohide-delay
+
+killall Dock
+</code></pre>
+<h3 id="hiển-thị-dòng-chữ-tuỳ-chỉnh-trên-màn-hình-đăng-nhập">Hiển thị dòng chữ tuỳ chỉnh trên màn hình đăng nhập</h3>
+<p>Để hiển thị một dòng chữ tuỳ chỉnh trên màn hình đăng nhập (VD: Họ tên của bạn, một câu danh ngôn yêu thích&hellip;), hãy sử dụng lệnh sau:</p>
+<pre><code>sudo defaults write /Library/Preferences/com.apple.loginwindow LoginwindowText &quot;Your message here&quot;
+</code></pre>
+<p>Để xoá dòng chữ này:</p>
+<pre><code>sudo defaults delete /Library/Preferences/com.apple.loginwindow
+</code></pre>
+<h3 id="tóm-lại">Tóm Lại</h3>
+<p>Trên đây là một số câu lệnh tuỳ chỉnh, vui vẻ dành cho Terminal, nếu bạn có biết thêm những câu lệnh hữu ích khác, hãy chia sẻ nhé. Nice day guys! See ya!</p>
+<p>Tham Khảo: <a href="https://www.macworld.co.uk/how-to/mac-terminal-projects-tutorial-3613813/">MacWorld</a></p>
+
+    </div>
+
+    <div class="post-copyright">
+             
+            <p class="copyright-item">
+                <span>Author:</span>
+                <span>Dũng Hoàng </span>
+                </p>
+            
+           
+            <p class="copyright-item">
+                    <span>Words:</span>
+                   <span>972</span>
+            </p>
+            
+            <p class="copyright-item">
+                
+                <span>Share:</span>
+                <span>
+
+      
+        <a href="//twitter.com/share?url=https%3a%2f%2fdunghoang.net%2f2020%2f10%2f2020-10-28-mot-so-thu-thuat-thu-vi-tren-terminal%2f&amp;text=M%e1%bb%99t%20s%e1%bb%91%20l%e1%bb%87nh%20tu%e1%bb%b3%20bi%e1%ba%bfn%2c%20vui%20v%e1%ba%bb%20tr%c3%aan%20Terminal%20c%e1%bb%a7a%20macOS&amp;via=dunght72" target="_blank" title="Share on Twitter">
+          <i class="iconfont icon-twitter"></i>
+        </a>
+        
+      
+      
+        <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fdunghoang.net%2f2020%2f10%2f2020-10-28-mot-so-thu-thuat-thu-vi-tren-terminal%2f" target="_blank" title="Share on Facebook">
+          <i class="iconfont icon-facebook"></i>
+        </a>
+        
+      
+      
+      
+      
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fdunghoang.net%2f2020%2f10%2f2020-10-28-mot-so-thu-thuat-thu-vi-tren-terminal%2f&amp;title=M%e1%bb%99t%20s%e1%bb%91%20l%e1%bb%87nh%20tu%e1%bb%b3%20bi%e1%ba%bfn%2c%20vui%20v%e1%ba%bb%20tr%c3%aan%20Terminal%20c%e1%bb%a7a%20macOS" target="_blank" title="Share on LinkedIn">
+          <i class="iconfont icon-linkedin"></i>
+        </a>
+        
+      
+      
+        
+      
+        
+      
+
+          
+
+          
+
+          
+
+          
+</span>
+                
+            </p>
+
+            
+    </div>
+
+  
+    <div class="post-tags">
+        
+            <section>
+            <i class="iconfont icon-icon-tag"></i>Tag: 
+            
+            <span class="tag"><a href="https://dunghoang.net/tags/thu-thuat/">
+                    #thu-thuat</a></span>
+            
+            </section>
+        
+        <section>
+                <a href="javascript:window.history.back();">Back</a></span> · 
+                <span><a href="https://dunghoang.net">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav">
+        
+        <a href="https://dunghoang.net/2020/10/2020-10-13-alfred-su-thay-the-hoan-hao-cho-spotlight-cua-macos/" class="prev" rel="prev" title="Alfred - Sự thay thế hoàn hảo cho Spotlight của macOS"><i class="iconfont icon-dajiantou"></i>&nbsp;Alfred - Sự thay thế hoàn hảo cho Spotlight của macOS</a>
+         
+        
+        <a href="https://dunghoang.net/2020/11/2020-11-29-black-friday-mua-phan-mem-mac-ban-quyen-gia-khong-tuong/" class="next" rel="next" title="Black Friday, mua phần mềm cho Mac với giá không tưởng">Black Friday, mua phần mềm cho Mac với giá không tưởng&nbsp;<i class="iconfont icon-xiaojiantou"></i></a>
+        
+    </div>
+
+    
+</article>
+          </div>
+		   </main>
+      <footer class="footer">
+    <div class="copyright">
+        &copy;
+        
+        <span itemprop="copyrightYear">2020 - 2021</span>
+        
+         
+            <span class="author" itemprop="copyrightHolder"><a href="https://dunghoang.net">Dũng Hoàng</a> | </span>
+         
+
+		  <span>From Ho Chi Minh City with ❤️   </span>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    <script src="/js/vendor_no_gallery.min.js" async=""></script>
+    
+  
+
+
+
+
+
+
+
+     </div>
+  </body>
+</html>

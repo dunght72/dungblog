@@ -1,7 +1,5 @@
 User-agent: *
 
-Allow: /index.xml
-
 Disallow: /images/
 Disallow: /js/
 Disallow: /css/
@@ -55,6 +53,8 @@ Disallow: /
 
 # Block pricepi
 User-agent: pimonster
+Disallow: /
+User-agent: Pimonster
 Disallow: /
 
 User-agent: SurdotlyBot
