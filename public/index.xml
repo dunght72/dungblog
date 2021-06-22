@@ -1,40 +1,10 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>DungHoang.Net on DungHoang.Net</title>
-    <link>https://dunghoang.net/</link>
-    <description>Recent content in DungHoang.Net on DungHoang.Net</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Mon, 22 Mar 2021 13:12:03 +0700</lastBuildDate>
-    <atom:link href="https://dunghoang.net/" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Posts</title>
-      <link>https://dunghoang.net/posts/</link>
-      <pubDate>Mon, 22 Mar 2021 13:12:03 +0700</pubDate>
-      
-      <guid>https://dunghoang.net/posts/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://dunghoang.net/about/</link>
-      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dunghoang.net/about/</guid>
-      <description>&lt;h3 id=&#34;about-me&#34;&gt;About Me&lt;/h3&gt;
-&lt;p&gt;Hi, Mình là Dũng Hoàng. Đây là Blog cá nhân của mình - là nơi để mình có thể viết lách, chia sẻ, cũng như để lưu trữ lại những thứ hay ho mà mình học hỏi được.&lt;/p&gt;
-&lt;p&gt;Mình có đam mê với CNTT từ khi được biết đến nó, hiện tại công việc của mình cũng có liên quan một chút đến ngành này, vì vậy, blog cũng là nơi để mình có thể chia sẻ những kiến thức về công nghệ mà mình tìm hiểu được.&lt;/p&gt;
-&lt;p&gt;Nếu bạn có cùng sở thích, hay muốn liên hệ về một vấn đề gì đó, có thể liên hệ mình bằng cách gửi mail đến &lt;!-- raw HTML omitted --&gt;&lt;a href=&#34;mailto:dung@dunghoang.net&#34;&gt;dung@dunghoang.net&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;. Rất vui khi được biết và làm quen. Nice day guys!&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;blockquote&gt;
-&lt;/blockquote&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dũng on Dũng</title><link>https://blog.dunghoang.net/</link><description>Recent content in Dũng on Dũng</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 22 Mar 2021 13:12:03 +0700</lastBuildDate><atom:link href="https://blog.dunghoang.net/" rel="self" type="application/rss+xml"/><item><title>Posts</title><link>https://blog.dunghoang.net/posts/</link><pubDate>Mon, 22 Mar 2021 13:12:03 +0700</pubDate><guid>https://blog.dunghoang.net/posts/</guid><description/></item><item><title>About</title><link>https://blog.dunghoang.net/about/</link><pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate><guid>https://blog.dunghoang.net/about/</guid><description>&lt;h3 id="about-me">About Me&lt;/h3>
+&lt;p>Hi, Mình là Dũng Hoàng. Đây là Blog cá nhân của mình - là nơi để mình có thể viết lách, chia sẻ, cũng như để lưu trữ lại những thứ hay ho mà mình học hỏi được.&lt;/p>
+&lt;p>Mình có đam mê với CNTT từ khi được biết đến nó, hiện tại công việc của mình cũng có liên quan một chút đến ngành này, vì vậy, blog cũng là nơi để mình có thể chia sẻ những kiến thức về công nghệ mà mình tìm hiểu được.&lt;/p>
+&lt;p>Nếu bạn có cùng sở thích, hay muốn liên hệ về một vấn đề gì đó, có thể liên hệ mình bằng cách gửi mail đến &lt;!-- raw HTML omitted -->&lt;a href="mailto:dung@dunghoang.net">dung@dunghoang.net&lt;/a>&lt;!-- raw HTML omitted -->. Rất vui khi được biết và làm quen. Nice day guys!&lt;/p>
+&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted -->
+&lt;blockquote>
+&lt;/blockquote></description></item></channel></rss>

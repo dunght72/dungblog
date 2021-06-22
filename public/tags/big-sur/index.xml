@@ -1,31 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>big-sur on DungHoang.Net</title>
-    <link>https://dunghoang.net/tags/big-sur/</link>
-    <description>Recent content in big-sur on DungHoang.Net</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Tue, 22 Sep 2020 02:27:49 +0000</lastBuildDate><atom:link href="https://dunghoang.net/tags/big-sur/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Chi tiết những thay đổi trong Safari 14</title>
-      <link>https://dunghoang.net/2020/09/2020-09-22-apple-phat-hanh-safari-14-cho-macos-catalina-va-mojave/</link>
-      <pubDate>Tue, 22 Sep 2020 02:27:49 +0000</pubDate>
-      
-      <guid>https://dunghoang.net/2020/09/2020-09-22-apple-phat-hanh-safari-14-cho-macos-catalina-va-mojave/</guid>
-      <description>macOS Big Sur chưa kịp ra mắt trong sự kiện WWWDC 20 của Apple, thế nhưng Safari 14 đã chính thức được phát hành dành cho macOS Catalina và Mojave. Vậy Safari 14 có những điểm gì mới và cải tiến, hãy cùng tìm hiểu nhé.
-Những tính năng mới Giao diện  Trang mở đầu (Start Page): Được thiết kế lại để hiển thị nhiều thông tin và chuyên nghiệp hơn, không những thế, bạn còn có thể tuỳ chọn hình nền cho trang Start Page của mình.</description>
-    </item>
-    
-    <item>
-      <title>macOS Big Sur có gì mới?</title>
-      <link>https://dunghoang.net/2020/09/2020-09-15-macos-big-sur-co-gi-moi/</link>
-      <pubDate>Tue, 15 Sep 2020 06:24:00 +0000</pubDate>
-      
-      <guid>https://dunghoang.net/2020/09/2020-09-15-macos-big-sur-co-gi-moi/</guid>
-      <description>Trong Hè vừa rồi, Apple đã tung ra phiên bản beta của hệ điều hành macOS 11 với tên mã Big Sur. Vậy macOS Big Sur có gì mới và cải thiện so với phiên bản cũ? Hãy cùng tìm hiểu nhé.
-Những thiết bị có thể nâng cấp lên macOS Big Sur Theo Apple thì những thiết bị dưới đây có thể nâng cấp lên phiên bản macOS Big Sur, bao gồm:</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>big-sur on Dũng</title><link>https://blog.dunghoang.net/tags/big-sur/</link><description>Recent content in big-sur on Dũng</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 22 Sep 2020 02:27:49 +0000</lastBuildDate><atom:link href="https://blog.dunghoang.net/tags/big-sur/index.xml" rel="self" type="application/rss+xml"/><item><title>Chi tiết những thay đổi trong Safari 14</title><link>https://blog.dunghoang.net/2020/09/2020-09-22-apple-phat-hanh-safari-14-cho-macos-catalina-va-mojave/</link><pubDate>Tue, 22 Sep 2020 02:27:49 +0000</pubDate><guid>https://blog.dunghoang.net/2020/09/2020-09-22-apple-phat-hanh-safari-14-cho-macos-catalina-va-mojave/</guid><description>macOS Big Sur chưa kịp ra mắt trong sự kiện WWWDC 20 của Apple, thế nhưng Safari 14 đã chính thức được phát hành dành cho macOS Catalina và Mojave. Vậy Safari 14 có những điểm gì mới và cải tiến, hãy cùng tìm hiểu nhé.
+Những tính năng mới Giao diện Trang mở đầu (Start Page): Được thiết kế lại để hiển thị nhiều thông tin và chuyên nghiệp hơn, không những thế, bạn còn có thể tuỳ chọn hình nền cho trang Start Page của mình.</description></item><item><title>macOS Big Sur có gì mới?</title><link>https://blog.dunghoang.net/2020/09/2020-09-15-macos-big-sur-co-gi-moi/</link><pubDate>Tue, 15 Sep 2020 06:24:00 +0000</pubDate><guid>https://blog.dunghoang.net/2020/09/2020-09-15-macos-big-sur-co-gi-moi/</guid><description>Trong Hè vừa rồi, Apple đã tung ra phiên bản beta của hệ điều hành macOS 11 với tên mã Big Sur. Vậy macOS Big Sur có gì mới và cải thiện so với phiên bản cũ? Hãy cùng tìm hiểu nhé.
+Những thiết bị có thể nâng cấp lên macOS Big Sur Theo Apple thì những thiết bị dưới đây có thể nâng cấp lên phiên bản macOS Big Sur, bao gồm:</description></item></channel></rss>

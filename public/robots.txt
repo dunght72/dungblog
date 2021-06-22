@@ -63,4 +63,4 @@ Disallow: /
 User-agent: ZoominfoBot
 Disallow: /
 
-Sitemap: https://dunghoang.net/sitemap.xml
+Sitemap: https://blog.dunghoang.net/sitemap.xml

@@ -1,81 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>macos on DungHoang.Net</title>
-    <link>https://dunghoang.net/tags/macos/</link>
-    <description>Recent content in macos on DungHoang.Net</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Mon, 22 Mar 2021 13:12:03 +0700</lastBuildDate><atom:link href="https://dunghoang.net/tags/macos/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>YT Music - Ứng dụng nghe nhạc từ Youtube Music cho macOS</title>
-      <link>https://dunghoang.net/2021/03/yt-music-app-nghe-nhac-tren-youtube-cho-macos/</link>
-      <pubDate>Mon, 22 Mar 2021 13:12:03 +0700</pubDate>
-      
-      <guid>https://dunghoang.net/2021/03/yt-music-app-nghe-nhac-tren-youtube-cho-macos/</guid>
-      <description>Mình thường nghe nhạc trên Youtube Music, lý do chủ yếu là Spotify hoặc NhacCuaTui không có những bản cover mình thường nghe. Trước đây, mình sử dụng Safari nhưng hiện tại mình khám phá ra 1 app khá hay hỗ trợ rất tốt trên Mac, đó là YT Music.
-Giới thiệu chung YT Music là ứng dụng open source được cung cấp miễn phí. Chức năng chính là nghe nhạc từ Youtube Music.</description>
-    </item>
-    
-    <item>
-      <title>Sự bá đạo của Preview trên macOS</title>
-      <link>https://dunghoang.net/2021/03/su_ba_dao_cua_preview_tren_macos/</link>
-      <pubDate>Thu, 18 Mar 2021 09:08:55 +0700</pubDate>
-      
-      <guid>https://dunghoang.net/2021/03/su_ba_dao_cua_preview_tren_macos/</guid>
-      <description>Trên macOS có một công cụ mặc định rất bá đạo, đó chính là Preview. Preview có rất nhiều chức năng khác nhau, giúp bạn không cần cài quá nhiều ứng dụng cho những thao tác cơ bản.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>macos on Dũng</title><link>https://blog.dunghoang.net/tags/macos/</link><description>Recent content in macos on Dũng</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 22 Mar 2021 13:12:03 +0700</lastBuildDate><atom:link href="https://blog.dunghoang.net/tags/macos/index.xml" rel="self" type="application/rss+xml"/><item><title>YT Music - Ứng dụng nghe nhạc từ Youtube Music cho macOS</title><link>https://blog.dunghoang.net/2021/03/yt-music-app-nghe-nhac-tren-youtube-cho-macos/</link><pubDate>Mon, 22 Mar 2021 13:12:03 +0700</pubDate><guid>https://blog.dunghoang.net/2021/03/yt-music-app-nghe-nhac-tren-youtube-cho-macos/</guid><description>Mình thường nghe nhạc trên Youtube Music, lý do chủ yếu là Spotify hoặc NhacCuaTui không có những bản cover mình thường nghe. Trước đây, mình sử dụng Safari nhưng hiện tại mình khám phá ra 1 app khá hay hỗ trợ rất tốt trên Mac, đó là YT Music.
+Giới thiệu chung YT Music là ứng dụng open source được cung cấp miễn phí. Chức năng chính là nghe nhạc từ Youtube Music.</description></item><item><title>Sự bá đạo của Preview trên macOS</title><link>https://blog.dunghoang.net/2021/03/su_ba_dao_cua_preview_tren_macos/</link><pubDate>Thu, 18 Mar 2021 09:08:55 +0700</pubDate><guid>https://blog.dunghoang.net/2021/03/su_ba_dao_cua_preview_tren_macos/</guid><description>Trên macOS có một công cụ mặc định rất bá đạo, đó chính là Preview. Preview có rất nhiều chức năng khác nhau, giúp bạn không cần cài quá nhiều ứng dụng cho những thao tác cơ bản.
 Dưới đây là những ứng dụng thực tiễn mà Preview có thể làm được. Bài viết tham khảo từ CongNgheViet.
-1. Mở tài liệu, PDF, hình ảnh, Photoshop, ảnh RAW, và nhiều hơn thế.</description>
-    </item>
-    
-    <item>
-      <title>Hướng dẫn thay đổi Terminal mặc định sang Hyper trong Alfred</title>
-      <link>https://dunghoang.net/2020/12/2020-12-29-doi-terminal-mac-dinh-trong-alfred-4/</link>
-      <pubDate>Mon, 28 Dec 2020 07:05:05 +0000</pubDate>
-      
-      <guid>https://dunghoang.net/2020/12/2020-12-29-doi-terminal-mac-dinh-trong-alfred-4/</guid>
-      <description>Alfred là ứng dụng cực hay ho thay thế Spotlight trên macOS với rất nhiều tính năng hữu ích, trong đó có tính năng chạy các command trực tiếp. Thông thường sẽ chạy command bằng cách gõ &amp;ldquo;&amp;gt; command&amp;rdquo;, terminal mặc định trên macOS sẽ được mở lên và thực thi command đó. Tuy nhiên, với những ai sử dụng Hyper thay cho Terminal mặc định, sẽ cần phải tuỳ chỉnh 1 chút để command có thể được mở từ Hyper.</description>
-    </item>
-    
-    <item>
-      <title>Hướng dẫn fix lỗi USB không thể sử dụng sau khi tạo bộ cài macOS</title>
-      <link>https://dunghoang.net/2020/12/2020-12-05-fix-loi-usb-khong-the-su-dung-sau-khi-tao-bo-cai-mac/</link>
-      <pubDate>Sat, 05 Dec 2020 06:05:05 +0000</pubDate>
-      
-      <guid>https://dunghoang.net/2020/12/2020-12-05-fix-loi-usb-khong-the-su-dung-sau-khi-tao-bo-cai-mac/</guid>
-      <description>Thông thường sau khi sử dụng USB để tạo bộ cài macOS thì sau đó USB không thể hoạt động ổn định được, không thể copy file trên các máy Windows và bị chia thành 2 phân vùng, trong đó có 1 phân vùng 200MB là sử dụng được gây ra sự khó chịu cho người dùng nếu không biết cách xử lý.
-Để có thể khắc phục vấn đề này các bạn có thể làm như sau:</description>
-    </item>
-    
-    <item>
-      <title>macOS Big Sur có gì mới?</title>
-      <link>https://dunghoang.net/2020/09/2020-09-15-macos-big-sur-co-gi-moi/</link>
-      <pubDate>Tue, 15 Sep 2020 06:24:00 +0000</pubDate>
-      
-      <guid>https://dunghoang.net/2020/09/2020-09-15-macos-big-sur-co-gi-moi/</guid>
-      <description>Trong Hè vừa rồi, Apple đã tung ra phiên bản beta của hệ điều hành macOS 11 với tên mã Big Sur. Vậy macOS Big Sur có gì mới và cải thiện so với phiên bản cũ? Hãy cùng tìm hiểu nhé.
-Những thiết bị có thể nâng cấp lên macOS Big Sur Theo Apple thì những thiết bị dưới đây có thể nâng cấp lên phiên bản macOS Big Sur, bao gồm:</description>
-    </item>
-    
-    <item>
-      <title>Hướng dẫn bật/tắt chế độ Dark Mode macOS bằng phím tắt</title>
-      <link>https://dunghoang.net/2020/09/2020-09-11-huong-dan-bat-tat-che-do-dark-mode-macos-bang-phim-tat/</link>
-      <pubDate>Fri, 11 Sep 2020 07:59:05 +0000</pubDate>
-      
-      <guid>https://dunghoang.net/2020/09/2020-09-11-huong-dan-bat-tat-che-do-dark-mode-macos-bang-phim-tat/</guid>
-      <description>Bắt đầu từ macOS Mojave, Apple đã trình làng chế độ Dark Mode (Chế độ tối) trên hệ điều hành của mình và giờ đây nó trở thành 1 phần không thể thiếu, đặc biệt đối với những người dùng hay sử dụng máy tính vào ban đêm.
+1. Mở tài liệu, PDF, hình ảnh, Photoshop, ảnh RAW, và nhiều hơn thế.</description></item><item><title>Hướng dẫn thay đổi Terminal mặc định sang Hyper trong Alfred</title><link>https://blog.dunghoang.net/2020/12/2020-12-29-doi-terminal-mac-dinh-trong-alfred-4/</link><pubDate>Mon, 28 Dec 2020 07:05:05 +0000</pubDate><guid>https://blog.dunghoang.net/2020/12/2020-12-29-doi-terminal-mac-dinh-trong-alfred-4/</guid><description>Alfred là ứng dụng cực hay ho thay thế Spotlight trên macOS với rất nhiều tính năng hữu ích, trong đó có tính năng chạy các command trực tiếp. Thông thường sẽ chạy command bằng cách gõ &amp;ldquo;&amp;gt; command&amp;rdquo;, terminal mặc định trên macOS sẽ được mở lên và thực thi command đó. Tuy nhiên, với những ai sử dụng Hyper thay cho Terminal mặc định, sẽ cần phải tuỳ chỉnh 1 chút để command có thể được mở từ Hyper.</description></item><item><title>Hướng dẫn fix lỗi USB không thể sử dụng sau khi tạo bộ cài macOS</title><link>https://blog.dunghoang.net/2020/12/2020-12-05-fix-loi-usb-khong-the-su-dung-sau-khi-tao-bo-cai-mac/</link><pubDate>Sat, 05 Dec 2020 06:05:05 +0000</pubDate><guid>https://blog.dunghoang.net/2020/12/2020-12-05-fix-loi-usb-khong-the-su-dung-sau-khi-tao-bo-cai-mac/</guid><description>Thông thường sau khi sử dụng USB để tạo bộ cài macOS thì sau đó USB không thể hoạt động ổn định được, không thể copy file trên các máy Windows và bị chia thành 2 phân vùng, trong đó có 1 phân vùng 200MB là sử dụng được gây ra sự khó chịu cho người dùng nếu không biết cách xử lý.
+Để có thể khắc phục vấn đề này các bạn có thể làm như sau:</description></item><item><title>macOS Big Sur có gì mới?</title><link>https://blog.dunghoang.net/2020/09/2020-09-15-macos-big-sur-co-gi-moi/</link><pubDate>Tue, 15 Sep 2020 06:24:00 +0000</pubDate><guid>https://blog.dunghoang.net/2020/09/2020-09-15-macos-big-sur-co-gi-moi/</guid><description>Trong Hè vừa rồi, Apple đã tung ra phiên bản beta của hệ điều hành macOS 11 với tên mã Big Sur. Vậy macOS Big Sur có gì mới và cải thiện so với phiên bản cũ? Hãy cùng tìm hiểu nhé.
+Những thiết bị có thể nâng cấp lên macOS Big Sur Theo Apple thì những thiết bị dưới đây có thể nâng cấp lên phiên bản macOS Big Sur, bao gồm:</description></item><item><title>Hướng dẫn bật/tắt chế độ Dark Mode macOS bằng phím tắt</title><link>https://blog.dunghoang.net/2020/09/2020-09-11-huong-dan-bat-tat-che-do-dark-mode-macos-bang-phim-tat/</link><pubDate>Fri, 11 Sep 2020 07:59:05 +0000</pubDate><guid>https://blog.dunghoang.net/2020/09/2020-09-11-huong-dan-bat-tat-che-do-dark-mode-macos-bang-phim-tat/</guid><description>Bắt đầu từ macOS Mojave, Apple đã trình làng chế độ Dark Mode (Chế độ tối) trên hệ điều hành của mình và giờ đây nó trở thành 1 phần không thể thiếu, đặc biệt đối với những người dùng hay sử dụng máy tính vào ban đêm.
 Thông thường, để bật/tắt chế độ Dark Mode, người dùng cần vào System Preferences / General và chọn Dark
-Tuy nhiên, có một cách nhanh hơn bằng cách sử dụng Automator để tạo phím tắt, giờ đây, chúng ta có thể bật/tắt chế độ Dark Mode mà không cần phải vào System Preferences.</description>
-    </item>
-    
-    <item>
-      <title>Sơ lược về hệ điều hành macOS</title>
-      <link>https://dunghoang.net/2020/09/2020-09-07-so-luoc-ve-he-dieu-hanh-mac-os/</link>
-      <pubDate>Mon, 07 Sep 2020 05:35:00 +0000</pubDate>
-      
-      <guid>https://dunghoang.net/2020/09/2020-09-07-so-luoc-ve-he-dieu-hanh-mac-os/</guid>
-      <description>Lịch sử ra đời của macOS macOS (trước đây là Mac OS X, sau là OS X) là một dòng hệ điều hành độc quyền, được phát triển và phân phối bởi Apple, được cài đặt sẵn trên các máy tính Macintosh. macOS là thế hệ tiếp nối của Mac OS, hệ điều hành ban đầu của Apple. Không như Mac OS, macOS là một hệ điều hành kiểu Unix được xây dựng trên công nghệ được phát triển tại NeXT trong nửa đầu những năm 1980 và cho đến khi Apple mua công ty này vào đầu năm 1997.</description>
-    </item>
-    
-  </channel>
-</rss>
+Tuy nhiên, có một cách nhanh hơn bằng cách sử dụng Automator để tạo phím tắt, giờ đây, chúng ta có thể bật/tắt chế độ Dark Mode mà không cần phải vào System Preferences.</description></item><item><title>Sơ lược về hệ điều hành macOS</title><link>https://blog.dunghoang.net/2020/09/2020-09-07-so-luoc-ve-he-dieu-hanh-mac-os/</link><pubDate>Mon, 07 Sep 2020 05:35:00 +0000</pubDate><guid>https://blog.dunghoang.net/2020/09/2020-09-07-so-luoc-ve-he-dieu-hanh-mac-os/</guid><description>Lịch sử ra đời của macOS macOS (trước đây là Mac OS X, sau là OS X) là một dòng hệ điều hành độc quyền, được phát triển và phân phối bởi Apple, được cài đặt sẵn trên các máy tính Macintosh. macOS là thế hệ tiếp nối của Mac OS, hệ điều hành ban đầu của Apple. Không như Mac OS, macOS là một hệ điều hành kiểu Unix được xây dựng trên công nghệ được phát triển tại NeXT trong nửa đầu những năm 1980 và cho đến khi Apple mua công ty này vào đầu năm 1997.</description></item></channel></rss>

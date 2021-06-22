@@ -1,353 +1,56 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-  <meta http-equiv="content-type" content="text/html;charset=utf-8">
-  <meta http-equiv="X-UA-Compatible" content="chrome=1">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="robots" content="noodp"/>
-  
-  
-  
-  
-  
-  <link rel="prev" href="https://dunghoang.net/2020/12/2020-12-05-fix-loi-usb-khong-the-su-dung-sau-khi-tao-bo-cai-mac/" />
-  <link rel="next" href="https://dunghoang.net/2020/12/2020-12-29-dang-ky-vps-1-nam-chi-voi-10-aud/" />
-  <link rel="canonical" href="https://dunghoang.net/2020/12/2020-12-29-doi-terminal-mac-dinh-trong-alfred-4/" />
-  <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
-  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-  <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="theme-color" content="#ffffff">
-  <title>
-       
-       
-           Hướng dẫn thay đổi Terminal mặc định sang Hyper trong Alfred | DungHoang.Net
-       
-  </title>
-  <meta name="title" content="Hướng dẫn thay đổi Terminal mặc định sang Hyper trong Alfred | DungHoang.Net">
-    
-  
-  <link rel="stylesheet" href="/font/iconfont.css">
-  <link rel="stylesheet" href="/css/main.min.css">
-
-
-  <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Hướng dẫn thay đổi Terminal mặc định sang Hyper trong Alfred"/>
-<meta name="twitter:description" content="Alfred là ứng dụng cực hay ho thay thế Spotlight trên macOS với rất nhiều tính năng hữu ích, trong đó có tính năng chạy các command trực tiếp. Thông thường sẽ chạy command bằng cách gõ &ldquo;&gt; command&rdquo;, terminal mặc định trên macOS sẽ được mở lên và thực thi command đó. Tuy nhiên, với những ai sử dụng Hyper thay cho Terminal mặc định, sẽ cần phải tuỳ chỉnh 1 chút để command có thể được mở từ Hyper."/>
-
-  <script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "BlogPosting",
-  "headline": "Hướng dẫn thay đổi Terminal mặc định sang Hyper trong Alfred",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https:\/\/dunghoang.net\/2020\/12\/2020-12-29-doi-terminal-mac-dinh-trong-alfred-4\/"
-  },
-  "image": {
-    "@type": "ImageObject",
-    "url": "https:\/\/dunghoang.net\/cover.png",
-    "width":  800 ,
-    "height":  600 
-  },
-  "genre": "posts",
-  "keywords": "macos, tricks, alfred",
-  "wordcount":  301 ,
-  "url": "https:\/\/dunghoang.net\/2020\/12\/2020-12-29-doi-terminal-mac-dinh-trong-alfred-4\/",
-  "datePublished": "2020-12-28T07:05:05\u002b00:00",
-  "dateModified": "2020-12-28T07:05:05\u002b00:00",
-  
-  "publisher": {
-    "@type": "Organization",
-    "name": "Fastbyte01",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https:\/\/dunghoang.net\/logo.png",
-      "width":  127 ,
-      "height":  40 
-    }
-  },
-  "author": {
-    "@type": "Person",
-    "name": "Fastbyte01"
-  },
-  "description": ""
-}
-</script>
-</head>
-
-  
-
-
-
-  <body class="">
-    <div class="wrapper">
-        <nav class="navbar">
-    <div class="container">
-        <div class="navbar-header header-logo">
-        	<a href="https://dunghoang.net">DungHoang.Net</a>
-        </div>
-        <div class="menu navbar-right">
-                
-                
-                <a class="menu-item" href="/posts/" title="">Blog</a>
-                
-                <a class="menu-item" href="/categories/" title="">Categories</a>
-                
-                <a class="menu-item" href="/about" title="">About</a>
-                
-                <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-sun"></i></a>&nbsp;
-        </div>
-    </div>
-</nav>
-<nav class="navbar-mobile" id="nav-mobile" style="display: none">
-     <div class="container">
-        <div class="navbar-header">
-            <div>  <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-sun"></i></a>&nbsp;<a href="https://dunghoang.net">DungHoang.Net</a></div>
-            <div class="menu-toggle">
-                <span></span><span></span><span></span>
-            </div>
-        </div>
-     
-          <div class="menu" id="mobile-menu">
-                
-                
-                <a class="menu-item" href="/posts/" title="">Blog</a>
-                
-                <a class="menu-item" href="/categories/" title="">Categories</a>
-                
-                <a class="menu-item" href="/about" title="">About</a>
-                
-        </div>
-    </div>
-</nav>
-
-    	 <main class="main">
-          <div class="container">
-      		
-<article class="post-warp">
-    <header class="post-header">
-        <h1 class="post-title">Hướng dẫn thay đổi Terminal mặc định sang Hyper trong Alfred</h1>
-        <div class="post-meta">
-            Written by <a href="https://dunghoang.net" rel="author">Dũng Hoàng</a> with ♥ 
-                <span class="post-time">
-                    on <time datetime=2020-12-28 >28 December 2020</time>
-                </span>
-                in
-                <i class="iconfont icon-folder"></i>
-                <span class="post-category">
-                        <a href="https://dunghoang.net/categories/macos/"> macOS </a>
-                        
-                </span>
-                <i class="iconfont icon-timer"></i>
-                2 min
-        </div>
-    </header>
-    <div class="post-content">
-        
-
-        
-            
-        
-
-        
-        
-     
-          
-          
-          
-
-          
-          
-          
-
-          <p>Alfred là ứng dụng cực hay ho thay thế Spotlight trên macOS với rất nhiều tính năng hữu ích, trong đó có tính năng chạy các command trực tiếp. Thông thường sẽ chạy command bằng cách gõ &ldquo;&gt; command&rdquo;, terminal mặc định trên macOS sẽ được mở lên và thực thi command đó. Tuy nhiên, với những ai sử dụng Hyper thay cho Terminal mặc định, sẽ cần phải tuỳ chỉnh 1 chút để command có thể được mở từ Hyper.</p>
-<p><a href="https://dunghoang.net/post/2020-10-13-alfred-su-thay-the-hoan-hao-cho-spotlight-cua-macos/">Tham khảo thêm về các tính năng khác của Alfred</a></p>
-<p>Cách thực hiện như sau:</p>
-<h3 id="mở-alfred-preferences">Mở Alfred Preferences</h3>
-<p>Mở Alfred Preferences, sau đó vào phần Features, chọn Terminal.
-Tại màn hình Terminal, bạn chọn:</p>
-<ul>
-<li>Prefix: &gt;</li>
-<li>Application: Custom</li>
-</ul>
-<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="/assets/images/2020/12/alfred_terminal.png" alt="Thay đổi Terminal mặc định sang Hyper trong Alfred" class="lazyload"><figcaption class="image-caption">Thay đổi Terminal mặc định sang Hyper trong Alfred</figcaption></figure></p>
-<h3 id="nhập-apple-scripts-để-thực-thi-mở-hyper-thay-cho-terminal">Nhập Apple Scripts để thực thi mở Hyper thay cho Terminal</h3>
-<p>Ở màn hình bên dưới, bạn nhập vào đoạn code sau:</p>
-<pre><code>on hyper_win()
-	set _running to (application &quot;Hyper&quot; is running)
-	tell application &quot;Hyper&quot; to activate
-	tell application &quot;System Events&quot;
-		log (name of first application process whose frontmost is true)
-		repeat while (name of first application process whose frontmost is true) is not &quot;Hyper&quot;
+<!doctype html><html lang=en><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="chrome=1"><meta name=viewport content="width=device-width,initial-scale=1"><meta name=robots content="noodp"><link rel=prev href=https://blog.dunghoang.net/2020/12/2020-12-05-fix-loi-usb-khong-the-su-dung-sau-khi-tao-bo-cai-mac/><link rel=next href=https://blog.dunghoang.net/2020/12/2020-12-29-dang-ky-vps-1-nam-chi-voi-10-aud/><link rel=canonical href=https://blog.dunghoang.net/2020/12/2020-12-29-doi-terminal-mac-dinh-trong-alfred-4/><link rel="shortcut icon" type=image/x-icon href=/favicon.ico><link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png><link rel=manifest href=/site.webmanifest><link rel=mask-icon href=/safari-pinned-tab.svg color=#5bbad5><meta name=msapplication-TileColor content="#da532c"><meta name=theme-color content="#ffffff"><title>Hướng dẫn thay đổi Terminal mặc định sang Hyper trong Alfred | Dũng</title><meta name=title content="Hướng dẫn thay đổi Terminal mặc định sang Hyper trong Alfred | Dũng"><link rel=stylesheet href=/font/iconfont.css><link rel=stylesheet href=/css/main.min.css><meta name=twitter:card content="summary"><meta name=twitter:title content="Hướng dẫn thay đổi Terminal mặc định sang Hyper trong Alfred"><meta name=twitter:description content="Alfred là ứng dụng cực hay ho thay thế Spotlight trên macOS với rất nhiều tính năng hữu ích, trong đó có tính năng chạy các command trực tiếp. Thông thường sẽ chạy command bằng cách gõ &ldquo;> command&rdquo;, terminal mặc định trên macOS sẽ được mở lên và thực thi command đó. Tuy nhiên, với những ai sử dụng Hyper thay cho Terminal mặc định, sẽ cần phải tuỳ chỉnh 1 chút để command có thể được mở từ Hyper."><script type=application/ld+json>{"@context":"http://schema.org","@type":"BlogPosting","headline":"Hướng dẫn thay đổi Terminal mặc định sang Hyper trong Alfred","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/blog.dunghoang.net\/2020\/12\/2020-12-29-doi-terminal-mac-dinh-trong-alfred-4\/"},"image":{"@type":"ImageObject","url":"https:\/\/blog.dunghoang.net\/cover.png","width":800,"height":600},"genre":"posts","keywords":"macos, tricks, alfred","wordcount":301,"url":"https:\/\/blog.dunghoang.net\/2020\/12\/2020-12-29-doi-terminal-mac-dinh-trong-alfred-4\/","datePublished":"2020-12-28T07:05:05\u002b00:00","dateModified":"2020-12-28T07:05:05\u002b00:00","publisher":{"@type":"Organization","name":"Dũng Hoàng","logo":{"@type":"ImageObject","url":"https:\/\/blog.dunghoang.net\/assets\/images\/dh_logo.png","width":127,"height":40}},"author":{"@type":"Person","name":"Dũng Hoàng"},"description":""}</script></head><body><div class=wrapper><nav class=navbar><div class=container><div class="navbar-header header-logo"><a href=https://blog.dunghoang.net>Dũng</a></div><div class="menu navbar-right"><a class=menu-item href=/posts/>Blog</a>
+<a class=menu-item href=/categories/>Categories</a>
+<a class=menu-item href=/about>About</a>
+<a href=javascript:void(0); class=theme-switch><i class="iconfont icon-sun"></i></a>&nbsp;</div></div></nav><nav class=navbar-mobile id=nav-mobile style=display:none><div class=container><div class=navbar-header><div><a href=javascript:void(0); class=theme-switch><i class="iconfont icon-sun"></i></a>&nbsp;<a href=https://blog.dunghoang.net>Dũng</a></div><div class=menu-toggle><span></span><span></span><span></span></div></div><div class=menu id=mobile-menu><a class=menu-item href=/posts/>Blog</a>
+<a class=menu-item href=/categories/>Categories</a>
+<a class=menu-item href=/about>About</a></div></div></nav><main class=main><div class=container><article class=post-warp><header class=post-header><h1 class=post-title>Hướng dẫn thay đổi Terminal mặc định sang Hyper trong Alfred</h1><div class=post-meta>Written by <a href=https://blog.dunghoang.net rel=author>Dũng Hoàng</a> with ♥
+<span class=post-time>on <time datetime=28/12/2020>28/12/2020</time></span>
+in
+<i class="iconfont icon-folder"></i><span class=post-category><a href=https://blog.dunghoang.net/categories/macos/>macOS</a></span>
+<i class="iconfont icon-timer"></i>2 min</div></header><div class=post-content><p>Alfred là ứng dụng cực hay ho thay thế Spotlight trên macOS với rất nhiều tính năng hữu ích, trong đó có tính năng chạy các command trực tiếp. Thông thường sẽ chạy command bằng cách gõ &ldquo;> command&rdquo;, terminal mặc định trên macOS sẽ được mở lên và thực thi command đó. Tuy nhiên, với những ai sử dụng Hyper thay cho Terminal mặc định, sẽ cần phải tuỳ chỉnh 1 chút để command có thể được mở từ Hyper.</p><p><a href=https://dunghoang.net/post/2020-10-13-alfred-su-thay-the-hoan-hao-cho-spotlight-cua-macos/>Tham khảo thêm về các tính năng khác của Alfred</a></p><p>Cách thực hiện như sau:</p><h3 id=mở-alfred-preferences>Mở Alfred Preferences</h3><p>Mở Alfred Preferences, sau đó vào phần Features, chọn Terminal.
+Tại màn hình Terminal, bạn chọn:</p><ul><li>Prefix: ></li><li>Application: Custom</li></ul><p><figure><img src=/images/ring.svg data-sizes=auto data-src=/assets/images/2020/12/alfred_terminal.png alt="Thay đổi Terminal mặc định sang Hyper trong Alfred" class=lazyload><figcaption class=image-caption>Thay đổi Terminal mặc định sang Hyper trong Alfred</figcaption></figure></p><h3 id=nhập-apple-scripts-để-thực-thi-mở-hyper-thay-cho-terminal>Nhập Apple Scripts để thực thi mở Hyper thay cho Terminal</h3><p>Ở màn hình bên dưới, bạn nhập vào đoạn code sau:</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>on hyper_win<span style=color:#f92672>()</span>
+	set _running to <span style=color:#f92672>(</span>application <span style=color:#e6db74>&#34;Hyper&#34;</span> is running<span style=color:#f92672>)</span>
+	tell application <span style=color:#e6db74>&#34;Hyper&#34;</span> to activate
+	tell application <span style=color:#e6db74>&#34;System Events&#34;</span>
+		log <span style=color:#f92672>(</span>name of first application process whose frontmost is true<span style=color:#f92672>)</span>
+		repeat <span style=color:#66d9ef>while</span> <span style=color:#f92672>(</span>name of first application process whose frontmost is true<span style=color:#f92672>)</span> is not <span style=color:#e6db74>&#34;Hyper&#34;</span>
 			delay 0.05
 		end repeat
 		
 		set _hyper to first application process whose frontmost is true
 		-- If Hyper was running, create a new window to run command
-		if _running then
-			tell _hyper to set _target to (count windows) + 1
-			keystroke &quot;n&quot; using {command down}
-		else
-			set _target to 1
-		end if
+		<span style=color:#66d9ef>if</span> _running <span style=color:#66d9ef>then</span>
+			tell _hyper to set _target to <span style=color:#f92672>(</span>count windows<span style=color:#f92672>)</span> + <span style=color:#ae81ff>1</span>
+			keystroke <span style=color:#e6db74>&#34;n&#34;</span> using <span style=color:#f92672>{</span>command down<span style=color:#f92672>}</span>
+		<span style=color:#66d9ef>else</span>
+			set _target to <span style=color:#ae81ff>1</span>
+		end <span style=color:#66d9ef>if</span>
 		
-		-- Wait for wanted window count
+		-- Wait <span style=color:#66d9ef>for</span> wanted window count
 		tell _hyper
-			repeat while (count windows) &lt; _target
+			repeat <span style=color:#66d9ef>while</span> <span style=color:#f92672>(</span>count windows<span style=color:#f92672>)</span> &lt; _target
 				delay 0.05
 			end repeat
 		end tell
 	end tell
 end hyper_win
 
-on alfred_script(q)
-	my hyper_win()
-	tell application &quot;System Events&quot;
+on alfred_script<span style=color:#f92672>(</span>q<span style=color:#f92672>)</span>
+	my hyper_win<span style=color:#f92672>()</span>
+	tell application <span style=color:#e6db74>&#34;System Events&#34;</span>
 		keystroke q
-		key code 36
+		key code <span style=color:#ae81ff>36</span>
 	end tell
 end alfred_script
-</code></pre><p>Kể từ giờ, mỗi khi bạn gọi command bằng cách sử dụng &ldquo;&gt; command&rdquo;, Hyper sẽ được mở lên và command sẽ được thực thi. ^^</p>
-<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="/assets/images/2020/12/alfred_terminal_2.png" alt="Thay đổi Terminal mặc định sang Hyper trong Alfred" class="lazyload"><figcaption class="image-caption">Thay đổi Terminal mặc định sang Hyper trong Alfred</figcaption></figure></p>
-
-    </div>
-
-    <div class="post-copyright">
-             
-            <p class="copyright-item">
-                <span>Author:</span>
-                <span>Dũng Hoàng </span>
-                </p>
-            
-           
-            <p class="copyright-item">
-                    <span>Words:</span>
-                   <span>301</span>
-            </p>
-            
-            <p class="copyright-item">
-                
-                <span>Share:</span>
-                <span>
-
-      
-        <a href="//twitter.com/share?url=https%3a%2f%2fdunghoang.net%2f2020%2f12%2f2020-12-29-doi-terminal-mac-dinh-trong-alfred-4%2f&amp;text=H%c6%b0%e1%bb%9bng%20d%e1%ba%abn%20thay%20%c4%91%e1%bb%95i%20Terminal%20m%e1%ba%b7c%20%c4%91%e1%bb%8bnh%20sang%20Hyper%20trong%20Alfred&amp;via=dunght72" target="_blank" title="Share on Twitter">
-          <i class="iconfont icon-twitter"></i>
-        </a>
-        
-      
-      
-        <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fdunghoang.net%2f2020%2f12%2f2020-12-29-doi-terminal-mac-dinh-trong-alfred-4%2f" target="_blank" title="Share on Facebook">
-          <i class="iconfont icon-facebook"></i>
-        </a>
-        
-      
-      
-      
-      
-        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fdunghoang.net%2f2020%2f12%2f2020-12-29-doi-terminal-mac-dinh-trong-alfred-4%2f&amp;title=H%c6%b0%e1%bb%9bng%20d%e1%ba%abn%20thay%20%c4%91%e1%bb%95i%20Terminal%20m%e1%ba%b7c%20%c4%91%e1%bb%8bnh%20sang%20Hyper%20trong%20Alfred" target="_blank" title="Share on LinkedIn">
-          <i class="iconfont icon-linkedin"></i>
-        </a>
-        
-      
-      
-        
-      
-        
-      
-
-          
-
-          
-
-          
-
-          
-</span>
-                
-            </p>
-
-            
-    </div>
-
-  
-    <div class="post-tags">
-        
-            <section>
-            <i class="iconfont icon-icon-tag"></i>Tag: 
-            
-            <span class="tag"><a href="https://dunghoang.net/tags/macos/">
-                    #macos</a></span>
-            
-            <span class="tag"><a href="https://dunghoang.net/tags/tricks/">
-                    #tricks</a></span>
-            
-            <span class="tag"><a href="https://dunghoang.net/tags/alfred/">
-                    #alfred</a></span>
-            
-            </section>
-        
-        <section>
-                <a href="javascript:window.history.back();">Back</a></span> · 
-                <span><a href="https://dunghoang.net">Home</a></span>
-        </section>
-    </div>
-
-    <div class="post-nav">
-        
-        <a href="https://dunghoang.net/2020/12/2020-12-05-fix-loi-usb-khong-the-su-dung-sau-khi-tao-bo-cai-mac/" class="prev" rel="prev" title="Hướng dẫn fix lỗi USB không thể sử dụng sau khi tạo bộ cài macOS"><i class="iconfont icon-dajiantou"></i>&nbsp;Hướng dẫn fix lỗi USB không thể sử dụng sau khi tạo bộ cài macOS</a>
-         
-        
-        <a href="https://dunghoang.net/2020/12/2020-12-29-dang-ky-vps-1-nam-chi-voi-10-aud/" class="next" rel="next" title="Hướng dẫn đăng ký VPS sử dụng 1 năm chỉ với 10 AUD.">Hướng dẫn đăng ký VPS sử dụng 1 năm chỉ với 10 AUD.&nbsp;<i class="iconfont icon-xiaojiantou"></i></a>
-        
-    </div>
-
-    
-</article>
-          </div>
-		   </main>
-      <footer class="footer">
-    <div class="copyright">
-        &copy;
-        
-        <span itemprop="copyrightYear">2020 - 2021</span>
-        
-         
-            <span class="author" itemprop="copyrightHolder"><a href="https://dunghoang.net">Dũng Hoàng</a> | </span>
-         
-
-		  <span>From Ho Chi Minh City with ❤️   </span>
-    </div>
-</footer>
-
-
-
-
-
-
-
-
-
-
-
-
-    
-    <link crossorigin="anonymous" integrity="sha384-yziQACfvCVwLqVFLqkWBYRO3XeA4EqzfXKGwaWnenYn5XzqfJFlFdKEmvutIQdKb" href="https://lib.baomitu.com/lightgallery/1.10.0/css/lightgallery.min.css" rel="stylesheet">
-      
-     <script src="/js/vendor_gallery.min.js" async="" ></script>
-    
-  
-
-
-
-
-
-
-
-     </div>
-  </body>
-</html>
+</code></pre></div><p>Kể từ giờ, mỗi khi bạn gọi command bằng cách sử dụng &ldquo;> command&rdquo;, Hyper sẽ được mở lên và command sẽ được thực thi. ^^</p><p><figure><img src=/images/ring.svg data-sizes=auto data-src=/assets/images/2020/12/alfred_terminal_2.png alt="Thay đổi Terminal mặc định sang Hyper trong Alfred" class=lazyload><figcaption class=image-caption>Thay đổi Terminal mặc định sang Hyper trong Alfred</figcaption></figure></p></div><div class=post-copyright><p class=copyright-item><span>Author:</span>
+<span>Dũng Hoàng</span></p><p class=copyright-item><span>Words:</span>
+<span>301</span></p><p class=copyright-item><span>Share:</span>
+<span><a href="//twitter.com/share?url=https%3a%2f%2fblog.dunghoang.net%2f2020%2f12%2f2020-12-29-doi-terminal-mac-dinh-trong-alfred-4%2f&text=H%c6%b0%e1%bb%9bng%20d%e1%ba%abn%20thay%20%c4%91%e1%bb%95i%20Terminal%20m%e1%ba%b7c%20%c4%91%e1%bb%8bnh%20sang%20Hyper%20trong%20Alfred&via=dunght72" target=_blank title="Share on Twitter"><i class="iconfont icon-twitter"></i></a><a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fblog.dunghoang.net%2f2020%2f12%2f2020-12-29-doi-terminal-mac-dinh-trong-alfred-4%2f" target=_blank title="Share on Facebook"><i class="iconfont icon-facebook"></i></a><a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fblog.dunghoang.net%2f2020%2f12%2f2020-12-29-doi-terminal-mac-dinh-trong-alfred-4%2f&title=H%c6%b0%e1%bb%9bng%20d%e1%ba%abn%20thay%20%c4%91%e1%bb%95i%20Terminal%20m%e1%ba%b7c%20%c4%91%e1%bb%8bnh%20sang%20Hyper%20trong%20Alfred" target=_blank title="Share on LinkedIn"><i class="iconfont icon-linkedin"></i></a></span></p></div><div class=post-tags><section><i class="iconfont icon-icon-tag"></i>Tag:
+<span class=tag><a href=https://blog.dunghoang.net/tags/macos/>#macos</a></span>
+<span class=tag><a href=https://blog.dunghoang.net/tags/tricks/>#tricks</a></span>
+<span class=tag><a href=https://blog.dunghoang.net/tags/alfred/>#alfred</a></span></section><section><a href=javascript:window.history.back();>Back</a></span> ·
+<span><a href=https://blog.dunghoang.net>Home</a></span></section></div><div class=post-nav><a href=https://blog.dunghoang.net/2020/12/2020-12-05-fix-loi-usb-khong-the-su-dung-sau-khi-tao-bo-cai-mac/ class=prev rel=prev title="Hướng dẫn fix lỗi USB không thể sử dụng sau khi tạo bộ cài macOS"><i class="iconfont icon-dajiantou"></i>&nbsp;Hướng dẫn fix lỗi USB không thể sử dụng sau khi tạo bộ cài macOS</a>
+<a href=https://blog.dunghoang.net/2020/12/2020-12-29-dang-ky-vps-1-nam-chi-voi-10-aud/ class=next rel=next title="Hướng dẫn đăng ký VPS sử dụng 1 năm chỉ với 10 AUD.">Hướng dẫn đăng ký VPS sử dụng 1 năm chỉ với 10 AUD.&nbsp;<i class="iconfont icon-xiaojiantou"></i></a></div></article></div></main><footer class=footer><div class=copyright>&copy;
+<span itemprop=copyrightYear>2020 - 2021</span>
+<span class=author itemprop=copyrightHolder><a href=https://blog.dunghoang.net>Dũng Hoàng</a> |</span>
+<span>From Ho Chi Minh City with ❤️</span></div></footer><link crossorigin=anonymous integrity=sha384-yziQACfvCVwLqVFLqkWBYRO3XeA4EqzfXKGwaWnenYn5XzqfJFlFdKEmvutIQdKb href=https://lib.baomitu.com/lightgallery/1.10.0/css/lightgallery.min.css rel=stylesheet><script src=/js/vendor_gallery.min.js async></script></div></body></html>

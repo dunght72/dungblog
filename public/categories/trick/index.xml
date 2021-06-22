@@ -1,82 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Trick on DungHoang.Net</title>
-    <link>https://dunghoang.net/categories/trick/</link>
-    <description>Recent content in Trick on DungHoang.Net</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Thu, 31 Dec 2020 01:05:05 +0000</lastBuildDate><atom:link href="https://dunghoang.net/categories/trick/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Đăng ký tài khoản Pluralsight miễn phí 1 năm</title>
-      <link>https://dunghoang.net/2020/12/2020-12-31-dang-ky-pluralsight-mot-nam-mien-phi/</link>
-      <pubDate>Thu, 31 Dec 2020 01:05:05 +0000</pubDate>
-      
-      <guid>https://dunghoang.net/2020/12/2020-12-31-dang-ky-pluralsight-mot-nam-mien-phi/</guid>
-      <description>Pluralsight One là gì? Pluralsight One là nền tảng cung cấp các khoá học trực tuyến tương tự như Udemy. Các khoá học tại Pluralsight được đầu tư rất bài bản và chất lượng. Thông thường, để đăng ký 1 tài khoản cá nhân ở đây có giá khoảng 29$/tháng hoặc 199$/năm.
-Tin vui là hiện tại Pluralsight đang liên kết cùng Code.org để cung cấp nền tảng Pluralsight One, giúp người dùng có thể sử dụng một năm miễn phí với hơn 350 khoá học, thuộc nhiều lĩnh vực khác nhau:</description>
-    </item>
-    
-    <item>
-      <title>Hướng dẫn đăng ký VPS sử dụng 1 năm chỉ với 10 AUD.</title>
-      <link>https://dunghoang.net/2020/12/2020-12-29-dang-ky-vps-1-nam-chi-voi-10-aud/</link>
-      <pubDate>Tue, 29 Dec 2020 14:05:05 +0000</pubDate>
-      
-      <guid>https://dunghoang.net/2020/12/2020-12-29-dang-ky-vps-1-nam-chi-voi-10-aud/</guid>
-      <description>QuantumCore là nhà cung cấp hosting, server đến từ Australia, server ở đây sử dụng ổ cứng NVME cho tốc độ rất nhanh. Hiện nay đang có chương trình khuyến mãi từ QuantumCore, tặng 50AUD miễn phí để bạn có thể sử dụng VPS, Hosting.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Trick on Dũng</title><link>https://blog.dunghoang.net/categories/trick/</link><description>Recent content in Trick on Dũng</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 31 Dec 2020 01:05:05 +0000</lastBuildDate><atom:link href="https://blog.dunghoang.net/categories/trick/index.xml" rel="self" type="application/rss+xml"/><item><title>Đăng ký tài khoản Pluralsight miễn phí 1 năm</title><link>https://blog.dunghoang.net/2020/12/2020-12-31-dang-ky-pluralsight-mot-nam-mien-phi/</link><pubDate>Thu, 31 Dec 2020 01:05:05 +0000</pubDate><guid>https://blog.dunghoang.net/2020/12/2020-12-31-dang-ky-pluralsight-mot-nam-mien-phi/</guid><description>Pluralsight One là gì? Pluralsight One là nền tảng cung cấp các khoá học trực tuyến tương tự như Udemy. Các khoá học tại Pluralsight được đầu tư rất bài bản và chất lượng. Thông thường, để đăng ký 1 tài khoản cá nhân ở đây có giá khoảng 29$/tháng hoặc 199$/năm.
+Tin vui là hiện tại Pluralsight đang liên kết cùng Code.org để cung cấp nền tảng Pluralsight One, giúp người dùng có thể sử dụng một năm miễn phí với hơn 350 khoá học, thuộc nhiều lĩnh vực khác nhau:</description></item><item><title>Hướng dẫn đăng ký VPS sử dụng 1 năm chỉ với 10 AUD.</title><link>https://blog.dunghoang.net/2020/12/2020-12-29-dang-ky-vps-1-nam-chi-voi-10-aud/</link><pubDate>Tue, 29 Dec 2020 14:05:05 +0000</pubDate><guid>https://blog.dunghoang.net/2020/12/2020-12-29-dang-ky-vps-1-nam-chi-voi-10-aud/</guid><description>QuantumCore là nhà cung cấp hosting, server đến từ Australia, server ở đây sử dụng ổ cứng NVME cho tốc độ rất nhanh. Hiện nay đang có chương trình khuyến mãi từ QuantumCore, tặng 50AUD miễn phí để bạn có thể sử dụng VPS, Hosting.
 Để nhận ưu đãi, các bạn có thể thực hiện như sau:
-Cách nhận ưu đãi 50AUD từ QuantumCore   Bước 1: Truy cập link này để đăng ký 1 tài khoản QuantumCore.</description>
-    </item>
-    
-    <item>
-      <title>Hướng dẫn map Network Drive bằng Command Line</title>
-      <link>https://dunghoang.net/2020/08/2020-08-14-map-network-drive-bang-command/</link>
-      <pubDate>Fri, 14 Aug 2020 07:50:00 +0000</pubDate>
-      
-      <guid>https://dunghoang.net/2020/08/2020-08-14-map-network-drive-bang-command/</guid>
-      <description>Các lệnh dưới đây dùng để map Network Drive, sử dụng cho mục đích ghi nhớ cá nhân.
+Cách nhận ưu đãi 50AUD từ QuantumCore Bước 1: Truy cập link này để đăng ký 1 tài khoản QuantumCore.</description></item><item><title>Hướng dẫn map Network Drive bằng Command Line</title><link>https://blog.dunghoang.net/2020/08/2020-08-14-map-network-drive-bang-command/</link><pubDate>Fri, 14 Aug 2020 07:50:00 +0000</pubDate><guid>https://blog.dunghoang.net/2020/08/2020-08-14-map-network-drive-bang-command/</guid><description>Các lệnh dưới đây dùng để map Network Drive, sử dụng cho mục đích ghi nhớ cá nhân.
 Mapping a network drive to a shared folder from Windows’ graphic interface isn’t hard. But if you already know the network path for the shared folder, you can map drives a lot quicker using the Command Prompt.
-Mapping a drive to a network share assigns that share a drive letter so that it’s easier to work with.</description>
-    </item>
-    
-    <item>
-      <title>Hướng dẫn tạo tài khoản Google Drive Unlimited miễn phí</title>
-      <link>https://dunghoang.net/2020/07/2020-07-16-huong-dan-tao-tai-khoan-google-drive-unlimited-mien-phi/</link>
-      <pubDate>Thu, 16 Jul 2020 15:40:00 +0000</pubDate>
-      
-      <guid>https://dunghoang.net/2020/07/2020-07-16-huong-dan-tao-tai-khoan-google-drive-unlimited-mien-phi/</guid>
-      <description>Google Drive Unlimited là gì? Bạn đã từng nghe đến khái niệm Google Drive Unlimited? Đó là những tài khoản Google Drive với dung lượng không giới hạn, thông thường những tài khoản Drive này được tạo từ những tài khoản GSuite, tài khoản free cho Sinh Viên (mail Edu) hoặcmua trực tiếp từ Google.
-Hướng dẫn tạo Google Drive Unlimited Nếu bạn chưa có tài khoản Google Drive Unlimited để lưu trữ tạm thời miễn phí (Gọi là lưu trữ tạm thời vì không có gì đảm bảo những tài khoản tạo free này sẽ sống lâu dài, nên đừng lưu dữ liệu cá nhân hoặc dữ liệu quan trọng lên đó nhé), có thể truy cập một trong những website sau để được tạo tài khoản Google Drive Team miễn phí.</description>
-    </item>
-    
-    <item>
-      <title>Một số lệnh Terminal hay sử dụng</title>
-      <link>https://dunghoang.net/2020/07/2020-07-15-lenh-terminal-hay-su-dung/</link>
-      <pubDate>Wed, 15 Jul 2020 10:49:00 +0000</pubDate>
-      
-      <guid>https://dunghoang.net/2020/07/2020-07-15-lenh-terminal-hay-su-dung/</guid>
-      <description>Một số Code Snippet hay sử dụng trong terminal, dùng để ghi nhớ cá nhân
-Lệnh copy file từ remote xuống Local scp -r user@server.com:/path/to/remote /path/to/local Lệnh copy file từ Local lên Remote scp /path/to/local user@server.com:/path/to/remote Lệnh copy giữa Cloud Drive và Local dùng rclone hoặc giữa các Cloud  Bước 1: Cài đặt rclone từ trang chủ Bước 2: Cấu hình Cloud Drive trên rclone Bước 3: Dùng lệnh sau để copy giữa các Drive hoặc giữa Drive và Local  rclone copy tendrive:path/to/folder destination:path/to/folder --disable copy Lưu ý: Nếu là Google Drive thì có giới hạn copy là 750GB/ngày</description>
-    </item>
-    
-    <item>
-      <title>Hướng dẫn kích hoạt tính năng CSS Overview mới trên Google Chrome</title>
-      <link>https://dunghoang.net/2020/07/2020-07-02-huong-dan-kich-hoat-tinh-nang-css-overview-tren-google-chrome/</link>
-      <pubDate>Thu, 02 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://dunghoang.net/2020/07/2020-07-02-huong-dan-kich-hoat-tinh-nang-css-overview-tren-google-chrome/</guid>
-      <description>CSS Overview CSS Overview là một tính năng thử nghiệm mới trên Google Chrome, giúp chúng ta có một cái nhìn tổng quan về trang web mà bạn đang xem: Sử dụng những màu sắc nào? Font chữ đang sử dụng là font gì? Có bao nhiêu truy vấn?&amp;hellip; Tuy nhiên tính năng này không được mặc định kích hoạt mà phải thông qua một vài bước.
-Huớng dẫn kích hoat CSS Overview trên Google Chrome   Trên Google Chrome, mở DevTools (Command+Option+I trên Mac; Control+Shift+I trên Windows)</description>
-    </item>
-    
-    <item>
-      <title>Hướng dẫn chat Telegram bằng Terminal</title>
-      <link>https://dunghoang.net/2020/06/2020-06-18-huong-dan-chat-telegram-bang-terminal/</link>
-      <pubDate>Thu, 18 Jun 2020 19:03:36 +0000</pubDate>
-      
-      <guid>https://dunghoang.net/2020/06/2020-06-18-huong-dan-chat-telegram-bang-terminal/</guid>
-      <description>Telegram đang ngày càng trở nên phô biến do tính bảo mật tốt, tốc độ nhanh và thân thiện. Sử dụng telegram trên app thì bình thường rồi, bạn còn có thể nhắn tin Telegram trên chính Terminal bằng cách sử dụng Telegram-cli. Nếu bạn muốn thể hiện thì hãy dùng thử nhé ^^ Cài đặt Telegram CLI trên Macos Cài đặt trên Ubuntu sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.</description>
-    </item>
-    
-  </channel>
-</rss>
+Mapping a drive to a network share assigns that share a drive letter so that it’s easier to work with.</description></item><item><title>Hướng dẫn tạo tài khoản Google Drive Unlimited miễn phí</title><link>https://blog.dunghoang.net/2020/07/2020-07-16-huong-dan-tao-tai-khoan-google-drive-unlimited-mien-phi/</link><pubDate>Thu, 16 Jul 2020 15:40:00 +0000</pubDate><guid>https://blog.dunghoang.net/2020/07/2020-07-16-huong-dan-tao-tai-khoan-google-drive-unlimited-mien-phi/</guid><description>Google Drive Unlimited là gì? Bạn đã từng nghe đến khái niệm Google Drive Unlimited? Đó là những tài khoản Google Drive với dung lượng không giới hạn, thông thường những tài khoản Drive này được tạo từ những tài khoản GSuite, tài khoản free cho Sinh Viên (mail Edu) hoặcmua trực tiếp từ Google.
+Hướng dẫn tạo Google Drive Unlimited Nếu bạn chưa có tài khoản Google Drive Unlimited để lưu trữ tạm thời miễn phí (Gọi là lưu trữ tạm thời vì không có gì đảm bảo những tài khoản tạo free này sẽ sống lâu dài, nên đừng lưu dữ liệu cá nhân hoặc dữ liệu quan trọng lên đó nhé), có thể truy cập một trong những website sau để được tạo tài khoản Google Drive Team miễn phí.</description></item><item><title>Một số lệnh Terminal hay sử dụng</title><link>https://blog.dunghoang.net/2020/07/2020-07-15-lenh-terminal-hay-su-dung/</link><pubDate>Wed, 15 Jul 2020 10:49:00 +0000</pubDate><guid>https://blog.dunghoang.net/2020/07/2020-07-15-lenh-terminal-hay-su-dung/</guid><description>Một số Code Snippet hay sử dụng trong terminal, dùng để ghi nhớ cá nhân
+Lệnh copy file từ remote xuống Local scp -r user@server.com:/path/to/remote /path/to/local Lệnh copy file từ Local lên Remote scp /path/to/local user@server.com:/path/to/remote Lệnh copy giữa Cloud Drive và Local dùng rclone hoặc giữa các Cloud Bước 1: Cài đặt rclone từ trang chủ Bước 2: Cấu hình Cloud Drive trên rclone Bước 3: Dùng lệnh sau để copy giữa các Drive hoặc giữa Drive và Local rclone copy tendrive:path/to/folder destination:path/to/folder --disable copy Lưu ý: Nếu là Google Drive thì có giới hạn copy là 750GB/ngày</description></item><item><title>Hướng dẫn kích hoạt tính năng CSS Overview mới trên Google Chrome</title><link>https://blog.dunghoang.net/2020/07/2020-07-02-huong-dan-kich-hoat-tinh-nang-css-overview-tren-google-chrome/</link><pubDate>Thu, 02 Jul 2020 00:00:00 +0000</pubDate><guid>https://blog.dunghoang.net/2020/07/2020-07-02-huong-dan-kich-hoat-tinh-nang-css-overview-tren-google-chrome/</guid><description>CSS Overview CSS Overview là một tính năng thử nghiệm mới trên Google Chrome, giúp chúng ta có một cái nhìn tổng quan về trang web mà bạn đang xem: Sử dụng những màu sắc nào? Font chữ đang sử dụng là font gì? Có bao nhiêu truy vấn?&amp;hellip; Tuy nhiên tính năng này không được mặc định kích hoạt mà phải thông qua một vài bước.
+Huớng dẫn kích hoat CSS Overview trên Google Chrome Trên Google Chrome, mở DevTools (Command+Option+I trên Mac; Control+Shift+I trên Windows)</description></item><item><title>Hướng dẫn chat Telegram bằng Terminal</title><link>https://blog.dunghoang.net/2020/06/2020-06-18-huong-dan-chat-telegram-bang-terminal/</link><pubDate>Thu, 18 Jun 2020 19:03:36 +0000</pubDate><guid>https://blog.dunghoang.net/2020/06/2020-06-18-huong-dan-chat-telegram-bang-terminal/</guid><description>Telegram đang ngày càng trở nên phô biến do tính bảo mật tốt, tốc độ nhanh và thân thiện. Sử dụng telegram trên app thì bình thường rồi, bạn còn có thể nhắn tin Telegram trên chính Terminal bằng cách sử dụng Telegram-cli. Nếu bạn muốn thể hiện thì hãy dùng thử nhé ^^ Cài đặt Telegram CLI trên Macos Cài đặt trên Ubuntu sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.</description></item></channel></rss>
