@@ -1,7 +1,7 @@
 baseURL = "https://blog.dunghoang.net"
 languageCode = "en"
 defaultContentLanguage = "en"
-title = "Dũng"
+title = "Dũng Hoàng"
 theme = "KeepIt"
 showComments = false
 paginate = 12

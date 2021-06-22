@@ -1,7 +1,7 @@
 ---
-title: "YT Music - Ứng dụng nghe nhạc từ Youtube Music cho macOS"
-date: 2021-03-22T13:12:03+07:00
-featuredImage: /assets/images/2021/03/ytmusic-playing.png
+Title: "YT Music - Ứng dụng nghe nhạc từ Youtube Music cho macOS"
+Date: 2021-03-22T13:12:03+07:00
+featured: /assets/images/2021/03/ytmusic-playing.png
 featuredImagePreview: /assets/images/2021/03/ytmusic-playing.png
 categories: ["macOS"]
 tags:
