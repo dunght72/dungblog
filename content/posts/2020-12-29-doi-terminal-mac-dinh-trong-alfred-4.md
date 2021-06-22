@@ -30,7 +30,7 @@ Tại màn hình Terminal, bạn chọn:
 ### Nhập Apple Scripts để thực thi mở Hyper thay cho Terminal
 Ở màn hình bên dưới, bạn nhập vào đoạn code sau:
 
-```
+```bash
 on hyper_win()
 	set _running to (application "Hyper" is running)
 	tell application "Hyper" to activate

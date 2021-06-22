@@ -1,7 +1,7 @@
-baseURL = "https://dunghoang.net"
+baseURL = "https://blog.dunghoang.net"
 languageCode = "en"
 defaultContentLanguage = "en"
-title = "DungHoang.Net"
+title = "Dũng"
 theme = "KeepIt"
 showComments = false
 paginate = 12
@@ -45,7 +45,7 @@ googleAnalytics = ""
     subtitle = "Where there is a will, there is a way!"       # Subtitle
     cdn_url = ""           # Base CDN URL
     home_mode = "" # post or other
-    dateFormatToUse = "" # set date format, default "2 January 2006"
+    dateFormatToUse = "02/01/2006" # set date format, default "2 January 2006"
     showComments = false
     google_verification = ""
     bing_verification = ""
@@ -141,13 +141,13 @@ Linkedin = true
 #copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
 
 [author]
-  name = "Fastbyte01"
+  name = "Dũng Hoàng"
 
   [params.publisher]
-    name = "Fastbyte01"
+    name = "Dũng Hoàng"
 
     [params.publisher.logo]
-      url = "logo.png"
+      url = "/assets/images/dh_logo.png"
       width = 127
       height = 40
 

@@ -37,20 +37,20 @@ Nếu cách 1 không hoạt động, các bạn có thể thử reset lại SMC 
 
 ### Cách 3: Đổi tên file Accounts4.sqlite (Không dành cho người mới)
 
-    Sao lưu lại file Accounts4.sqlite bằng cách
-    
-    Đổi tên /Users/xxx/Library/Accounts/Accounts4.sqlite thành /Users/XXX/Library/Accounts/Accounts4.sqlite.bak
-    
-    khi bạn khởi động lại Mac, 1 file Accounts4.sqlite sẽ được tạo mới, tiến hành đổi tên lại
-    
-    Đổi tên /Users/xxx/Library/Accounts/Accounts4.sqlite.bak lại thành /Users/xxx/Library/Accounts/Accounts4.sqlite
+Sao lưu lại file Accounts4.sqlite bằng cách
+
+Đổi tên /Users/xxx/Library/Accounts/Accounts4.sqlite thành /Users/XXX/Library/Accounts/Accounts4.sqlite.bak
+
+khi bạn khởi động lại Mac, 1 file Accounts4.sqlite sẽ được tạo mới, tiến hành đổi tên lại
+
+Đổi tên /Users/xxx/Library/Accounts/Accounts4.sqlite.bak lại thành /Users/xxx/Library/Accounts/Accounts4.sqlite
 
 ### Cách 4: Dùng lệnh terminal (Không dành cho người mới)
 
 Bạn mở Terminal và dán vào lệnh sau
-
-    sudo -v ; killall -9 accountsd http://com.apple.iCloudHelper ; defaults delete MobileMeAccounts ; mkdir ~/Library/Accounts/Backup ; mv ~/Library/Accounts/*.sqlite* ~/Library/Accounts/Backup/ ; killall -9 accountsd http://com.apple.iCloudHelper ; sudo reboot
-
+```bash
+sudo -v ; killall -9 accountsd http://com.apple.iCloudHelper ; defaults delete MobileMeAccounts ; mkdir ~/Library/Accounts/Backup ; mv ~/Library/Accounts/*.sqlite* ~/Library/Accounts/Backup/ ; killall -9 accountsd http://com.apple.iCloudHelper ; sudo reboot
+```
 Trên đây là một số cách mà người dùng macOS đã chia sẻ cho nhau để khắc phục lỗi "accountsd" trong khi đợi bản fix từ Apple.
 
 Máy bạn có bị lỗi "accountsd" chiếm dụng CPU không? Bạn xử lý bằng cách nào? Hãy chia sẻ cùng mọi người thông qua phần bình luận nhé. Nice day, guys!
