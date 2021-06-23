@@ -1,0 +1,189 @@
+baseURL = "https://blog.dunghoang.net"
+languageCode = "en"
+defaultContentLanguage = "en"
+title = "Dũng Hoàng"
+theme = "LoveIt"
+showComments = false
+paginate = 12
+enableEmoji = true
+enableRobotsTXT = true
+googleAnalytics = ""
+#disqusShortname = "yourdiscussshortname"
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[blackfriday]
+  hrefTargetBlank = true
+  nofollowLinks = true
+  noreferrerLinks = true
+
+[Permalinks]
+ posts = "/:year/:month/:filename/"
+
+[menu]
+  [[menu.main]]
+    name = "Blog"
+    url = "/posts/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Categories"
+    url = "/categories/"
+    weight = 3
+
+  [[menu.main]]
+    name = "About"
+    url = "/about"
+    weight = 4
+
+[params]
+    since = 2020
+    author = "Dũng Hoàng"               # Author's name
+    subtitle = "Where there is a will, there is a way!"       # Subtitle
+    cdn_url = ""           # Base CDN URL
+    home_mode = "" # post or other
+    dateFormatToUse = "02/01/2006" # set date format, default "2 January 2006"
+    showComments = false
+    google_verification = ""
+    bing_verification = ""
+    yandex_verification = ""
+    pinterest_verification = ""
+    baidu_verification = ""
+
+    avatar = "/assets/images/dh_logo.png" #comment it to use gravatar
+    socialShare = true
+
+    description = "Blog cá nhân của Dũng Hoàng - DungHoang.Net" # site description
+    keywords = "My Blog, Dung Hoang's Blog" # site keywords
+
+    #license= 'Released under <a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+
+[params.gravatar]
+    #email = "dunght72@gmail.com"   #uncomment and insert your email address to use gravatar
+
+
+[params.social]
+    GitHub = "dunght72"
+    #Linkedin = "xxxx"
+    Twitter = "dunght72"
+    #Instagram = "xxxx"
+    Email   = "dung@dunghoang.net"
+    Facebook = "dunghoang72"
+    #Telegram = "xxxx"
+    #Medium = "xxxx"
+    #Gitlab = "xxxx"
+    #Youtubelegacy = "xxxx"
+    #Youtubecustom = "xxxx"
+    #Youtubechannel = "xxxx"
+    #Tumblr ="xxxx"
+    #Quora = "xxxx"
+    #Keybase = "xxxx"
+    #Pinterest = "xxxx"
+    #Reddit = "xxxx"
+    #Codepen = "xxxx"
+    #Bitbucket = "dunght72"
+    #Stackoverflow = "xxxxx"
+    #Weibo = "xxxx"
+    #Odnoklassniki = "xxxx"
+    #VKontakte = "xxxx"
+    #Flickr = "xxxx"
+    #Xing = "xxxx"
+    #Snapchat = "xxxx"
+    #Soundcloud = "xxxx"
+    #Spotify = "xxxx"
+    #Bandcamp = "xxxx"
+    #Paypal = "xxxx"
+    #Fivehundredpx = "xxxx"
+    #Mix = "xxxx"
+    #Goodreads = "xxxx"
+    #Lastfm = "xxxx"
+    #Foursquare = "xxxx"
+    #Hackernews = "xxxx"
+    #Kickstarter = "xxxx"
+    #Patreon = "xxxx"
+    #Steam = "xxxx"
+    #Twitch = "xxxx"
+    #Strava = "xxxx"
+    #Skype = "htrungdung"
+    #Whatsapp = "xxxx"
+    #Zhihu = "xxxx"
+    #Douban = "xxxx"
+    #Angellist = "xxxx"
+    #Slidershare = "xxxx"
+    #Jsfiddle = "xxxx"
+    #Deviantart = "xxxx"
+    #Behance = "xxxx"
+    #Dribble = "xxxx"
+    #Wordpress = "xxxx"
+    #Vine = "xxxx"
+    #Googlescholar = "xxxx"
+    #Researchgate = "xxxx"
+    #Mastodon = "xxxx"
+    #Thingiverse = "xxxx"
+
+[params.share]
+Twitter = true
+Facebook = true
+#Reddit = true
+Linkedin = true
+#Pinterest = true
+#HackerNews = true
+#Mix = true
+#Tumblr = true
+#VKontakte = true
+#Douban = true
+#Weibo = true
+
+# Used only for Seo schema
+#copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+
+[author]
+  name = "Dũng Hoàng"
+
+  [params.publisher]
+    name = "Dũng Hoàng"
+
+    [params.publisher.logo]
+      url = "/assets/images/dh_logo.png"
+      width = 127
+      height = 40
+
+  [params.logo]
+    url = "/assets/images/dh_logo.png"
+    width = 127
+    height = 40
+
+  [params.image]
+    url = "cover.png"
+    width = 800
+    height = 600
+
+[params.gitalk]
+owner = ""       # Your GitHub ID
+repo = ""        # The repo to store comments
+clientId = ""    # Your client ID
+clientSecret = "" # Your client secret
+
+[params.valine]
+  enable = false
+  language = 'en'
+  appId = 'your appId'
+  appKey = 'your appKey'
+  notify = false  # mail notifier , https://github.com/xCss/Valine/wiki
+  verify = false # Verification code
+  avatar = 'mm'
+  placeholder = 'your comments ...'
+  visitor = true
+
+[params.utterances]       # https://utteranc.es/
+    owner = ""              # Your GitHub ID
+    repo = ""               # The repo to store comments
+
+[params.gitment]          # Gitment is a comment system based on GitHub issues. see https://github.com/imsun/gitment
+    owner = ""              # Your GitHub ID
+    repo = ""               # The repo to store comments
+    clientId = ""           # Your client ID
+    clientSecret = ""       # Your client secret
