@@ -11,7 +11,7 @@ themesDir = "themes/"
 
 # website title
 # 网站标题
-title = "Dũng Hoàng"
+title = "Dũng Hoàng Blog"
 
 # whether to use robots.txt
 # 是否使用 robots.txt
@@ -131,7 +131,7 @@ enableEmoji = true
           # title shown in home page (HTML format is supported)
           title = ""
           # subtitle shown in home page
-          subtitle = "There's a will, there's a way."
+          subtitle = "Where there's a will, there's a way."
           # whether to use typeit animation for subtitle
           typeit = true
           # whether to show social links
@@ -229,14 +229,14 @@ enableEmoji = true
   dateFormat = "02/01/2006"
   # website images for Open Graph and Twitter Cards
   # 网站图片, 用于 Open Graph 和 Twitter Cards
-  images = ["/logo.png"]
+  images = ["/assets/images/dh_logo.png"]
 
   # Header config
   # 页面头部导航栏配置
   [params.header]
     # desktop header mode ("fixed", "normal", "auto")
     # 桌面端导航栏模式 ("fixed", "normal", "auto")
-    desktopMode = "fixed"
+    desktopMode = "normal"
     # mobile header mode ("fixed", "normal", "auto")
     # 移动端导航栏模式 ("fixed", "normal", "auto")
     mobileMode = "auto"
@@ -248,10 +248,10 @@ enableEmoji = true
       logo = ""
       # title name
       # 标题名称
-      name = "Dũng Hoàng"
+      name = "DŨNG HOÀNG"
       # you can add extra information before the name (HTML format is supported), such as icons
       # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
-      # pre = "<i class='far fa-kiss-wink-heart fa-fw'></i>"
+      pre = "<i class='far fa-hand-peace fa-fw'></i>"
       # you can add extra information after the name (HTML format is supported), such as icons
       # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
       post = ""
@@ -268,7 +268,7 @@ enableEmoji = true
     custom = ''
     # whether to show Hugo and theme info
     # 是否显示 Hugo 和主题信息
-    hugo = true
+    hugo = false
     # whether to show copyright info
     # 是否显示版权信息
     copyright = true
@@ -290,10 +290,10 @@ enableEmoji = true
   [params.section]
     # special amount of posts in each section page
     # section 页面每页显示文章数量
-    paginate = 20
+    paginate = 15
     # date format (month and day)
     # 日期格式 (月和日)
-    dateFormat = "01-02"
+    dateFormat = "02/01"
     # amount of RSS pages
     # RSS 文章数目
     rss = 10
@@ -303,10 +303,10 @@ enableEmoji = true
   [params.list]
     # special amount of posts in each list page
     # list 页面每页显示文章数量
-    paginate = 20
+    paginate = 15
     # date format (month and day)
     # 日期格式 (月和日)
-    dateFormat = "01-02"
+    dateFormat = "02/01"
     # amount of RSS pages
     # RSS 文章数目
     rss = 10
@@ -361,7 +361,7 @@ enableEmoji = true
       copy = true
       # the maximum number of lines of displayed code by default
       # 默认展开显示的代码行数
-      maxShownLines = 10
+      maxShownLines = 15
     # KaTeX mathematical formulas config (KaTeX https://katex.org/)
     # KaTeX 数学公式配置 (KaTeX https://katex.org/)
     [params.page.math]
@@ -412,20 +412,20 @@ enableEmoji = true
       Facebook = true
       Linkedin = false
       Whatsapp = false
-      Pinterest = false
+      Pinterest = true
       Tumblr = false
-      HackerNews = true
+      HackerNews = false
       Reddit = false
       VK = false
       Buffer = false
       Xing = false
-      Line = true
+      Line = false
       Instapaper = false
       Pocket = false
       Digg = false
       Stumbleupon = false
       Flipboard = false
-      Weibo = true
+      Weibo = false
       Renren = false
       Myspace = false
       Blogger = false
@@ -678,8 +678,8 @@ enableEmoji = true
 # Permalinks config (https://gohugo.io/content-management/urls/#permalinks)
 # Permalinks 配置 (https://gohugo.io/content-management/urls/#permalinks)
 [Permalinks]
-  # posts = ":year/:month/:filename"
-  posts = ":filename"
+  posts = ":year/:month/:filename"
+  # posts = ":filename"
 
 # Privacy config (https://gohugo.io/about/hugo-and-gdpr/)
 # 隐私信息配置 (https://gohugo.io/about/hugo-and-gdpr/)

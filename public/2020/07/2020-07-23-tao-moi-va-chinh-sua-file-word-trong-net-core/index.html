@@ -1,130 +1,235 @@
-<!doctype html><html lang=en><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="chrome=1"><meta name=viewport content="width=device-width,initial-scale=1"><meta name=robots content="noodp"><link rel=prev href=https://blog.dunghoang.net/2020/07/2020-07-23-mot-so-regex-thuong-su-dung/><link rel=next href=https://blog.dunghoang.net/2020/08/2020-08-03-nhan-vat-phan-dien-nao-that-ra-da-lam-dung/><link rel=canonical href=https://blog.dunghoang.net/2020/07/2020-07-23-tao-moi-va-chinh-sua-file-word-trong-net-core/><link rel="shortcut icon" type=image/x-icon href=/favicon.ico><link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png><link rel=manifest href=/site.webmanifest><link rel=mask-icon href=/safari-pinned-tab.svg color=#5bbad5><meta name=msapplication-TileColor content="#da532c"><meta name=theme-color content="#ffffff"><title>Tạo mới và chỉnh sửa file Word trong .NET Core | Dũng Hoàng</title><meta name=title content="Tạo mới và chỉnh sửa file Word trong .NET Core | Dũng Hoàng"><link rel=stylesheet href=/font/iconfont.css><link rel=stylesheet href=/css/main.min.css><meta name=twitter:card content="summary"><meta name=twitter:title content="Tạo mới và chỉnh sửa file Word trong .NET Core"><meta name=twitter:description content="Bài viết dưới đây hướng dẫn tạo và chỉnh sửa file Word trong ứng dụng .Net Core sử dụng WYSIWYG editor và Aspose.Word  Bước 1: Tạo mới 1 ứng dụng ASP.NET Core Web Application (MVC) Bước 2: Download WYSIWYG editor và đặt trong wwwroot Bước 3: Mở Nuget Package Manager, tìm kiếm và cài đặt Aspose.Words for .NET package. Bước 4: Thêm đoạn code sau vào file index.cshtml  @{ ViewData[&#34;Title&#34;] = &#34;Word Editor in ASP."><script type=application/ld+json>{"@context":"http://schema.org","@type":"BlogPosting","headline":"Tạo mới và chỉnh sửa file Word trong .NET Core","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/blog.dunghoang.net\/2020\/07\/2020-07-23-tao-moi-va-chinh-sua-file-word-trong-net-core\/"},"image":{"@type":"ImageObject","url":"https:\/\/blog.dunghoang.net\/cover.png","width":800,"height":600},"genre":"posts","wordcount":419,"url":"https:\/\/blog.dunghoang.net\/2020\/07\/2020-07-23-tao-moi-va-chinh-sua-file-word-trong-net-core\/","datePublished":"2020-07-23T15:40:00\u002b00:00","dateModified":"2020-07-23T15:40:00\u002b00:00","publisher":{"@type":"Organization","name":"Dũng Hoàng","logo":{"@type":"ImageObject","url":"https:\/\/blog.dunghoang.net\/assets\/images\/dh_logo.png","width":127,"height":40}},"author":{"@type":"Person","name":"Dũng Hoàng"},"description":""}</script></head><body><div class=wrapper><nav class=navbar><div class=container><div class="navbar-header header-logo"><a href=https://blog.dunghoang.net>Dũng Hoàng</a></div><div class="menu navbar-right"><a class=menu-item href=/posts/>Blog</a>
-<a class=menu-item href=/categories/>Categories</a>
-<a class=menu-item href=/about>About</a>
-<a href=javascript:void(0); class=theme-switch><i class="iconfont icon-sun"></i></a>&nbsp;</div></div></nav><nav class=navbar-mobile id=nav-mobile style=display:none><div class=container><div class=navbar-header><div><a href=javascript:void(0); class=theme-switch><i class="iconfont icon-sun"></i></a>&nbsp;<a href=https://blog.dunghoang.net>Dũng Hoàng</a></div><div class=menu-toggle><span></span><span></span><span></span></div></div><div class=menu id=mobile-menu><a class=menu-item href=/posts/>Blog</a>
-<a class=menu-item href=/categories/>Categories</a>
-<a class=menu-item href=/about>About</a></div></div></nav><main class=main><div class=container><article class=post-warp><header class=post-header><h1 class=post-title>Tạo mới và chỉnh sửa file Word trong .NET Core</h1><div class=post-meta>Written by <a href=https://blog.dunghoang.net rel=author>Dũng Hoàng</a> with ♥
-<span class=post-time>on <time datetime=23/07/2020>23/07/2020</time></span>
-in
-<i class="iconfont icon-folder"></i><span class=post-category><a href=https://blog.dunghoang.net/categories/web-development/>Web Development</a></span>
-<i class="iconfont icon-timer"></i>2 min</div></header><div class=post-content><p>Bài viết dưới đây hướng dẫn tạo và chỉnh sửa file Word trong ứng dụng .Net Core sử dụng WYSIWYG editor và Aspose.Word<figure><img src=/images/ring.svg data-sizes=auto data-src=https://cdn.shortpixel.ai/client/q_glossy,ret_img/https://blog.aspose.com/wp-content/uploads/sites/2/2020/04/ASP.NET-Word-Editor.jpg alt="Sửa file Word trong .Net Core" class=lazyload><figcaption class=image-caption>Sửa file Word trong .Net Core</figcaption></figure></p><ul><li>Bước 1: Tạo mới 1 ứng dụng ASP.NET Core Web Application (MVC)</li><li>Bước 2: Download WYSIWYG editor và đặt trong wwwroot</li><li>Bước 3: Mở Nuget Package Manager, tìm kiếm và cài đặt Aspose.Words for .NET package.</li><li>Bước 4: Thêm đoạn code sau vào file index.cshtml</li></ul><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-javascript data-lang=javascript><span style=color:#960050;background-color:#1e0010>@</span>{
-    <span style=color:#a6e22e>ViewData</span>[<span style=color:#e6db74>&#34;Title&#34;</span>] <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;Word Editor in ASP.NET&#34;</span>;
-}
-<span style=color:#f92672>&lt;</span><span style=color:#a6e22e>div</span> <span style=color:#66d9ef>class</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;row&#34;</span><span style=color:#f92672>&gt;</span>
-    <span style=color:#f92672>&lt;</span><span style=color:#a6e22e>div</span> <span style=color:#66d9ef>class</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;col-md-12&#34;</span><span style=color:#f92672>&gt;</span>
-        <span style=color:#f92672>&lt;</span><span style=color:#a6e22e>form</span> <span style=color:#a6e22e>asp</span><span style=color:#f92672>-</span><span style=color:#a6e22e>controller</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;Home&#34;</span> <span style=color:#a6e22e>asp</span><span style=color:#f92672>-</span><span style=color:#a6e22e>action</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;UploadFile&#34;</span> <span style=color:#a6e22e>method</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;post&#34;</span> <span style=color:#66d9ef>class</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;form-inline&#34;</span>
-              <span style=color:#a6e22e>enctype</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;multipart/form-data&#34;</span><span style=color:#f92672>&gt;</span>
-            <span style=color:#f92672>&lt;</span><span style=color:#a6e22e>br</span> <span style=color:#f92672>/&gt;</span>
-            <span style=color:#f92672>&lt;</span><span style=color:#a6e22e>div</span> <span style=color:#66d9ef>class</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;form-group&#34;</span><span style=color:#f92672>&gt;</span>
-                <span style=color:#f92672>&lt;</span><span style=color:#a6e22e>input</span> <span style=color:#a6e22e>type</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;file&#34;</span> <span style=color:#a6e22e>name</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;file&#34;</span> <span style=color:#a6e22e>accept</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;.doc, .docx&#34;</span> <span style=color:#66d9ef>class</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;form-control custom-file-input&#34;</span> <span style=color:#f92672>/&gt;</span>
-            <span style=color:#f92672>&lt;</span><span style=color:#960050;background-color:#1e0010>/div&gt;</span>
-            <span style=color:#f92672>&lt;</span><span style=color:#a6e22e>div</span> <span style=color:#66d9ef>class</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;form-group&#34;</span><span style=color:#f92672>&gt;</span>
-                <span style=color:#f92672>&lt;</span><span style=color:#a6e22e>button</span> <span style=color:#a6e22e>type</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;submit&#34;</span> <span style=color:#66d9ef>class</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;form-control btn btn-primary&#34;</span><span style=color:#f92672>&gt;</span><span style=color:#a6e22e>Open</span><span style=color:#f92672>&lt;</span><span style=color:#960050;background-color:#1e0010>/button&gt;</span>
-            <span style=color:#f92672>&lt;</span><span style=color:#960050;background-color:#1e0010>/div&gt;</span>
-            <span style=color:#f92672>&lt;</span><span style=color:#a6e22e>div</span> <span style=color:#66d9ef>class</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;form-group&#34;</span> <span style=color:#a6e22e>style</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;position:relative; float :right&#34;</span><span style=color:#f92672>&gt;</span>
-                <span style=color:#f92672>&lt;</span><span style=color:#a6e22e>button</span> <span style=color:#a6e22e>type</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;button&#34;</span> <span style=color:#a6e22e>id</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;download&#34;</span> <span style=color:#66d9ef>class</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;form-control btn btn-success&#34;</span> <span style=color:#a6e22e>value</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;Save and Download&#34;</span><span style=color:#f92672>&gt;</span><span style=color:#a6e22e>Save</span> <span style=color:#a6e22e>and</span> <span style=color:#a6e22e>Download</span><span style=color:#f92672>&lt;</span><span style=color:#960050;background-color:#1e0010>/button&gt;</span>
-            <span style=color:#f92672>&lt;</span><span style=color:#960050;background-color:#1e0010>/div&gt;</span>
-        <span style=color:#f92672>&lt;</span><span style=color:#960050;background-color:#1e0010>/form&gt;</span>
-        <span style=color:#f92672>&lt;</span><span style=color:#a6e22e>br</span> <span style=color:#f92672>/&gt;</span>
-        <span style=color:#f92672>&lt;</span><span style=color:#a6e22e>form</span> <span style=color:#a6e22e>method</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;post&#34;</span> <span style=color:#a6e22e>asp</span><span style=color:#f92672>-</span><span style=color:#a6e22e>action</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;Index&#34;</span> <span style=color:#a6e22e>id</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;formDownload&#34;</span><span style=color:#f92672>&gt;</span>
-            <span style=color:#f92672>&lt;</span><span style=color:#a6e22e>textarea</span> <span style=color:#a6e22e>name</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;editor&#34;</span> <span style=color:#a6e22e>id</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;editor&#34;</span> <span style=color:#a6e22e>rows</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;80&#34;</span> <span style=color:#a6e22e>cols</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;100&#34;</span><span style=color:#f92672>&gt;</span>
-                <span style=color:#960050;background-color:#1e0010>@</span><span style=color:#66d9ef>if</span> (<span style=color:#a6e22e>ViewBag</span>.<span style=color:#a6e22e>HtmlContent</span> <span style=color:#f92672>==</span> <span style=color:#66d9ef>null</span>)
-                 {
-                    <span style=color:#f92672>&lt;</span><span style=color:#a6e22e>p</span><span style=color:#f92672>&gt;</span><span style=color:#a6e22e>Write</span> <span style=color:#a6e22e>something</span> <span style=color:#a6e22e>or</span> <span style=color:#a6e22e>open</span> <span style=color:#a6e22e>an</span> <span style=color:#a6e22e>existing</span> <span style=color:#a6e22e>Word</span> document. <span style=color:#f92672>&lt;</span><span style=color:#960050;background-color:#1e0010>/p&gt;</span>
-                 }
-                 <span style=color:#66d9ef>else</span>
-                 {
-                     <span style=color:#960050;background-color:#1e0010>@</span><span style=color:#a6e22e>ViewBag</span>.<span style=color:#a6e22e>HtmlContent</span>;
-                 }
-                <span style=color:#f92672>&lt;</span><span style=color:#960050;background-color:#1e0010>/textarea&gt;</span>
-        <span style=color:#f92672>&lt;</span><span style=color:#960050;background-color:#1e0010>/form&gt;</span>
-    <span style=color:#f92672>&lt;</span><span style=color:#960050;background-color:#1e0010>/div&gt;</span>
-<span style=color:#f92672>&lt;</span><span style=color:#960050;background-color:#1e0010>/div&gt;</span>
-<span style=color:#75715e>&lt;!--</span> <span style=color:#a6e22e>suneditor</span> <span style=color:#f92672>--&gt;</span>
-<span style=color:#f92672>&lt;</span><span style=color:#a6e22e>link</span> <span style=color:#a6e22e>href</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;~/suneditor/dist/css/suneditor.min.css&#34;</span> <span style=color:#a6e22e>rel</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;stylesheet&#34;</span><span style=color:#f92672>&gt;</span>
-<span style=color:#75715e>&lt;!--</span> <span style=color:#a6e22e>suneditor</span> <span style=color:#f92672>--&gt;</span>
-<span style=color:#f92672>&lt;</span><span style=color:#a6e22e>script</span> <span style=color:#a6e22e>src</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;~/suneditor/dist/suneditor.min.js&#34;</span><span style=color:#f92672>&gt;&lt;</span><span style=color:#960050;background-color:#1e0010>/script&gt;</span>
-<span style=color:#f92672>&lt;</span><span style=color:#a6e22e>script</span><span style=color:#f92672>&gt;</span>
-    <span style=color:#66d9ef>var</span> <span style=color:#a6e22e>suneditor</span> <span style=color:#f92672>=</span> <span style=color:#a6e22e>SUNEDITOR</span>.<span style=color:#a6e22e>create</span>(<span style=color:#e6db74>&#39;editor&#39;</span>, {
-        <span style=color:#a6e22e>display</span><span style=color:#f92672>:</span> <span style=color:#e6db74>&#39;block&#39;</span>,
-        <span style=color:#a6e22e>width</span><span style=color:#f92672>:</span> <span style=color:#e6db74>&#39;100%&#39;</span>,
-        <span style=color:#a6e22e>height</span><span style=color:#f92672>:</span> <span style=color:#e6db74>&#39;30%&#39;</span>,
-        <span style=color:#a6e22e>popupDisplay</span><span style=color:#f92672>:</span> <span style=color:#e6db74>&#39;full&#39;</span>,
-        <span style=color:#a6e22e>buttonList</span><span style=color:#f92672>:</span> [
-            [<span style=color:#e6db74>&#39;font&#39;</span>, <span style=color:#e6db74>&#39;fontSize&#39;</span>, <span style=color:#e6db74>&#39;formatBlock&#39;</span>],
-            [<span style=color:#e6db74>&#39;paragraphStyle&#39;</span>, <span style=color:#e6db74>&#39;blockquote&#39;</span>],
-            [<span style=color:#e6db74>&#39;bold&#39;</span>, <span style=color:#e6db74>&#39;underline&#39;</span>, <span style=color:#e6db74>&#39;align&#39;</span>, <span style=color:#e6db74>&#39;strike&#39;</span>, <span style=color:#e6db74>&#39;subscript&#39;</span>, <span style=color:#e6db74>&#39;superscript&#39;</span>, <span style=color:#e6db74>&#39;horizontalRule&#39;</span>, <span style=color:#e6db74>&#39;list&#39;</span>],
-            [<span style=color:#e6db74>&#39;table&#39;</span>, <span style=color:#e6db74>&#39;link&#39;</span>, <span style=color:#e6db74>&#39;image&#39;</span>],
-            [<span style=color:#e6db74>&#39;align&#39;</span>, <span style=color:#e6db74>&#39;horizontalRule&#39;</span>, <span style=color:#e6db74>&#39;list&#39;</span>, <span style=color:#e6db74>&#39;lineHeight&#39;</span>],
-            [<span style=color:#e6db74>&#39;codeView&#39;</span>]
-        ],
-        <span style=color:#a6e22e>placeholder</span><span style=color:#f92672>:</span> <span style=color:#e6db74>&#39;Start typing something...&#39;</span>
-    });
-<span style=color:#f92672>&lt;</span><span style=color:#960050;background-color:#1e0010>/script&gt;</span>
-<span style=color:#f92672>&lt;</span><span style=color:#a6e22e>script</span><span style=color:#f92672>&gt;</span>
-    <span style=color:#a6e22e>$</span>(document).<span style=color:#a6e22e>ready</span>(<span style=color:#66d9ef>function</span> () {
-        <span style=color:#a6e22e>$</span>(<span style=color:#e6db74>&#34;#download&#34;</span>).<span style=color:#a6e22e>click</span>(<span style=color:#66d9ef>function</span> () {
-            <span style=color:#a6e22e>suneditor</span>.<span style=color:#a6e22e>save</span>();
-            <span style=color:#a6e22e>$</span>(<span style=color:#e6db74>&#34;#formDownload&#34;</span>).<span style=color:#a6e22e>submit</span>();
-        });
-    });
-<span style=color:#f92672>&lt;</span><span style=color:#960050;background-color:#1e0010>/script&gt;</span>
-</code></pre></div><ul><li>Bước 5: Thêm đoạn code dưới đây vào file HomeController.cs</li></ul><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-javascript data-lang=javascript>[<span style=color:#a6e22e>HttpPost</span>]
-<span style=color:#66d9ef>public</span> <span style=color:#a6e22e>FileResult</span> <span style=color:#a6e22e>Index</span>(<span style=color:#a6e22e>string</span> <span style=color:#a6e22e>editor</span>)
-{
-	<span style=color:#66d9ef>try</span>
-	{
-		<span style=color:#75715e>// Create a unique file name
-</span><span style=color:#75715e></span>		<span style=color:#a6e22e>string</span> <span style=color:#a6e22e>fileName</span> <span style=color:#f92672>=</span> <span style=color:#a6e22e>Guid</span>.<span style=color:#a6e22e>NewGuid</span>() <span style=color:#f92672>+</span> <span style=color:#e6db74>&#34;.docx&#34;</span>;
-		<span style=color:#75715e>// Convert HTML text to byte array
-</span><span style=color:#75715e></span>		<span style=color:#66d9ef>byte</span>[] <span style=color:#a6e22e>byteArray</span> <span style=color:#f92672>=</span> <span style=color:#a6e22e>Encoding</span>.<span style=color:#a6e22e>UTF8</span>.<span style=color:#a6e22e>GetBytes</span>(<span style=color:#a6e22e>editor</span>.<span style=color:#a6e22e>Contains</span>(<span style=color:#e6db74>&#34;&lt;html&gt;&#34;</span>) <span style=color:#f92672>?</span> <span style=color:#a6e22e>editor</span> <span style=color:#f92672>:</span> <span style=color:#e6db74>&#34;&lt;html&gt;&#34;</span> <span style=color:#f92672>+</span> <span style=color:#a6e22e>editor</span> <span style=color:#f92672>+</span> <span style=color:#e6db74>&#34;&lt;/html&gt;&#34;</span>);
-		<span style=color:#75715e>// Generate Word document from the HTML
-</span><span style=color:#75715e></span>		<span style=color:#a6e22e>MemoryStream</span> <span style=color:#a6e22e>stream</span> <span style=color:#f92672>=</span> <span style=color:#66d9ef>new</span> <span style=color:#a6e22e>MemoryStream</span>(<span style=color:#a6e22e>byteArray</span>);
-		<span style=color:#a6e22e>Document</span> <span style=color:#a6e22e>Document</span> <span style=color:#f92672>=</span> <span style=color:#66d9ef>new</span> <span style=color:#a6e22e>Document</span>(<span style=color:#a6e22e>stream</span>);
-		<span style=color:#75715e>// Create memory stream for the Word file
-</span><span style=color:#75715e></span>		<span style=color:#66d9ef>var</span> <span style=color:#a6e22e>outputStream</span> <span style=color:#f92672>=</span> <span style=color:#66d9ef>new</span> <span style=color:#a6e22e>MemoryStream</span>();
-		<span style=color:#a6e22e>Document</span>.<span style=color:#a6e22e>Save</span>(<span style=color:#a6e22e>outputStream</span>, <span style=color:#a6e22e>SaveFormat</span>.<span style=color:#a6e22e>Docx</span>);
-		<span style=color:#a6e22e>outputStream</span>.<span style=color:#a6e22e>Position</span> <span style=color:#f92672>=</span> <span style=color:#ae81ff>0</span>;
-		<span style=color:#75715e>// Return generated Word file
-</span><span style=color:#75715e></span>		<span style=color:#66d9ef>return</span> <span style=color:#a6e22e>File</span>(<span style=color:#a6e22e>outputStream</span>, <span style=color:#a6e22e>System</span>.<span style=color:#a6e22e>Net</span>.<span style=color:#a6e22e>Mime</span>.<span style=color:#a6e22e>MediaTypeNames</span>.<span style=color:#a6e22e>Application</span>.<span style=color:#a6e22e>Rtf</span>, <span style=color:#a6e22e>fileName</span>);
-	}
-	<span style=color:#66d9ef>catch</span> (<span style=color:#a6e22e>Exception</span> <span style=color:#a6e22e>exp</span>)
-	{
-		<span style=color:#66d9ef>return</span> <span style=color:#66d9ef>null</span>;
-	}
-}
-[<span style=color:#a6e22e>HttpPost</span>]
-<span style=color:#66d9ef>public</span> <span style=color:#a6e22e>ViewResult</span> <span style=color:#a6e22e>UploadFile</span>(<span style=color:#a6e22e>IFormFile</span> <span style=color:#a6e22e>file</span>)
-{
-	<span style=color:#75715e>// Set file path
-</span><span style=color:#75715e></span>	<span style=color:#66d9ef>var</span> <span style=color:#a6e22e>path</span> <span style=color:#f92672>=</span> <span style=color:#a6e22e>Path</span>.<span style=color:#a6e22e>Combine</span>(<span style=color:#e6db74>&#34;wwwroot/uploads&#34;</span>, <span style=color:#a6e22e>file</span>.<span style=color:#a6e22e>FileName</span>);
-	<span style=color:#a6e22e>using</span> (<span style=color:#66d9ef>var</span> <span style=color:#a6e22e>stream</span> <span style=color:#f92672>=</span> <span style=color:#66d9ef>new</span> <span style=color:#a6e22e>FileStream</span>(<span style=color:#a6e22e>path</span>, <span style=color:#a6e22e>FileMode</span>.<span style=color:#a6e22e>Create</span>))
-	{
-		<span style=color:#a6e22e>file</span>.<span style=color:#a6e22e>CopyTo</span>(<span style=color:#a6e22e>stream</span>);
-	}
-	<span style=color:#75715e>// Load Word document
-</span><span style=color:#75715e></span>	<span style=color:#a6e22e>Document</span> <span style=color:#a6e22e>doc</span> <span style=color:#f92672>=</span> <span style=color:#66d9ef>new</span> <span style=color:#a6e22e>Document</span>(<span style=color:#a6e22e>path</span>);
-	<span style=color:#66d9ef>var</span> <span style=color:#a6e22e>outStream</span> <span style=color:#f92672>=</span> <span style=color:#66d9ef>new</span> <span style=color:#a6e22e>MemoryStream</span>();
-	<span style=color:#75715e>// Set HTML options
-</span><span style=color:#75715e></span>	<span style=color:#a6e22e>HtmlSaveOptions</span> <span style=color:#a6e22e>opt</span> <span style=color:#f92672>=</span> <span style=color:#66d9ef>new</span> <span style=color:#a6e22e>HtmlSaveOptions</span>();
-	<span style=color:#a6e22e>opt</span>.<span style=color:#a6e22e>ExportImagesAsBase64</span> <span style=color:#f92672>=</span> <span style=color:#66d9ef>true</span>;
-	<span style=color:#a6e22e>opt</span>.<span style=color:#a6e22e>ExportFontsAsBase64</span> <span style=color:#f92672>=</span> <span style=color:#66d9ef>true</span>;
-	<span style=color:#75715e>// Convert Word document to HTML
-</span><span style=color:#75715e></span>	<span style=color:#a6e22e>doc</span>.<span style=color:#a6e22e>Save</span>(<span style=color:#a6e22e>outStream</span>, <span style=color:#a6e22e>opt</span>);
-	<span style=color:#75715e>// Read text from stream
-</span><span style=color:#75715e></span>	<span style=color:#a6e22e>outStream</span>.<span style=color:#a6e22e>Position</span> <span style=color:#f92672>=</span> <span style=color:#ae81ff>0</span>;
-	<span style=color:#a6e22e>using</span>(<span style=color:#a6e22e>StreamReader</span> <span style=color:#a6e22e>reader</span> <span style=color:#f92672>=</span> <span style=color:#66d9ef>new</span> <span style=color:#a6e22e>StreamReader</span>(<span style=color:#a6e22e>outStream</span>))
-	{
-		<span style=color:#a6e22e>ViewBag</span>.<span style=color:#a6e22e>HtmlContent</span> <span style=color:#f92672>=</span> <span style=color:#a6e22e>reader</span>.<span style=color:#a6e22e>ReadToEnd</span>();
-	}
-	<span style=color:#66d9ef>return</span> <span style=color:#a6e22e>View</span>(<span style=color:#e6db74>&#34;Index&#34;</span>);
-}
-</code></pre></div><ul><li>Bước 6: Build và chạy thử chương trình.</li></ul><hr></div><div class=post-copyright><p class=copyright-item><span>Author:</span>
-<span>Dũng Hoàng</span></p><p class=copyright-item><span>Words:</span>
-<span>419</span></p><p class=copyright-item><span>Share:</span>
-<span><a href="//twitter.com/share?url=https%3a%2f%2fblog.dunghoang.net%2f2020%2f07%2f2020-07-23-tao-moi-va-chinh-sua-file-word-trong-net-core%2f&text=T%e1%ba%a1o%20m%e1%bb%9bi%20v%c3%a0%20ch%e1%bb%89nh%20s%e1%bb%ada%20file%20Word%20trong%20.NET%20Core&via=dunght72" target=_blank title="Share on Twitter"><i class="iconfont icon-twitter"></i></a><a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fblog.dunghoang.net%2f2020%2f07%2f2020-07-23-tao-moi-va-chinh-sua-file-word-trong-net-core%2f" target=_blank title="Share on Facebook"><i class="iconfont icon-facebook"></i></a><a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fblog.dunghoang.net%2f2020%2f07%2f2020-07-23-tao-moi-va-chinh-sua-file-word-trong-net-core%2f&title=T%e1%ba%a1o%20m%e1%bb%9bi%20v%c3%a0%20ch%e1%bb%89nh%20s%e1%bb%ada%20file%20Word%20trong%20.NET%20Core" target=_blank title="Share on LinkedIn"><i class="iconfont icon-linkedin"></i></a></span></p></div><div class=post-tags><section><a href=javascript:window.history.back();>Back</a></span> ·
-<span><a href=https://blog.dunghoang.net>Home</a></span></section></div><div class=post-nav><a href=https://blog.dunghoang.net/2020/07/2020-07-23-mot-so-regex-thuong-su-dung/ class=prev rel=prev title="Một số Regex thường sử dụng"><i class="iconfont icon-dajiantou"></i>&nbsp;Một số Regex thường sử dụng</a>
-<a href=https://blog.dunghoang.net/2020/08/2020-08-03-nhan-vat-phan-dien-nao-that-ra-da-lam-dung/ class=next rel=next title="[Quora] Nhân vật phản diện nào thật ra đã làm đúng">[Quora] Nhân vật phản diện nào thật ra đã làm đúng&nbsp;<i class="iconfont icon-xiaojiantou"></i></a></div></article></div></main><footer class=footer><div class=copyright>&copy;
-<span itemprop=copyrightYear>2020 - 2021</span>
-<span class=author itemprop=copyrightHolder><a href=https://blog.dunghoang.net>Dũng Hoàng</a> |</span>
-<span>From Ho Chi Minh City with ❤️</span></div></footer><link crossorigin=anonymous integrity=sha384-yziQACfvCVwLqVFLqkWBYRO3XeA4EqzfXKGwaWnenYn5XzqfJFlFdKEmvutIQdKb href=https://lib.baomitu.com/lightgallery/1.10.0/css/lightgallery.min.css rel=stylesheet><script src=/js/vendor_gallery.min.js async></script></div></body></html>
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=robots content="noodp"><meta http-equiv=x-ua-compatible content="IE=edge, chrome=1"><title>Tạo mới và chỉnh sửa file Word trong .NET Core - Dũng Hoàng Blog</title><meta name=Description content="Dũng Hoàng Blog"><meta property="og:title" content="Tạo mới và chỉnh sửa file Word trong .NET Core"><meta property="og:description" content="Bài viết dưới đây hướng dẫn tạo và chỉnh sửa file Word trong ứng dụng .Net Core sử dụng WYSIWYG editor và Aspose.Word  Bước 1: Tạo mới 1 ứng dụng ASP.NET Core Web Application (MVC) Bước 2: Download WYSIWYG editor và đặt trong wwwroot Bước 3: Mở Nuget Package Manager, tìm kiếm và cài đặt Aspose.Words for .NET package. Bước 4: Thêm đoạn code sau vào file index.cshtml  1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62  @{ ViewData[&#34;Title&#34;] = &#34;Word Editor in ASP."><meta property="og:type" content="article"><meta property="og:url" content="https://blog.dunghoang.net/2020/07/2020-07-23-tao-moi-va-chinh-sua-file-word-trong-net-core/"><meta property="og:image" content="https://blog.dunghoang.net/assets/images/dh_logo.png"><meta property="article:published_time" content="2020-07-23T15:40:00+00:00"><meta property="article:modified_time" content="2021-01-18T14:38:31+07:00"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://blog.dunghoang.net/assets/images/dh_logo.png"><meta name=twitter:title content="Tạo mới và chỉnh sửa file Word trong .NET Core"><meta name=twitter:description content="Bài viết dưới đây hướng dẫn tạo và chỉnh sửa file Word trong ứng dụng .Net Core sử dụng WYSIWYG editor và Aspose.Word  Bước 1: Tạo mới 1 ứng dụng ASP.NET Core Web Application (MVC) Bước 2: Download WYSIWYG editor và đặt trong wwwroot Bước 3: Mở Nuget Package Manager, tìm kiếm và cài đặt Aspose.Words for .NET package. Bước 4: Thêm đoạn code sau vào file index.cshtml  1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62  @{ ViewData[&#34;Title&#34;] = &#34;Word Editor in ASP."><meta name=application-name content="Dũng Hoàng"><meta name=apple-mobile-web-app-title content="Dũng Hoàng"><meta name=theme-color content="#ffffff"><meta name=msapplication-TileColor content="#da532c"><link rel="shortcut icon" type=image/x-icon href=/favicon.ico><link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png><link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png><link rel=mask-icon href=/safari-pinned-tab.svg color=#5bbad5><link rel=manifest href=/site.webmanifest><link rel=canonical href=https://blog.dunghoang.net/2020/07/2020-07-23-tao-moi-va-chinh-sua-file-word-trong-net-core/><link rel=prev href=https://blog.dunghoang.net/2020/07/2020-07-23-mot-so-regex-thuong-su-dung/><link rel=next href=https://blog.dunghoang.net/2020/08/2020-08-03-nhan-vat-phan-dien-nao-that-ra-da-lam-dung/><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css><link rel=stylesheet href=/css/style.min.css><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css><script type=application/ld+json>{"@context":"http://schema.org","@type":"BlogPosting","headline":"Tạo mới và chỉnh sửa file Word trong .NET Core","inLanguage":"en","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/blog.dunghoang.net\/2020\/07\/2020-07-23-tao-moi-va-chinh-sua-file-word-trong-net-core\/"},"image":["https:\/\/blog.dunghoang.net\/images\/Apple-Devices-Preview.png"],"genre":"posts","wordcount":531,"url":"https:\/\/blog.dunghoang.net\/2020\/07\/2020-07-23-tao-moi-va-chinh-sua-file-word-trong-net-core\/","datePublished":"2020-07-23T15:40:00+00:00","dateModified":"2021-01-18T14:38:31+07:00","license":"This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher":{"@type":"Organization","name":"xxxx","logo":"https:\/\/blog.dunghoang.net\/images\/avatar.png"},"author":{"@type":"Person","name":"Dũng Hoàng"},"description":""}</script></head><body header-desktop=normal header-mobile=auto><script type=text/javascript>(window.localStorage&&localStorage.getItem('theme')?localStorage.getItem('theme')==='dark':('auto'==='auto'?window.matchMedia('(prefers-color-scheme: dark)').matches:'auto'==='dark'))&&document.body.setAttribute('theme','dark');</script><div id=mask></div><div class=wrapper><header class=desktop id=header-desktop><div class=header-wrapper><div class=header-title><a href=/ title="Dũng Hoàng Blog"><span class=header-title-pre><i class="far fa-hand-peace fa-fw"></i></span>DŨNG HOÀNG</a></div><div class=menu><div class=menu-inner><a class=menu-item href=/posts/>Posts </a><a class=menu-item href=/categories/>Categories </a><a class=menu-item href=/about/>About </a><a class=menu-item href=https://github.com/dunght72 title=GitHub rel="noopener noreffer" target=_blank><i class="fab fa-github fa-fw"></i></a><span class="menu-item delimiter"></span><span class="menu-item search" id=search-desktop><input type=text placeholder="Search titles or contents..." id=search-input-desktop>
+<a href=javascript:void(0); class="search-button search-toggle" id=search-toggle-desktop title=Search><i class="fas fa-search fa-fw"></i></a><a href=javascript:void(0); class="search-button search-clear" id=search-clear-desktop title=Clear><i class="fas fa-times-circle fa-fw"></i></a><span class="search-button search-loading" id=search-loading-desktop><i class="fas fa-spinner fa-fw fa-spin"></i></span></span><a href=javascript:void(0); class="menu-item theme-switch" title="Switch Theme"><i class="fas fa-adjust fa-fw"></i></a></div></div></div></header><header class=mobile id=header-mobile><div class=header-container><div class=header-wrapper><div class=header-title><a href=/ title="Dũng Hoàng Blog"><span class=header-title-pre><i class="far fa-hand-peace fa-fw"></i></span>DŨNG HOÀNG</a></div><div class=menu-toggle id=menu-toggle-mobile><span></span><span></span><span></span></div></div><div class=menu id=menu-mobile><div class=search-wrapper><div class="search mobile" id=search-mobile><input type=text placeholder="Search titles or contents..." id=search-input-mobile>
+<a href=javascript:void(0); class="search-button search-toggle" id=search-toggle-mobile title=Search><i class="fas fa-search fa-fw"></i></a><a href=javascript:void(0); class="search-button search-clear" id=search-clear-mobile title=Clear><i class="fas fa-times-circle fa-fw"></i></a><span class="search-button search-loading" id=search-loading-mobile><i class="fas fa-spinner fa-fw fa-spin"></i></span></div><a href=javascript:void(0); class=search-cancel id=search-cancel-mobile>Cancel</a></div><a class=menu-item href=/posts/>Posts</a><a class=menu-item href=/categories/>Categories</a><a class=menu-item href=/about/>About</a><a class=menu-item href=https://github.com/dunght72 title=GitHub rel="noopener noreffer" target=_blank><i class="fab fa-github fa-fw"></i></a><a href=javascript:void(0); class="menu-item theme-switch" title="Switch Theme">
+<i class="fas fa-adjust fa-fw"></i></a></div></div></header><div class="search-dropdown desktop"><div id=search-dropdown-desktop></div></div><div class="search-dropdown mobile"><div id=search-dropdown-mobile></div></div><main class=main><div class=container><div class=toc id=toc-auto><h2 class=toc-title>Nội Dung</h2><div class=toc-content id=toc-content-auto></div></div><article class="page single"><h1 class="single-title animated flipInX">Tạo mới và chỉnh sửa file Word trong .NET Core</h1><div class=post-meta><div class=post-meta-line><span class=post-author><a href=https://blog.dunghoang.net title=Author target=_blank rel="noopener noreffer author" class=author><i class="fas fa-user-circle fa-fw"></i>Dũng Hoàng</a></span>&nbsp;<span class=post-category>included in <a href=/categories/web-development/><i class="far fa-folder fa-fw"></i>Web Development</a></span></div><div class=post-meta-line><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime=23/07/2020>23/07/2020</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;531 words&nbsp;
+<i class="far fa-clock fa-fw"></i>&nbsp;3 minutes&nbsp;<span id=/2020/07/2020-07-23-tao-moi-va-chinh-sua-file-word-trong-net-core/ class=leancloud_visitors data-flag-title="Tạo mới và chỉnh sửa file Word trong .NET Core">
+<i class="far fa-eye fa-fw"></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;views
+</span>&nbsp;</div></div><div class=featured-image><img class=lazyload src=/svg/loading.min.svg data-src=/assets/images/asp_word.jpg data-srcset="/assets/images/asp_word.jpg, /assets/images/asp_word.jpg 1.5x, /assets/images/asp_word.jpg 2x" data-sizes=auto alt=/assets/images/asp_word.jpg title=/assets/images/asp_word.jpg></div><div class="details toc" id=toc-static kept><div class="details-summary toc-title"><span>Contents</span>
+<span><i class="details-icon fas fa-angle-right"></i></span></div><div class="details-content toc-content" id=toc-content-static><nav id=TableOfContents></nav></div></div><div class=content id=content><p>Bài viết dưới đây hướng dẫn tạo và chỉnh sửa file Word trong ứng dụng .Net Core sử dụng WYSIWYG editor và Aspose.Word
+<img class=lazyload src=/svg/loading.min.svg data-src=https://cdn.shortpixel.ai/client/q_glossy,ret_img/https://blog.aspose.com/wp-content/uploads/sites/2/2020/04/ASP.NET-Word-Editor.jpg data-srcset="https://cdn.shortpixel.ai/client/q_glossy%2cret_img/https://blog.aspose.com/wp-content/uploads/sites/2/2020/04/ASP.NET-Word-Editor.jpg, https://cdn.shortpixel.ai/client/q_glossy%2cret_img/https://blog.aspose.com/wp-content/uploads/sites/2/2020/04/ASP.NET-Word-Editor.jpg 1.5x, https://cdn.shortpixel.ai/client/q_glossy%2cret_img/https://blog.aspose.com/wp-content/uploads/sites/2/2020/04/ASP.NET-Word-Editor.jpg 2x" data-sizes=auto alt=https://cdn.shortpixel.ai/client/q_glossy,ret_img/https://blog.aspose.com/wp-content/uploads/sites/2/2020/04/ASP.NET-Word-Editor.jpg title="Sửa file Word trong .Net Core"></p><ul><li>Bước 1: Tạo mới 1 ứng dụng ASP.NET Core Web Application (MVC)</li><li>Bước 2: Download WYSIWYG editor và đặt trong wwwroot</li><li>Bước 3: Mở Nuget Package Manager, tìm kiếm và cài đặt Aspose.Words for .NET package.</li><li>Bước 4: Thêm đoạn code sau vào file index.cshtml</li></ul><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span><span class=lnt>19
+</span><span class=lnt>20
+</span><span class=lnt>21
+</span><span class=lnt>22
+</span><span class=lnt>23
+</span><span class=lnt>24
+</span><span class=lnt>25
+</span><span class=lnt>26
+</span><span class=lnt>27
+</span><span class=lnt>28
+</span><span class=lnt>29
+</span><span class=lnt>30
+</span><span class=lnt>31
+</span><span class=lnt>32
+</span><span class=lnt>33
+</span><span class=lnt>34
+</span><span class=lnt>35
+</span><span class=lnt>36
+</span><span class=lnt>37
+</span><span class=lnt>38
+</span><span class=lnt>39
+</span><span class=lnt>40
+</span><span class=lnt>41
+</span><span class=lnt>42
+</span><span class=lnt>43
+</span><span class=lnt>44
+</span><span class=lnt>45
+</span><span class=lnt>46
+</span><span class=lnt>47
+</span><span class=lnt>48
+</span><span class=lnt>49
+</span><span class=lnt>50
+</span><span class=lnt>51
+</span><span class=lnt>52
+</span><span class=lnt>53
+</span><span class=lnt>54
+</span><span class=lnt>55
+</span><span class=lnt>56
+</span><span class=lnt>57
+</span><span class=lnt>58
+</span><span class=lnt>59
+</span><span class=lnt>60
+</span><span class=lnt>61
+</span><span class=lnt>62
+</span></code></pre></td><td class=lntd><pre class=chroma><code class=language-javascript data-lang=javascript><span class=err>@</span><span class=p>{</span>
+    <span class=nx>ViewData</span><span class=p>[</span><span class=s2>&#34;Title&#34;</span><span class=p>]</span> <span class=o>=</span> <span class=s2>&#34;Word Editor in ASP.NET&#34;</span><span class=p>;</span>
+<span class=p>}</span>
+<span class=o>&lt;</span><span class=nx>div</span> <span class=kr>class</span><span class=o>=</span><span class=s2>&#34;row&#34;</span><span class=o>&gt;</span>
+    <span class=o>&lt;</span><span class=nx>div</span> <span class=kr>class</span><span class=o>=</span><span class=s2>&#34;col-md-12&#34;</span><span class=o>&gt;</span>
+        <span class=o>&lt;</span><span class=nx>form</span> <span class=nx>asp</span><span class=o>-</span><span class=nx>controller</span><span class=o>=</span><span class=s2>&#34;Home&#34;</span> <span class=nx>asp</span><span class=o>-</span><span class=nx>action</span><span class=o>=</span><span class=s2>&#34;UploadFile&#34;</span> <span class=nx>method</span><span class=o>=</span><span class=s2>&#34;post&#34;</span> <span class=kr>class</span><span class=o>=</span><span class=s2>&#34;form-inline&#34;</span>
+              <span class=nx>enctype</span><span class=o>=</span><span class=s2>&#34;multipart/form-data&#34;</span><span class=o>&gt;</span>
+            <span class=o>&lt;</span><span class=nx>br</span> <span class=o>/&gt;</span>
+            <span class=o>&lt;</span><span class=nx>div</span> <span class=kr>class</span><span class=o>=</span><span class=s2>&#34;form-group&#34;</span><span class=o>&gt;</span>
+                <span class=o>&lt;</span><span class=nx>input</span> <span class=nx>type</span><span class=o>=</span><span class=s2>&#34;file&#34;</span> <span class=nx>name</span><span class=o>=</span><span class=s2>&#34;file&#34;</span> <span class=nx>accept</span><span class=o>=</span><span class=s2>&#34;.doc, .docx&#34;</span> <span class=kr>class</span><span class=o>=</span><span class=s2>&#34;form-control custom-file-input&#34;</span> <span class=o>/&gt;</span>
+            <span class=o>&lt;</span><span class=err>/div&gt;</span>
+            <span class=o>&lt;</span><span class=nx>div</span> <span class=kr>class</span><span class=o>=</span><span class=s2>&#34;form-group&#34;</span><span class=o>&gt;</span>
+                <span class=o>&lt;</span><span class=nx>button</span> <span class=nx>type</span><span class=o>=</span><span class=s2>&#34;submit&#34;</span> <span class=kr>class</span><span class=o>=</span><span class=s2>&#34;form-control btn btn-primary&#34;</span><span class=o>&gt;</span><span class=nx>Open</span><span class=o>&lt;</span><span class=err>/button&gt;</span>
+            <span class=o>&lt;</span><span class=err>/div&gt;</span>
+            <span class=o>&lt;</span><span class=nx>div</span> <span class=kr>class</span><span class=o>=</span><span class=s2>&#34;form-group&#34;</span> <span class=nx>style</span><span class=o>=</span><span class=s2>&#34;position:relative; float :right&#34;</span><span class=o>&gt;</span>
+                <span class=o>&lt;</span><span class=nx>button</span> <span class=nx>type</span><span class=o>=</span><span class=s2>&#34;button&#34;</span> <span class=nx>id</span><span class=o>=</span><span class=s2>&#34;download&#34;</span> <span class=kr>class</span><span class=o>=</span><span class=s2>&#34;form-control btn btn-success&#34;</span> <span class=nx>value</span><span class=o>=</span><span class=s2>&#34;Save and Download&#34;</span><span class=o>&gt;</span><span class=nx>Save</span> <span class=nx>and</span> <span class=nx>Download</span><span class=o>&lt;</span><span class=err>/button&gt;</span>
+            <span class=o>&lt;</span><span class=err>/div&gt;</span>
+        <span class=o>&lt;</span><span class=err>/form&gt;</span>
+        <span class=o>&lt;</span><span class=nx>br</span> <span class=o>/&gt;</span>
+        <span class=o>&lt;</span><span class=nx>form</span> <span class=nx>method</span><span class=o>=</span><span class=s2>&#34;post&#34;</span> <span class=nx>asp</span><span class=o>-</span><span class=nx>action</span><span class=o>=</span><span class=s2>&#34;Index&#34;</span> <span class=nx>id</span><span class=o>=</span><span class=s2>&#34;formDownload&#34;</span><span class=o>&gt;</span>
+            <span class=o>&lt;</span><span class=nx>textarea</span> <span class=nx>name</span><span class=o>=</span><span class=s2>&#34;editor&#34;</span> <span class=nx>id</span><span class=o>=</span><span class=s2>&#34;editor&#34;</span> <span class=nx>rows</span><span class=o>=</span><span class=s2>&#34;80&#34;</span> <span class=nx>cols</span><span class=o>=</span><span class=s2>&#34;100&#34;</span><span class=o>&gt;</span>
+                <span class=err>@</span><span class=k>if</span> <span class=p>(</span><span class=nx>ViewBag</span><span class=p>.</span><span class=nx>HtmlContent</span> <span class=o>==</span> <span class=kc>null</span><span class=p>)</span>
+                 <span class=p>{</span>
+                    <span class=o>&lt;</span><span class=nx>p</span><span class=o>&gt;</span><span class=nx>Write</span> <span class=nx>something</span> <span class=nx>or</span> <span class=nx>open</span> <span class=nx>an</span> <span class=nx>existing</span> <span class=nx>Word</span> <span class=nb>document</span><span class=p>.</span> <span class=o>&lt;</span><span class=err>/p&gt;</span>
+                 <span class=p>}</span>
+                 <span class=k>else</span>
+                 <span class=p>{</span>
+                     <span class=err>@</span><span class=nx>ViewBag</span><span class=p>.</span><span class=nx>HtmlContent</span><span class=p>;</span>
+                 <span class=p>}</span>
+                <span class=o>&lt;</span><span class=err>/textarea&gt;</span>
+        <span class=o>&lt;</span><span class=err>/form&gt;</span>
+    <span class=o>&lt;</span><span class=err>/div&gt;</span>
+<span class=o>&lt;</span><span class=err>/div&gt;</span>
+<span class=c>&lt;!--</span> <span class=nx>suneditor</span> <span class=o>--&gt;</span>
+<span class=o>&lt;</span><span class=nx>link</span> <span class=nx>href</span><span class=o>=</span><span class=s2>&#34;~/suneditor/dist/css/suneditor.min.css&#34;</span> <span class=nx>rel</span><span class=o>=</span><span class=s2>&#34;stylesheet&#34;</span><span class=o>&gt;</span>
+<span class=c>&lt;!--</span> <span class=nx>suneditor</span> <span class=o>--&gt;</span>
+<span class=o>&lt;</span><span class=nx>script</span> <span class=nx>src</span><span class=o>=</span><span class=s2>&#34;~/suneditor/dist/suneditor.min.js&#34;</span><span class=o>&gt;&lt;</span><span class=err>/script&gt;</span>
+<span class=o>&lt;</span><span class=nx>script</span><span class=o>&gt;</span>
+    <span class=kd>var</span> <span class=nx>suneditor</span> <span class=o>=</span> <span class=nx>SUNEDITOR</span><span class=p>.</span><span class=nx>create</span><span class=p>(</span><span class=s1>&#39;editor&#39;</span><span class=p>,</span> <span class=p>{</span>
+        <span class=nx>display</span><span class=o>:</span> <span class=s1>&#39;block&#39;</span><span class=p>,</span>
+        <span class=nx>width</span><span class=o>:</span> <span class=s1>&#39;100%&#39;</span><span class=p>,</span>
+        <span class=nx>height</span><span class=o>:</span> <span class=s1>&#39;30%&#39;</span><span class=p>,</span>
+        <span class=nx>popupDisplay</span><span class=o>:</span> <span class=s1>&#39;full&#39;</span><span class=p>,</span>
+        <span class=nx>buttonList</span><span class=o>:</span> <span class=p>[</span>
+            <span class=p>[</span><span class=s1>&#39;font&#39;</span><span class=p>,</span> <span class=s1>&#39;fontSize&#39;</span><span class=p>,</span> <span class=s1>&#39;formatBlock&#39;</span><span class=p>],</span>
+            <span class=p>[</span><span class=s1>&#39;paragraphStyle&#39;</span><span class=p>,</span> <span class=s1>&#39;blockquote&#39;</span><span class=p>],</span>
+            <span class=p>[</span><span class=s1>&#39;bold&#39;</span><span class=p>,</span> <span class=s1>&#39;underline&#39;</span><span class=p>,</span> <span class=s1>&#39;align&#39;</span><span class=p>,</span> <span class=s1>&#39;strike&#39;</span><span class=p>,</span> <span class=s1>&#39;subscript&#39;</span><span class=p>,</span> <span class=s1>&#39;superscript&#39;</span><span class=p>,</span> <span class=s1>&#39;horizontalRule&#39;</span><span class=p>,</span> <span class=s1>&#39;list&#39;</span><span class=p>],</span>
+            <span class=p>[</span><span class=s1>&#39;table&#39;</span><span class=p>,</span> <span class=s1>&#39;link&#39;</span><span class=p>,</span> <span class=s1>&#39;image&#39;</span><span class=p>],</span>
+            <span class=p>[</span><span class=s1>&#39;align&#39;</span><span class=p>,</span> <span class=s1>&#39;horizontalRule&#39;</span><span class=p>,</span> <span class=s1>&#39;list&#39;</span><span class=p>,</span> <span class=s1>&#39;lineHeight&#39;</span><span class=p>],</span>
+            <span class=p>[</span><span class=s1>&#39;codeView&#39;</span><span class=p>]</span>
+        <span class=p>],</span>
+        <span class=nx>placeholder</span><span class=o>:</span> <span class=s1>&#39;Start typing something...&#39;</span>
+    <span class=p>});</span>
+<span class=o>&lt;</span><span class=err>/script&gt;</span>
+<span class=o>&lt;</span><span class=nx>script</span><span class=o>&gt;</span>
+    <span class=nx>$</span><span class=p>(</span><span class=nb>document</span><span class=p>).</span><span class=nx>ready</span><span class=p>(</span><span class=kd>function</span> <span class=p>()</span> <span class=p>{</span>
+        <span class=nx>$</span><span class=p>(</span><span class=s2>&#34;#download&#34;</span><span class=p>).</span><span class=nx>click</span><span class=p>(</span><span class=kd>function</span> <span class=p>()</span> <span class=p>{</span>
+            <span class=nx>suneditor</span><span class=p>.</span><span class=nx>save</span><span class=p>();</span>
+            <span class=nx>$</span><span class=p>(</span><span class=s2>&#34;#formDownload&#34;</span><span class=p>).</span><span class=nx>submit</span><span class=p>();</span>
+        <span class=p>});</span>
+    <span class=p>});</span>
+<span class=o>&lt;</span><span class=err>/script&gt;</span>
+</code></pre></td></tr></table></div></div><ul><li>Bước 5: Thêm đoạn code dưới đây vào file HomeController.cs</li></ul><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span><span class=lnt>19
+</span><span class=lnt>20
+</span><span class=lnt>21
+</span><span class=lnt>22
+</span><span class=lnt>23
+</span><span class=lnt>24
+</span><span class=lnt>25
+</span><span class=lnt>26
+</span><span class=lnt>27
+</span><span class=lnt>28
+</span><span class=lnt>29
+</span><span class=lnt>30
+</span><span class=lnt>31
+</span><span class=lnt>32
+</span><span class=lnt>33
+</span><span class=lnt>34
+</span><span class=lnt>35
+</span><span class=lnt>36
+</span><span class=lnt>37
+</span><span class=lnt>38
+</span><span class=lnt>39
+</span><span class=lnt>40
+</span><span class=lnt>41
+</span><span class=lnt>42
+</span><span class=lnt>43
+</span><span class=lnt>44
+</span><span class=lnt>45
+</span><span class=lnt>46
+</span><span class=lnt>47
+</span><span class=lnt>48
+</span><span class=lnt>49
+</span><span class=lnt>50
+</span></code></pre></td><td class=lntd><pre class=chroma><code class=language-javascript data-lang=javascript><span class=p>[</span><span class=nx>HttpPost</span><span class=p>]</span>
+<span class=kr>public</span> <span class=nx>FileResult</span> <span class=nx>Index</span><span class=p>(</span><span class=nx>string</span> <span class=nx>editor</span><span class=p>)</span>
+<span class=p>{</span>
+	<span class=k>try</span>
+	<span class=p>{</span>
+		<span class=c1>// Create a unique file name
+</span><span class=c1></span>		<span class=nx>string</span> <span class=nx>fileName</span> <span class=o>=</span> <span class=nx>Guid</span><span class=p>.</span><span class=nx>NewGuid</span><span class=p>()</span> <span class=o>+</span> <span class=s2>&#34;.docx&#34;</span><span class=p>;</span>
+		<span class=c1>// Convert HTML text to byte array
+</span><span class=c1></span>		<span class=kr>byte</span><span class=p>[]</span> <span class=nx>byteArray</span> <span class=o>=</span> <span class=nx>Encoding</span><span class=p>.</span><span class=nx>UTF8</span><span class=p>.</span><span class=nx>GetBytes</span><span class=p>(</span><span class=nx>editor</span><span class=p>.</span><span class=nx>Contains</span><span class=p>(</span><span class=s2>&#34;&lt;html&gt;&#34;</span><span class=p>)</span> <span class=o>?</span> <span class=nx>editor</span> <span class=o>:</span> <span class=s2>&#34;&lt;html&gt;&#34;</span> <span class=o>+</span> <span class=nx>editor</span> <span class=o>+</span> <span class=s2>&#34;&lt;/html&gt;&#34;</span><span class=p>);</span>
+		<span class=c1>// Generate Word document from the HTML
+</span><span class=c1></span>		<span class=nx>MemoryStream</span> <span class=nx>stream</span> <span class=o>=</span> <span class=k>new</span> <span class=nx>MemoryStream</span><span class=p>(</span><span class=nx>byteArray</span><span class=p>);</span>
+		<span class=nx>Document</span> <span class=nx>Document</span> <span class=o>=</span> <span class=k>new</span> <span class=nx>Document</span><span class=p>(</span><span class=nx>stream</span><span class=p>);</span>
+		<span class=c1>// Create memory stream for the Word file
+</span><span class=c1></span>		<span class=kd>var</span> <span class=nx>outputStream</span> <span class=o>=</span> <span class=k>new</span> <span class=nx>MemoryStream</span><span class=p>();</span>
+		<span class=nx>Document</span><span class=p>.</span><span class=nx>Save</span><span class=p>(</span><span class=nx>outputStream</span><span class=p>,</span> <span class=nx>SaveFormat</span><span class=p>.</span><span class=nx>Docx</span><span class=p>);</span>
+		<span class=nx>outputStream</span><span class=p>.</span><span class=nx>Position</span> <span class=o>=</span> <span class=mi>0</span><span class=p>;</span>
+		<span class=c1>// Return generated Word file
+</span><span class=c1></span>		<span class=k>return</span> <span class=nx>File</span><span class=p>(</span><span class=nx>outputStream</span><span class=p>,</span> <span class=nx>System</span><span class=p>.</span><span class=nx>Net</span><span class=p>.</span><span class=nx>Mime</span><span class=p>.</span><span class=nx>MediaTypeNames</span><span class=p>.</span><span class=nx>Application</span><span class=p>.</span><span class=nx>Rtf</span><span class=p>,</span> <span class=nx>fileName</span><span class=p>);</span>
+	<span class=p>}</span>
+	<span class=k>catch</span> <span class=p>(</span><span class=nx>Exception</span> <span class=nx>exp</span><span class=p>)</span>
+	<span class=p>{</span>
+		<span class=k>return</span> <span class=kc>null</span><span class=p>;</span>
+	<span class=p>}</span>
+<span class=p>}</span>
+<span class=p>[</span><span class=nx>HttpPost</span><span class=p>]</span>
+<span class=kr>public</span> <span class=nx>ViewResult</span> <span class=nx>UploadFile</span><span class=p>(</span><span class=nx>IFormFile</span> <span class=nx>file</span><span class=p>)</span>
+<span class=p>{</span>
+	<span class=c1>// Set file path
+</span><span class=c1></span>	<span class=kd>var</span> <span class=nx>path</span> <span class=o>=</span> <span class=nx>Path</span><span class=p>.</span><span class=nx>Combine</span><span class=p>(</span><span class=s2>&#34;wwwroot/uploads&#34;</span><span class=p>,</span> <span class=nx>file</span><span class=p>.</span><span class=nx>FileName</span><span class=p>);</span>
+	<span class=nx>using</span> <span class=p>(</span><span class=kd>var</span> <span class=nx>stream</span> <span class=o>=</span> <span class=k>new</span> <span class=nx>FileStream</span><span class=p>(</span><span class=nx>path</span><span class=p>,</span> <span class=nx>FileMode</span><span class=p>.</span><span class=nx>Create</span><span class=p>))</span>
+	<span class=p>{</span>
+		<span class=nx>file</span><span class=p>.</span><span class=nx>CopyTo</span><span class=p>(</span><span class=nx>stream</span><span class=p>);</span>
+	<span class=p>}</span>
+	<span class=c1>// Load Word document
+</span><span class=c1></span>	<span class=nx>Document</span> <span class=nx>doc</span> <span class=o>=</span> <span class=k>new</span> <span class=nx>Document</span><span class=p>(</span><span class=nx>path</span><span class=p>);</span>
+	<span class=kd>var</span> <span class=nx>outStream</span> <span class=o>=</span> <span class=k>new</span> <span class=nx>MemoryStream</span><span class=p>();</span>
+	<span class=c1>// Set HTML options
+</span><span class=c1></span>	<span class=nx>HtmlSaveOptions</span> <span class=nx>opt</span> <span class=o>=</span> <span class=k>new</span> <span class=nx>HtmlSaveOptions</span><span class=p>();</span>
+	<span class=nx>opt</span><span class=p>.</span><span class=nx>ExportImagesAsBase64</span> <span class=o>=</span> <span class=kc>true</span><span class=p>;</span>
+	<span class=nx>opt</span><span class=p>.</span><span class=nx>ExportFontsAsBase64</span> <span class=o>=</span> <span class=kc>true</span><span class=p>;</span>
+	<span class=c1>// Convert Word document to HTML
+</span><span class=c1></span>	<span class=nx>doc</span><span class=p>.</span><span class=nx>Save</span><span class=p>(</span><span class=nx>outStream</span><span class=p>,</span> <span class=nx>opt</span><span class=p>);</span>
+	<span class=c1>// Read text from stream
+</span><span class=c1></span>	<span class=nx>outStream</span><span class=p>.</span><span class=nx>Position</span> <span class=o>=</span> <span class=mi>0</span><span class=p>;</span>
+	<span class=nx>using</span><span class=p>(</span><span class=nx>StreamReader</span> <span class=nx>reader</span> <span class=o>=</span> <span class=k>new</span> <span class=nx>StreamReader</span><span class=p>(</span><span class=nx>outStream</span><span class=p>))</span>
+	<span class=p>{</span>
+		<span class=nx>ViewBag</span><span class=p>.</span><span class=nx>HtmlContent</span> <span class=o>=</span> <span class=nx>reader</span><span class=p>.</span><span class=nx>ReadToEnd</span><span class=p>();</span>
+	<span class=p>}</span>
+	<span class=k>return</span> <span class=nx>View</span><span class=p>(</span><span class=s2>&#34;Index&#34;</span><span class=p>);</span>
+<span class=p>}</span>
+</code></pre></td></tr></table></div></div><ul><li>Bước 6: Build và chạy thử chương trình.</li></ul><hr></div><div class=post-footer id=post-footer><div class=post-info><div class=post-info-line><div class=post-info-mod><span>Updated on 18/01/2021&nbsp;<a class=git-hash href=https://github.com/dillonzq/LoveIt/commit/12db473a6346551ba35293b37e4aab95e235dfb1 target=_blank title="commit by DungHoang(dunghoang@DungHoangMacbook.local) 12db473a6346551ba35293b37e4aab95e235dfb1: Install blog">
+<i class="fas fa-hashtag fa-fw"></i>12db473</a></span></div><div class=post-info-license></div></div><div class=post-info-line><div class=post-info-md><span><a class=link-to-markdown href=/2020/07/2020-07-23-tao-moi-va-chinh-sua-file-word-trong-net-core/index.md target=_blank>Read Markdown</a></span></div><div class=post-info-share><span><a href=javascript:void(0); title="Share on Twitter" data-sharer=twitter data-url=https://blog.dunghoang.net/2020/07/2020-07-23-tao-moi-va-chinh-sua-file-word-trong-net-core/ data-title="Tạo mới và chỉnh sửa file Word trong .NET Core"><i class="fab fa-twitter fa-fw"></i></a><a href=javascript:void(0); title="Share on Facebook" data-sharer=facebook data-url=https://blog.dunghoang.net/2020/07/2020-07-23-tao-moi-va-chinh-sua-file-word-trong-net-core/><i class="fab fa-facebook-square fa-fw"></i></a><a href=javascript:void(0); title="Share on Pinterest" data-sharer=pinterest data-url=https://blog.dunghoang.net/2020/07/2020-07-23-tao-moi-va-chinh-sua-file-word-trong-net-core/ data-image=/assets/images/asp_word.jpg><i class="fab fa-pinterest fa-fw"></i></a></span></div></div></div><div class=post-info-more><section class=post-tags></section><section><span><a href=javascript:void(0); onclick=window.history.back();>Back</a></span>&nbsp;|&nbsp;<span><a href=/>Home</a></span></section></div><div class=post-nav><a href=/2020/07/2020-07-23-mot-so-regex-thuong-su-dung/ class=prev rel=prev title="Một số Regex thường sử dụng"><i class="fas fa-angle-left fa-fw"></i>Một số Regex thường sử dụng</a>
+<a href=/2020/08/2020-08-03-nhan-vat-phan-dien-nao-that-ra-da-lam-dung/ class=next rel=next title="[Quora] Nhân vật phản diện nào thật ra đã làm đúng">[Quora] Nhân vật phản diện nào thật ra đã làm đúng<i class="fas fa-angle-right fa-fw"></i></a></div></div><div id=comments><div id=valine class=comment></div><noscript>Please enable JavaScript to view the comments powered by <a href=https://valine.js.org/>Valine</a>.</noscript></div></article></div></main><footer class=footer><div class=footer-container><div class=footer-line><i class="far fa-copyright fa-fw"></i><span itemprop=copyrightYear>2019 - 2021</span><span class=author itemprop=copyrightHolder>&nbsp;<a href=https://blog.dunghoang.net target=_blank>Dũng Hoàng</a></span>&nbsp;|&nbsp;<span class=license><a rel="license external nofollow noopener noreffer" href=https://creativecommons.org/licenses/by-nc/4.0/ target=_blank>CC BY-NC 4.0</a></span></div></div></footer></div><div id=fixed-buttons><a href=# id=back-to-top class=fixed-button title="Back to Top"><i class="fas fa-arrow-up fa-fw"></i></a><a href=# id=view-comments class=fixed-button title="View Comments"><i class="fas fa-comment fa-fw"></i></a></div><link rel=stylesheet href=/lib/valine/valine.min.css><script type=text/javascript src=https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/npm/smooth-scroll@16.1.3/dist/smooth-scroll.min.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/npm/autocomplete.js@0.37.1/dist/autocomplete.min.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/npm/lunr@2.3.8/lunr.min.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/npm/lazysizes@5.2.2/lazysizes.min.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/npm/sharer.js@0.4.0/sharer.min.js></script><script type=text/javascript>window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":15},"comment":{"valine":{"appId":"t0udTM69G9ehxrcz7byeYDOI-MdYXbMMI","appKey":"SlKRffU24LKbfesR0sT9WAjT","avatar":"mp","el":"#valine","emojiCDN":"https://cdn.jsdelivr.net/npm/emoji-datasource-google@5.0.1/img/google/64/","emojiMaps":{"100":"1f4af.png","alien":"1f47d.png","anger":"1f4a2.png","angry":"1f620.png","anguished":"1f627.png","astonished":"1f632.png","black_heart":"1f5a4.png","blue_heart":"1f499.png","blush":"1f60a.png","bomb":"1f4a3.png","boom":"1f4a5.png","broken_heart":"1f494.png","brown_heart":"1f90e.png","clown_face":"1f921.png","cold_face":"1f976.png","cold_sweat":"1f630.png","confounded":"1f616.png","confused":"1f615.png","cry":"1f622.png","crying_cat_face":"1f63f.png","cupid":"1f498.png","dash":"1f4a8.png","disappointed":"1f61e.png","disappointed_relieved":"1f625.png","dizzy":"1f4ab.png","dizzy_face":"1f635.png","drooling_face":"1f924.png","exploding_head":"1f92f.png","expressionless":"1f611.png","face_vomiting":"1f92e.png","face_with_cowboy_hat":"1f920.png","face_with_hand_over_mouth":"1f92d.png","face_with_head_bandage":"1f915.png","face_with_monocle":"1f9d0.png","face_with_raised_eyebrow":"1f928.png","face_with_rolling_eyes":"1f644.png","face_with_symbols_on_mouth":"1f92c.png","face_with_thermometer":"1f912.png","fearful":"1f628.png","flushed":"1f633.png","frowning":"1f626.png","ghost":"1f47b.png","gift_heart":"1f49d.png","green_heart":"1f49a.png","grimacing":"1f62c.png","grin":"1f601.png","grinning":"1f600.png","hankey":"1f4a9.png","hear_no_evil":"1f649.png","heart":"2764-fe0f.png","heart_decoration":"1f49f.png","heart_eyes":"1f60d.png","heart_eyes_cat":"1f63b.png","heartbeat":"1f493.png","heartpulse":"1f497.png","heavy_heart_exclamation_mark_ornament":"2763-fe0f.png","hole":"1f573-fe0f.png","hot_face":"1f975.png","hugging_face":"1f917.png","hushed":"1f62f.png","imp":"1f47f.png","innocent":"1f607.png","japanese_goblin":"1f47a.png","japanese_ogre":"1f479.png","joy":"1f602.png","joy_cat":"1f639.png","kiss":"1f48b.png","kissing":"1f617.png","kissing_cat":"1f63d.png","kissing_closed_eyes":"1f61a.png","kissing_heart":"1f618.png","kissing_smiling_eyes":"1f619.png","laughing":"1f606.png","left_speech_bubble":"1f5e8-fe0f.png","love_letter":"1f48c.png","lying_face":"1f925.png","mask":"1f637.png","money_mouth_face":"1f911.png","nauseated_face":"1f922.png","nerd_face":"1f913.png","neutral_face":"1f610.png","no_mouth":"1f636.png","open_mouth":"1f62e.png","orange_heart":"1f9e1.png","partying_face":"1f973.png","pensive":"1f614.png","persevere":"1f623.png","pleading_face":"1f97a.png","pouting_cat":"1f63e.png","purple_heart":"1f49c.png","rage":"1f621.png","relaxed":"263a-fe0f.png","relieved":"1f60c.png","revolving_hearts":"1f49e.png","right_anger_bubble":"1f5ef-fe0f.png","robot_face":"1f916.png","rolling_on_the_floor_laughing":"1f923.png","scream":"1f631.png","scream_cat":"1f640.png","see_no_evil":"1f648.png","shushing_face":"1f92b.png","skull":"1f480.png","skull_and_crossbones":"2620-fe0f.png","sleeping":"1f634.png","sleepy":"1f62a.png","slightly_frowning_face":"1f641.png","slightly_smiling_face":"1f642.png","smile":"1f604.png","smile_cat":"1f638.png","smiley":"1f603.png","smiley_cat":"1f63a.png","smiling_face_with_3_hearts":"1f970.png","smiling_imp":"1f608.png","smirk":"1f60f.png","smirk_cat":"1f63c.png","sneezing_face":"1f927.png","sob":"1f62d.png","space_invader":"1f47e.png","sparkling_heart":"1f496.png","speak_no_evil":"1f64a.png","speech_balloon":"1f4ac.png","star-struck":"1f929.png","stuck_out_tongue":"1f61b.png","stuck_out_tongue_closed_eyes":"1f61d.png","stuck_out_tongue_winking_eye":"1f61c.png","sunglasses":"1f60e.png","sweat":"1f613.png","sweat_drops":"1f4a6.png","sweat_smile":"1f605.png","thinking_face":"1f914.png","thought_balloon":"1f4ad.png","tired_face":"1f62b.png","triumph":"1f624.png","two_hearts":"1f495.png","unamused":"1f612.png","upside_down_face":"1f643.png","weary":"1f629.png","white_frowning_face":"2639-fe0f.png","white_heart":"1f90d.png","wink":"1f609.png","woozy_face":"1f974.png","worried":"1f61f.png","yawning_face":"1f971.png","yellow_heart":"1f49b.png","yum":"1f60b.png","zany_face":"1f92a.png","zipper_mouth_face":"1f910.png","zzz":"1f4a4.png"},"enableQQ":false,"highlight":true,"lang":"en","pageSize":10,"placeholder":"Your comment ...","recordIP":true,"visitor":true}},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"lunr"}};</script><script type=text/javascript src=/js/theme.min.js></script></body></html>
