@@ -5,7 +5,7 @@
 
 Pluralsight One là nền tảng cung cấp các khoá học trực tuyến tương tự như Udemy. Các khoá học tại Pluralsight được đầu tư rất bài bản và chất lượng. Thông thường, để đăng ký 1 tài khoản cá nhân ở đây có giá khoảng 29$/tháng hoặc 199$/năm. 
 
-![Bảng giá PluralSight](/assets/images/2020/12/pluralsight-one-Dũng Hoàng.png)
+![Bảng giá PluralSight](/assets/images/2020/12/pluralsight-one-dunghoang.png)
 
 Tin vui là hiện tại Pluralsight đang liên kết cùng Code.org để cung cấp nền tảng Pluralsight One, giúp người dùng có thể sử dụng một năm miễn phí với hơn 350 khoá học, thuộc nhiều lĩnh vực khác nhau:
 
