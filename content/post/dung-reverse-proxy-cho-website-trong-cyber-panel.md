@@ -2,6 +2,7 @@
 title: "Reverse Proxy Cho Website Trong Cyber Panel"
 date: 2021-09-14T08:04:09+07:00
 featuredImage: /assets/images/2021/09/cyberpanel.jpeg
+featuredImagePreview: /assets/images/2021/09/cyberpanel.jpeg
 categories: ["Developer"]
 description: "Ví dụ dưới đây thực hiện Reverse Proxy cho .Net Core Api chạy dưới Cyber Panel."
 tags:
