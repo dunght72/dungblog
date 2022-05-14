@@ -1,11 +1,11 @@
 +++
-categories = []
+categories = ["Trick"]
 date = 2022-05-12T17:00:00Z
-description = "Nội dung bài viết"
+description = "Dùng UFW để kiểm soát truy cập, chỉ cho phép máy tính ở nhà truy cập Server"
 featured = false
 featuredImage = "/uploads/featured-post.jpg"
 featuredImagePreview = "/uploads/featured-post.jpg"
-tags = []
+tags = ["Trick"]
 title = "Dùng UFW cho phép kết nối máy ở nhà vào Server"
 toc = true
 
