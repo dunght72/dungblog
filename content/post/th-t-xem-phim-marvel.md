@@ -2,7 +2,6 @@
 categories = ["Personal"]
 date = 2022-05-15T13:00:00Z
 description = "Thứ tự xem phim Marvel, lưu lại để xem lại từ từ"
-draft = true
 featured = false
 featuredImage = "/uploads/marvel.jpg"
 featuredImagePreview = "/uploads/marvel.jpg"
