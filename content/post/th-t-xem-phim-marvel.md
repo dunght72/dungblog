@@ -7,7 +7,7 @@ featuredImage = "/uploads/marvel.jpg"
 featuredImagePreview = "/uploads/marvel.jpg"
 tags = ["Personal"]
 title = "Thứ tự xem phim Marvel"
-toc = false
+toc = true
 
 +++
 ### Thứ tự xem phim Marvel: 13 phim đầu tiên
