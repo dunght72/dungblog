@@ -52,7 +52,7 @@ params:
         endpoint : "https://dungblogcomment.herokuapp.com/v3/entry/github"
         username : "dunght72"
         repository : "dungblog"
-        branch : "master"
+        branch : "main"
     comments:
         enabled: false
         provider: disqus
