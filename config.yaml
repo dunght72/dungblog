@@ -49,10 +49,10 @@ params:
             enabled: true
             default: Licensed under CC BY-NC-SA 4.0
     staticman:
-        endpoint : "https://dungblogcomment.herokuapp.com/v3/entry/github/"
+        endpoint : "https://dungblogcomment.herokuapp.com/v3/entry/github"
         username : "dunght72"
         repositor : "dungblog"
-        branch : "main"
+        branch : "master"
     comments:
         enabled: false
         provider: disqus
