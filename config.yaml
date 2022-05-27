@@ -51,8 +51,8 @@ params:
     staticman:
         endpoint : "https://dungblogcomment.herokuapp.com/v3/entry/github"
         username : "dunght72"
-        repositor : "dungblog"
-        branch : "master"
+        repository : "dungblog"
+        branch : "main"
     comments:
         enabled: false
         provider: disqus
