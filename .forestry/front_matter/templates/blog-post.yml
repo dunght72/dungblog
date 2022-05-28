@@ -5,6 +5,11 @@ fields:
 - type: text
   name: title
   label: title
+- name: slug
+  type: text
+  config:
+    required: false
+  label: slug
 - type: boolean
   name: toc
   label: toc
@@ -29,11 +34,6 @@ fields:
 - type: list
   name: tags
   label: tags
-- name: slug
-  type: text
-  config:
-    required: false
-  label: slug
 pages:
 - content/post/cai-d-t-staticman-len-hugo.md
 - content/post/d-t-g-ch-post-bai-vi-t.md
