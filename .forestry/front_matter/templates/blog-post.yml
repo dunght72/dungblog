@@ -30,5 +30,6 @@ fields:
   name: tags
   label: tags
 pages:
+- content/post/cai-d-t-staticman-len-hugo.md
 - content/post/d-t-g-ch-post-bai-vi-t.md
 - content/post/th-t-xem-phim-marvel.md
