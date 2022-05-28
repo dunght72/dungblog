@@ -5,6 +5,7 @@ description = "Dùng UFW để kiểm soát truy cập, chỉ cho phép máy tí
 featured = false
 featuredImage = ""
 featuredImagePreview = "/uploads/ufw-firewall-1200x675.png"
+slug = "dung-ufw-cho-phep-ket-noi-may-o-nha-vao-server"
 tags = ["Trick"]
 title = "Dùng UFW cho phép kết nối máy ở nhà vào Server"
 toc = true
