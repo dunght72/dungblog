@@ -5,6 +5,7 @@ description = "Thứ tự xem phim Marvel, lưu lại để xem lại từ từ"
 featured = false
 featuredImage = "/uploads/marvel.jpg"
 featuredImagePreview = "/uploads/marvel.jpg"
+slug = "thu-tu-xem-phim-marvel"
 tags = ["Personal"]
 title = "Thứ tự xem phim Marvel"
 toc = true
