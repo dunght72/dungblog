@@ -14,4 +14,6 @@ toc = false
 +++
 Bản thân chuột Magic Mouse vẫn có thể sử dụng trên Windows như các chuột khác thông thường.
 
-Để kết nối Magic Mouse,
+Để kết nối Magic Mouse thực hiện như sau:
+
+**Bước 1: Bật bluetooth, kết nối Magic Mouse với Windows như bình thường**
