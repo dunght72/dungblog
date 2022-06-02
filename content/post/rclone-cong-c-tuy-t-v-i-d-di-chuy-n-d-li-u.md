@@ -2,7 +2,6 @@
 categories = ["Trick"]
 date = ""
 description = "Rclone là công cụ tuyệt vời để quản lý, di chuyển dữ liệu"
-draft = true
 featured = false
 featuredImage = "/uploads/rclone-tools.jpg"
 featuredImagePreview = ""
