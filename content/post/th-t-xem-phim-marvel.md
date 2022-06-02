@@ -29,7 +29,7 @@ toc = true
 
 ### Thứ tự xem phim Marvel 15 phim tiếp theo
 
-![Spider Man: Homecoming (2017)](https://bazaarvietnam.vn/wp-content/uploads/2021/09/thu-tu-xem-phim-marvel-21-e1638848015972.jpg =1000x1000)
+![Spider Man: Homecoming (2017)](https://bazaarvietnam.vn/wp-content/uploads/2021/09/thu-tu-xem-phim-marvel-21-e1638848015972.jpg)
 
 _Spider Man: Homecoming (2017)_
 
