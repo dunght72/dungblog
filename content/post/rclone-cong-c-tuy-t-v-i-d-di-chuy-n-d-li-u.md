@@ -29,7 +29,7 @@ Ngày hôm nay, có mấy phim ở Fshare cần di chuyển qua Google Drive đ�
 
 Mount ổ đĩa
 
-       	rclone mount gdrive:Media /mnt/Media --allow-other --read-only --buffer-size 1G --dir-cache-time 72h --drive-chunk-size 32M --fast-list --vfs-read-chunk-size 128M --vfs-read-chunk-size-limit off --stats 1m --log-level INFO --log-file /var/log/rclone/rclone-shared.log &
+       	rclone mount gdrive:Media /mnt/Media --allow-other --read-only --			buffer-size 1G --dir-cache-time 72h --drive-chunk-size 32M --fast-			list --vfs-read-chunk-size 128M --vfs-read-chunk-size-limit off --			stats 1m --log-level INFO --log-file /var/log/rclone/rclone-				shared.log &
 
 Copy từ Share With Me sang ổ Team Drive
 
