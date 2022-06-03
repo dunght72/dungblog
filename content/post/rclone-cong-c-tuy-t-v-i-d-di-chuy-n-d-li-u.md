@@ -47,8 +47,7 @@ Lưu ý trong này mình dùng link từ github của mình, có sửa appid do 
 
 Để leech file từ Fshare sang Google Drive (Team Drive)
 
-curl -sS https://raw.githubusercontent.com/dunght72/fixfshare/dev/fshare2gdrive.js |  
-tail -n+2 | node - "https://www.fshare.vn/file/X4DB5HPVXU61CCH" "TDrive" "/Media/Movies/" | bash -s
+    curl -sS https://raw.githubusercontent.com/dunght72/fixfshare/dev/fshare2gdrive.js |tail -n+2 | node - "https://www.fshare.vn/file/X4DB5HPVXU61CCH" "TDrive" "/Media/Movies/" | bash -s
 
 Để leech cả folder từ Fshare sang Google Drive
 
