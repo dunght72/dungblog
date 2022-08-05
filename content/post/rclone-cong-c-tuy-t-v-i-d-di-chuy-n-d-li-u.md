@@ -17,7 +17,7 @@ Ngày hôm nay, có mấy phim ở Fshare cần di chuyển qua Google Drive đ�
 
 Cài đặt Rclone băng 1 câu lệnh duy nhất
 
-	```curl https://rclone.org/install.sh | sudo bash
+	   curl https://rclone.org/install.sh | sudo bash
 
    Sau khi cài đặt xong, bạn cấu hình bằng lệnh:
 
