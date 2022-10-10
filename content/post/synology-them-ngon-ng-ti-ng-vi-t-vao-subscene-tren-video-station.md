@@ -15,7 +15,7 @@ Trên Video Station của Synology có plugin Subscene để tự động tìm k
 
 Dưới đây là cách làm:
 
-\- Download đoạn mã Javascript từ đường link: [https://gist.github.com/the-unsoul/7f9ddfa60f4f1247c6f118fd55f05e17](https://gist.github.com/the-unsoul/7f9ddfa60f4f1247c6f118fd55f05e17 "https://gist.github.com/the-unsoul/7f9ddfa60f4f1247c6f118fd55f05e17") hoặc lưu đoạn code dưới đây thành file js
+\- Download đoạn mã Javascript từ đường link: [https://gist.github.com/the-unsoul/7f9ddfa60f4f1247c6f118fd55f05e17](https://gist.github.com/the-unsoul/7f9ddfa60f4f1247c6f118fd55f05e17 "https://gist.github.com/the-unsoul/7f9ddfa60f4f1247c6f118fd55f05e17") hoặc copy trực tiếp đoạn code dưới đây
 
 ```javascript
 (function() {
@@ -104,11 +104,7 @@ Dưới đây là cách làm:
 ```
 
 * Mở Video Station bằng Google Chrome
-
-
 * Bấm F12 để mở Dev Tools, sau đó chọn Console
-
-
 * Dán đoạn mã trên vào và Enter (Có thể sửa dòng 5&6, code và label thành ngôn ngữ khác nếu muốn, như các dòng comment ở phía dưới)
 * Đợi một chút, trên màn hình sẽ hiển thị kết như bên dưới
 
