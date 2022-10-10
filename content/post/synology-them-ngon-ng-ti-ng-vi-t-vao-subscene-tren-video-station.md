@@ -2,7 +2,6 @@
 categories = []
 date = 2022-10-10T13:00:00Z
 description = "Cách thêm ngôn ngữ Tiếng Việt để download phụ đề trên Subscene của Video Station"
-draft = true
 featured = false
 featuredImage = "/uploads/1656001588_v8awn.png"
 featuredImagePreview = "/uploads/1656001588_v8awn.png"
